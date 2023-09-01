@@ -1,7 +1,5 @@
-# Jekyll Blog
----
+# Jekyll Blog (See live at simonhfrost.com)
 
-
-# Run locally
----
+## Run locally
+bundle exec jekyll build
 bundle exec jekyll serve
