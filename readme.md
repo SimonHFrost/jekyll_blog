@@ -4,3 +4,5 @@
 `bundle exec jekyll build`
 
 `bundle exec jekyll serve`
+
+navigate to `localhost:4000``

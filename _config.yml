@@ -23,13 +23,24 @@ email: simonhfrost@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Simon Frost's Blog
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://simonfrost.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  simonhfrost
 
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+      read_time: true
+
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
+
+# Minimal Mistakes theme
+minimal_mistakes_skin: "sunrise"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
