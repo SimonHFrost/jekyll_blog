@@ -35,7 +35,8 @@ defaults:
       read_time: true
 
 # Build settings
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll
+theme: minima
 plugins:
   - jekyll-feed
 
