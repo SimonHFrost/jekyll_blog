@@ -63,13 +63,15 @@ Commitments are usually in the form of:
 * Reputation: Introduction to peers, team or decision makers, public testimonial or case study
 * Money: Letter of intent, pre-order, deposit
 
-## Finding Conversations
+## Finding conversations
 
 This is all great stuff! But how do I start having these important conversations in the first place? Why, that’s a great question!
 
 The key to sourcing conversations is to be flexible and utilise different sources. Immerse yourself in where you would normally find your customers, and don’t be afraid to bust out the notepad to take notes. Seize serendipity, and don’t overformalise things!
 
 Conversations in person are preferable since people try to squeeze phone calls in between other important life events. ‘Jumping on a call’ automatically seems more formal which means your responses won’t be as candid and also decreases your chance of getting referrals.
+
+## Bring them to you!
 
 If you’ve maximised out all known existing channels. Bring them to you! Being the instigator immediately gives you credibility, and ensures the theme stays on topic. Some ideas:
 * Organise meetups
