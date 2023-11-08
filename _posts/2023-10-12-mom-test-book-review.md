@@ -3,6 +3,8 @@ layout: post
 title: "Book Review: The Mom Test"
 ---
 
+*Artificial intelligence was not used in the generation or editing of this blog post.*
+
 ‘The Mom Test’ by Rob Fitzpatrick is a book about startup idea validation with guidelines for user conversations. You should never pitch your idea (including to your mom) until you’re ready to push for commitments that can ensure the survival of your business. Only the market can tell you if your idea is good.
 
 Deflect compliments and lukewarm responses and instead navigate the conversation around user pain points. Focus on having early stage customer conversations that give concrete facts about your customer’s lives and world views which then lead to commitments which validate your idea.
