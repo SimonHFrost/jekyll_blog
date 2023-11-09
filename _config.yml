@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Simon Frost's Blog
-email: simonhfrost@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Simon Frost's Blog
+title: Simon Frost
+# email: simonhfrost@gmail.com
+# description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://simonfrost.io" # the base hostname & protocol for your site, e.g. http://example.com
+linkedin_username: simonhfrost
 github_username:  simonhfrost
 
 defaults:
@@ -35,13 +35,9 @@ defaults:
       read_time: true
 
 # Build settings
-# theme: minimal-mistakes-jekyll
 theme: minima
 plugins:
   - jekyll-feed
-
-# Minimal Mistakes theme
-minimal_mistakes_skin: "sunrise"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
