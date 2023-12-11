@@ -6,11 +6,15 @@ layout: home
 list_title: 'Blog Posts'
 ---
 
-<img height="200px" style="border-style: solid; border-width: 2px;" src="/assets/profile-picture.jpg" width=200px/>
+<div style="display: flex; align-items: end; margin-bottom: 16px;">
+    <img height="200px" style="border-style: solid; border-width: 2px;" src="/assets/profile-picture.jpg" width=200px />
 
-<p>Simon Frost is a technologist based in New Zealand</p>
+    <div style="margin-left: 16px">
+        <p><b>Simon Frost</b> is a technologist based in New Zealand</p>
 
-<p>Interested in code and business through community and usability as a way to solve the world's problems</p>
+        <p style="margin-bottom: 0;">Interested in code and business through community and usability as a way to solve the world's problems</p>
+    </div>
+</div>
 
 <hr />
 <br />
