@@ -10,7 +10,7 @@ list_title: 'Blog Posts'
 
 <p>Simon Frost is a technologist based in New Zealand</p>
 
-<p>Interested in code + business through community + usability as a way to solve the world's problems</p>
+<p>Interested in code and business through community and usability as a way to solve the world's problems</p>
 
 <hr />
 <br />
