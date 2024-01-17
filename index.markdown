@@ -12,7 +12,7 @@ list_title: 'Blog Posts'
     <div style="margin-left: 16px">
         <p><b>Simon Frost</b> is a technologist in Mexico, with Experience in the start-up scene in Berlin</p>
 
-        <p style="margin-bottom: 0;">My interests are in code and usability as a way to solve the world's problems</p>
+        <p style="margin-bottom: 0;">I'm interested in code and usability as a way to solve the world's problems</p>
     </div>
 </div>
 
