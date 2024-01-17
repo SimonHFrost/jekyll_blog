@@ -10,7 +10,7 @@ list_title: 'Blog Posts'
     <img height="200px" style="border-style: solid; border-width: 2px;" src="/assets/profile-picture.jpg" width=200px />
 
     <div style="margin-left: 16px">
-        <p><b>Simon Frost</b> is a technologist in Mexico, with Experience in the start-up scene in Berlin</p>
+        <p><b>Simon Frost</b> is a technologist in Mexico, with experience in the start-up scene in Berlin</p>
 
         <p style="margin-bottom: 0;">I'm interested in code and usability as a way to solve the world's problems</p>
     </div>
