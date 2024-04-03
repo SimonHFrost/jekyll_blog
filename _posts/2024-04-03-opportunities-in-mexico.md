@@ -5,12 +5,13 @@ title: "Opportunities in Mexico"
 
 *Artificial intelligence was not used in the generation or editing of this blog post.*
 
-From living in New Zealand to Germany, and now Mexico. These are my general observations on problems, needs or desires from my naive perspective as a digital remote worker.
+From living in New Zealand to Germany, and now Mexico. These are my initial observations on problems, needs or desires Mexico faces from my naive perspective as a digital remote worker.
 
 ## Heat
 
 ![Opportunities in Mexico heat](/assets/opportunities-in-mexico/opportunities-in-mexico-heat.jpg)
 *Hiking under the hot and dusty sun in Desierto de los Leones*
+{: style="text-align: center;"}
 
 It’s no surprise Mexico is warm. But laying on the beach and sipping cocktails is a lot different than building up your weekly routine and running errands. In two months it’s only rained once, the temperature has topped 30 degrees for multiple weeks …and it’s still winter!
 
@@ -20,6 +21,7 @@ Of course there are benefits to consistently warm weather: not paying for heatin
 
 ![Opportunities in Mexico water](/assets/opportunities-in-mexico/opportunities-in-mexico-water.jpg)
 *Cooling down in the seas of Holbox*
+{: style="text-align: center;"}
 
 Locals say the temperatures recently haven’t been normal, and rumours that the water supply for the city will run out in July. As temperatures get even higher with climate change, reliable access to water will become a bigger problem over time.
 
@@ -29,6 +31,7 @@ Tap water isn’t drinkable, and water isn’t free in Mexico. You either have t
 
 ![Opportunities in Mexico food](/assets/opportunities-in-mexico/opportunities-in-mexico-food.jpg)
 *A plate of delicious tacos al pastor*
+{: style="text-align: center;"}
 
 Estimates state that [60% of businesses in Mexico are informal](https://www.ilo.org/americas/sala-de-prensa/WCMS_245889/lang--en/index.htm), which means they don’t fall under normal regulations, and don’t pay tax.
 
@@ -40,6 +43,7 @@ It’s hard as a tourist to try the local, cheaper food at street stalls as conf
 
 ![Opportunities in Mexico electronics](/assets/opportunities-in-mexico/opportunities-in-mexico-electronics.jpg)
 *City square lit up in Valle de Bravo*
+{: style="text-align: center;"}
 
 Not only is it hard to source quality electronics, but they’re often more expensive and have inconsistent consumer guarantees. E-commerce is also difficult due to unpredictable delivery times, and lack of locations to receive packages like drop-off stores or packet stations.
 
@@ -51,6 +55,7 @@ Digital systems are generally slower, or not as feature complete. Checkout syste
 
 ![Opportunities in Mexico population](/assets/opportunities-in-mexico/opportunities-in-mexico-population.jpg)
 *Climbing gym in full action*
+{: style="text-align: center;"}
 
 Mexico City is huge! Home to 22 million people, and the country with the most Spanish speakers in the world. Having a huge amount of people living closely together generates its own unique problems.
 
@@ -58,7 +63,7 @@ Traffic can be terrible, and it’s best to avoid rush hour between 8am-10am, 4p
 
 ## Conclusion
 
-Observing these opportunities in my first two months in Mexico reinforced for me how the local environment influences big issues countries face. Identifying and categorising these big issues is the first step to addressing them.
+Observing these opportunities in my first two months in Mexico reinforced for me how local environment influences big issues countries face. Identifying and categorising these big issues is the first step to addressing them.
 
 Consistent heat and limited access to water increases difficulty with basic tasks, high population density affects mobility around the city, and low quality electronics affects modernisation. This all affects social mobility as everything requires more energy and is more expensive.
 
