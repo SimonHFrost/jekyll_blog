@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Opportunities in Mexico"
+title: "5 challenges Mexicans face daily"
 ---
 
 *Artificial intelligence was not used in the generation or editing of this blog post.*
 
-From living in New Zealand to Germany, and now Mexico. These are my initial observations on problems, needs or desires Mexico faces from my naive perspective as a digital remote worker.
+I've been visiting Mexico for the last two months after living for 10 years living in Berlin. Here are 5 things that surprised me about life here compared to my experience living in both Germany, and home country of New Zealand.
 
 ## Heat
 
@@ -23,9 +23,9 @@ Of course there are benefits to consistently warm weather: not paying for heatin
 *Cooling down in the seas of Holbox*
 {: style="text-align: center;"}
 
-Locals say the temperatures recently haven’t been normal, and rumours that the water supply for the city will run out in July. As temperatures get even higher with climate change, reliable access to water will become a bigger problem over time.
+Locals say the temperatures recently haven’t been normal, and rumours that the water supply for the city will run out in July. As temperatures get even higher with global warming, reliable access to water will become a bigger problem over time.
 
-Tap water isn’t drinkable, and water isn’t free in Mexico. You either have to buy a filter or purchase from a store. Accessibility and cost of drinking water seems like a problem that most western countries haven’t seriously started thinking about.
+Tap water isn’t drinkable, and water isn’t free in Mexico. You either have to buy a filter or purchase from a store. Accessibility and cost of drinking water seems like a problem that other more modernised countries haven’t seriously started thinking about.
 
 ## Food safety
 
@@ -37,17 +37,17 @@ Estimates state that [60% of businesses in Mexico are informal](https://www.ilo.
 
 Low health and safety standards combined with consistent heat (a breeding ground for bacteria), result in risky dining situations. Locals seem to have developed immunities to a lot of the common illnesses but I’ve heard countless stories from foreigners that usually end up visiting pharmacy sponsored doctors (pills pills pills!).
 
-It’s hard as a tourist to try the local, cheaper food at street stalls as confidence in food safety is low especially when facilities like running water or refrigeration don’t exist. Not only does this prevent foreigners from having a more authentic experience, it reduces much needed additional income for small businesses, which can help improve social mobility.
+It’s hard as a tourist to try the local, cheaper food at street stalls as it's hard to not think you'll get sick when stalls don't have running water or refrigeration. Not only does this prevent foreigners from having a more authentic experience, it reduces much needed additional income for small businesses, which can help improve social mobility.
 
 ## Electronics
 
 ![Opportunities in Mexico electronics](/assets/opportunities-in-mexico/opportunities-in-mexico-electronics.jpg)
-*City square lit up in Valle de Bravo*
+*City square lights in Valle de Bravo*
 {: style="text-align: center;"}
 
 Not only is it hard to source quality electronics, but they’re often more expensive and have inconsistent consumer guarantees. E-commerce is also difficult due to unpredictable delivery times, and lack of locations to receive packages like drop-off stores or packet stations.
 
-Power systems are also more volatile, with home power strips being rated at a certain level of protection. It’s suggested to protect expensive equipment with surge protectors.
+Power systems are also more volatile, with home power strips being rated at a certain levels and it’s suggested to protect expensive equipment with surge protectors.
 
 Digital systems are generally slower, or not as feature complete. Checkout systems take longer, adoption of modern payment methods such as contactless aren’t as prevalent.
 
@@ -63,8 +63,6 @@ Traffic can be terrible, and it’s best to avoid rush hour between 8am-10am, 4p
 
 ## Conclusion
 
-Observing these opportunities in my first two months in Mexico reinforced for me how local environment influences big issues countries face. Identifying and categorising these big issues is the first step to addressing them.
-
 Consistent heat and limited access to water increases difficulty with basic tasks, high population density affects mobility around the city, and low quality electronics affects modernisation. This all affects social mobility as everything requires more energy and is more expensive.
 
-With the climate crisis these inequalities are only likely to get worse over time, unless we do something about it.
+With the climate crisis these inequalities are only likely to get worse over time. I hope one day I can contribute in my own way to help it.
