@@ -6,7 +6,7 @@ image: /assets/opportunities-in-mexico/opportunities-in-mexico-heat.jpg
 
 *Artificial intelligence was not used in the generation or editing of this blog post.*
 
-I've been visiting Mexico for the last two months after living for 10 years living in Berlin. Here are 5 things that surprised me about life here compared to my experience living in both Germany, and home country of New Zealand.
+I've been visiting Mexico for the last two months after living for 10 years in Berlin. Here are 5 things that surprised me about life here compared to my experience living in both Germany, and home country of New Zealand.
 
 ## Heat
 
