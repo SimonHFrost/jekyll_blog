@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "5 challenges Mexicans face daily"
+image: /assets/opportunities-in-mexico/opportunities-in-mexico-heat.jpg
 ---
 
 *Artificial intelligence was not used in the generation or editing of this blog post.*
