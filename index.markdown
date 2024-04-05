@@ -1,20 +1,48 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
-list_title: 'Blog Posts'
+list_title: 'Latest Posts'
 ---
 
-<div style="display: flex; align-items: center; margin-bottom: 16px;">
-    <img height="200px" style="border-style: solid; border-width: 2px;" src="/assets/profile-picture.jpg" width="200px" />
+<style>
+.profile-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
 
-    <div style="margin-left: 16px">
-        <p>I'm a technologist in Mexico City, with experience in the start-up scene in Berlin and New Zealand. This is where I blog about my journey.</p>
+.profile-container img {
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    margin-bottom: 16px; /* Adjust this as needed for non-mobile view */
+}
 
-        <p>My interests are in code and usability as a way to solve the world's problems.</p>
+.profile-container div {
+    margin-left: 16px;
+    margin-top: 16px;
+}
 
-        <p style="margin-bottom: 0;">If you have any comments or would like to connect, I'd love to hear from you at <a href="mailto:simonhfrost@gmail.com">simonhfrost@gmail.com</a>, or add me on LinkedIn.</p>
+@media (max-width: 768px) {
+    .profile-container {
+        flex-direction: column;
+        align-items: center; /* Center align items in mobile view */
+    }
+
+    .profile-container div {
+        margin-left: 0;
+    }
+}
+</style>
+
+<div class="profile-container">
+    <img src="/assets/profile-picture.jpg" alt="Profile Picture">
+
+    <div>
+        <p>I'm a technologist in Mexico City, with experience in the start-up scene in Berlin and New Zealand. My interests are in code and usability as a way to solve the world's problems. </p>
+
+        <p>This is where I blog about my journey.</p>
+
+        <p>If you have any comments or would like to connect, I'd love to hear from you at <a href="mailto:simonhfrost@gmail.com">simonhfrost@gmail.com</a>, or add me on LinkedIn.</p>
     </div>
 </div>
 
