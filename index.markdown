@@ -13,6 +13,8 @@ list_title: 'Blog Posts'
         <p>I'm a technologist in Mexico City, with experience in the start-up scene in Berlin and New Zealand.</p>
 
         <p style="margin-bottom: 0;">My interests are in code and usability as a way to solve the world's problems.</p>
+
+        <p style="margin-bottom: 0;">This is where I blog about my journey. If you have any comments or would like to connect, I'd love to hear from you at <a href="simonhfrost@gmail.com">simonhfrost@gmail.com<a>, or add me on LinkedIn.</p>
     </div>
 </div>
 
