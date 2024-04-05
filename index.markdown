@@ -42,7 +42,7 @@ list_title: 'Latest Posts'
 
         <p>This is where I blog about my journey.</p>
 
-        <p>If you have any comments or would like to connect, I'd love to hear from you at <a href="mailto:simonhfrost@gmail.com">simonhfrost@gmail.com</a>, or add me on LinkedIn.</p>
+        <p>If you have any comments or would like to connect, I'd love to hear from you at <span>simonhfrost (at) gmail (dot) com</span>, or add me on LinkedIn.</p>
     </div>
 </div>
 
