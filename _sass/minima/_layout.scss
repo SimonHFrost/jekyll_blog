@@ -2,7 +2,6 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
 
@@ -13,6 +12,30 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+}
+
+.header-colors {
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  height: 3px;
+  width: 100%;
+
+  .color1 {
+    background-color: #DE5B1B;
+    flex: 1;
+  }
+
+  .color2 {
+    background-color: #F8DB5B;
+    flex: 1;
+  }
+
+  .color3 {
+    background-color: #778183;
+    flex: 1;
   }
 }
 
