@@ -38,9 +38,7 @@ list_title: 'Latest Posts'
     <img src="/assets/profile-picture.jpg" alt="Profile Picture">
 
     <div>
-        <p>I'm a technologist in Mexico City, with experience in the start-up scene in Berlin and New Zealand. My interests are in code and usability as a way to solve the world's problems. </p>
-
-        <p>This is where I blog about my journey.</p>
+        <p>I'm a technologist in Mexico City, with experience in the start-up scene in Berlin and New Zealand. My interests are in code and usability as a way to solve the world's problems.</p>
 
         <p>If you have any comments or would like to connect, I'd love to hear from you at <span>simonhfrost(at)gmail(dot)com</span>, or add me on LinkedIn.</p>
     </div>

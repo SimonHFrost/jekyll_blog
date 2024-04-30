@@ -8,6 +8,12 @@
 
   // Positioning context for the mobile navigation icon
   position: relative;
+
+  & .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .site-title {
@@ -117,8 +123,11 @@
 
 .contact-list,
 .social-media-list {
+  display: flex;
+  align-items: center;;
   list-style: none;
-  margin-left: 0;
+  margin-left: auto;
+  margin-bottom: 0;
 }
 
 .footer-col-wrapper {
