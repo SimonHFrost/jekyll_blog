@@ -62,11 +62,11 @@ It didn’t take long to find that Ecobici has a whole section dedicated to the 
 
 The live API contains station data in the form of static station information as well as dynamic station status. Other routes and properties exist but have been omitted for the sake of simplicity.
 
-Station Information (https://gbfs.mex.lyftbikes.com/gbfs/en/station_information.json)
+Station Information
 
 ![Ecobici Data Station Information](/assets/hackmexico/station-information.png)
 
-Station Status (https://gbfs.mex.lyftbikes.com/gbfs/en/station_status.json)
+Station Status
 
 ![Ecobici Data Station Status](/assets/hackmexico/station-status.png)
 
