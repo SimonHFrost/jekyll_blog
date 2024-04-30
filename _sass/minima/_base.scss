@@ -60,6 +60,21 @@ img {
 }
 
 
+@media screen and (min-width: $on-laptop) {
+  // For long images, makes them a bit smaller so they don't take the whole page width
+  img.add-small-padding {
+    box-sizing: border-box;
+    padding-left: 96px;
+    padding-right: 96px;
+  }
+
+  // For long images, makes them a bit smaller so they don't take the whole page width
+  img.add-large-padding {
+    box-sizing: border-box;
+    padding-left: 192px;
+    padding-right: 192px;
+  }
+}
 
 /**
  * Figures

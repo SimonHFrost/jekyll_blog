@@ -3,8 +3,7 @@ layout: post
 title: "We went to hackmexico!"
 image: /assets/hackmexico.png
 ---
-
-![Hackmexico Hero Logo](/assets/hackmexico/hackmexico.png)
+<img class="add-small-padding" alt='Hackmexico Hero Logo' src='/assets/hackmexico/hackmexico.png'/>
 
 I like coding alone, but I also like coding with other people. Even if you’re not working on the same codebase, having everyone aligned towards a goal is great to keep you focused as well as keeping things interesting.
 
@@ -43,11 +42,12 @@ High potential for using AI in some novel, but useful ways: AI is so hyped at th
 
 ![Ecobici promo image](/assets/hackmexico/ecobici.jpg)
 
-Ecobici is a bike sharing system of Mexico City. It’s extremely affordable at only around 30 USD (545 MXN) per year, and as long as you return the bike to a docking station in less than 45 minutes, it’s completely free. Usage is super simple, scan the QR code with your phone, adjust the seat, and ride. When you’re finished just return the bike back to a dock without having to touch your phone.
+Ecobici is a bike sharing system in Mexico City. It’s extremely affordable at only around 30 USD (545 MXN) per year, and as long as you return the bike to a docking station in less than 45 minutes, it’s completely free. Usage is super simple, scan the QR code with your phone, adjust the seat, and ride. When you’re finished just return the bike back to a dock without having to touch your phone.
 
 Ecobici started in 2010 and has been a huge success. In the month of January 2024, there were 1.5 million rides, and a record 70,000 in a single day on February 13th [Source]. Due to its success, the system was recently expanded in 2022 with hundreds of additional docking stations and bikes.
 
-![Waze for Ecobici and public transport](/assets/hackmexico/map.png)
+<img class="add-large-padding" alt='Hackmexico Hero Logo' src='/assets/hackmexico/map.png'/>
+
 This is just a small section of Mexico City, each icon represents a docking station with 20 or more bikes!
 
 If you can’t tell, I love biking and think Ecobici is amazingly executed, from the well engineered mobile app to the design of the bikes and the docking stations. If you plan to visit Mexico City, you can set up with the android and iOS super quickly.
@@ -84,7 +84,7 @@ We now have data! We weren’t sure what features we wanted to make with our app
 
 ## A wheely sticky situation…
 
-![Cyclist inserting stick in wheel](/assets/hackmexico/sticky.png)
+<img class="add-large-padding" alt='Hackmexico Hero Logo' src='/assets/hackmexico/sticky.png'/>
 
 A week before the event. We were notified that each theme now had additional requirements. The one we selected, now specified:
 
@@ -96,7 +96,7 @@ Despite reading the hackathon format documents ahead of time, this change to the
 
 Ultimately, we decided the main thing we could salvage through pivoting was to reuse the technology preparation we had done with OpenStreetMap, Vite, and React. We decided to go for the new theme Social Responsibility : Mexico grapples with the dual challenge of food wastage and food scarcity.
 
-![Dorado Dumpster](/assets/hackmexico/dorado-dumpster.png)
+<img class="add-large-padding" alt='Hackmexico Hero Logo' src='/assets/hackmexico/dorado-dumpster.png'/>
 
 Dorado Dumpster is a dumpster diving app where you can track and share locations where perfectly good groceries have been thrown away that can still be used. It was silly and simple enough that we thought we could ‘hack’ out in short notice.
 
@@ -108,6 +108,6 @@ Sourcing and normalising data sources is a practice that will become more common
 
 ![Team Mosmos](/assets/hackmexico/team-mosmos.jpg)
 
-Despite not being able to work on the idea we originally planned. Getting our hands dirty rapid prototyping from start to finish, alongside other motivated and smart coders was a memorable experience. 
+Despite not being able to work on the idea we originally planned. Getting our hands dirty rapid prototyping from start to finish, alongside other motivated and smart coders was a memorable experience.
 
 Thanks to AngelHack for having us!
