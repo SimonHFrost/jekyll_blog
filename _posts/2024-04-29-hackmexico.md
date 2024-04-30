@@ -3,11 +3,13 @@ layout: post
 title: "We went to hackmexico!"
 image: /assets/hackmexico.png
 ---
+*Artificial intelligence was not used in the generation or editing of this blog post.*
+
 <img class="add-small-padding" alt='Hackmexico Hero Logo' src='/assets/hackmexico/hackmexico.png'/>
 
 I like coding alone, but I also like coding with other people. Even if you’re not working on the same codebase, having everyone aligned towards a goal is great to keep you focused as well as keeping things interesting.
 
-My home office setup in my apartment is great, but sometimes I need to remind myself to get out and explore the city, and interact with locals as well as other expats. When I heard about the hackathon, and after some quick convincing to my co-founder Jakub, we jumped at the chance!
+My home office setup in my apartment is great, but sometimes I need to remind myself to get out and explore the city, and interact with locals as well as other expats. When I heard about the hackathon, and after some quick convincing to my co-founder Jakub ¡We jumped at the chance!
 
 ## What the heck is a hackathon?
 
