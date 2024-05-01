@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "We went to hackmexico!"
-image: /assets/hackmexico.png
+image: /assets/hackmexico/hackmexico.png
 ---
 *Artificial intelligence was not used in the generation or editing of this blog post.*
 
