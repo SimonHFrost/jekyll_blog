@@ -106,8 +106,10 @@ While it was quite different from what we originally planned, we still managed t
 
 ## Conclusion
 
-Sourcing and normalising data sources is a practice that will become more common as the world becomes consumed by Artificial Intelligence. I was pleasantly surprised to see platforms I love like Ecobici openly publish their data. Going through the exercise of preparing and cleaning up practical data and seeing how it could apply to our project was an informative experience.
+Sourcing and normalising data sources is a practice that will become more common as the world becomes consumed by Artificial Intelligence. I was pleasantly surprised to see platforms I love like Ecobici openly publish their data.
 
 ![Team Mosmos](/assets/hackmexico/team-mosmos.jpg)
 
 Despite not being able to work on the idea we originally planned. Getting our hands dirty rapid prototyping from start to finish, alongside other motivated and smart coders was a memorable experience.
+
+Preparing and cleaning up practical data and seeing how it could apply to our project was also a useful insight into what seems to be the explosion of data analyst/AI positions recently.
