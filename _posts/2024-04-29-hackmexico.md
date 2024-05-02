@@ -29,7 +29,7 @@ One stood out to me the most: better real-time transport updates. Using technolo
 
 ## Waze for Ecobici and public transport
 
-![Waze for Ecobici and public transport](/assets/hackmexico/waze.png)
+![Waze for Ecobici and public transport](/assets/hackmexico/waze.jpg)
 *This was the first slide of the pitch to my partner*
 {: style="text-align: center;"}
 
@@ -48,7 +48,7 @@ Ecobici is a bike sharing system in Mexico City. It’s extremely affordable at 
 
 Ecobici started in 2010 and has been a huge success. In the month of January 2024, there were 1.5 million rides, and a record 70,000 in a single day on February 13th [[Source]](https://ecobici.cdmx.gob.mx/en/14-years-rolling-with-you/). Due to its success, the system was recently expanded in 2022 with hundreds of additional docking stations and bikes.
 
-<img class="add-large-padding" alt='Hackmexico Hero Logo' src='/assets/hackmexico/map.png'/>
+<img class="add-large-padding" alt='Hackmexico Hero Logo' src='/assets/hackmexico/map.jpg'/>
 
 This is just a small section of Mexico City, each icon represents a docking station with 20 or more bikes!
 
@@ -86,7 +86,7 @@ We now have data! We weren’t sure what features we wanted to make with our app
 
 ## A wheely sticky situation…
 
-<img class="add-large-padding" alt='Hackmexico Hero Logo' src='/assets/hackmexico/sticky.png'/>
+<img class="add-large-padding" alt='Hackmexico Hero Logo' src='/assets/hackmexico/sticky.jpg'/>
 
 A week before the event. We were notified that each theme now had additional requirements. The one we selected, now specified:
 
@@ -98,7 +98,7 @@ Despite reading the hackathon format documents ahead of time, this change to the
 
 Ultimately, we decided the main preparation we could salvage through pivoting was to reuse the technology preparation we had done with OpenStreetMap, Vite, and React. We decided to go for the new theme **Social Responsibility: Mexico grapples with the dual challenge of food wastage and food scarcity.**
 
-<img class="add-large-padding" alt='Hackmexico Hero Logo' src='/assets/hackmexico/dorado-dumpster.png'/>
+<img class="add-large-padding" alt='Hackmexico Hero Logo' src='/assets/hackmexico/dorado-dumpster.jpg'/>
 
 Dorado Dumpster is a dumpster diving app where you can track and share locations where perfectly good groceries have been thrown away that can still be used. It was silly and simple enough that we thought we could ‘hack’ out in short notice.
 
