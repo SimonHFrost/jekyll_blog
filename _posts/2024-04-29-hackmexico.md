@@ -8,7 +8,7 @@ image: /assets/hackmexico/hackmexico.png
 
 *Artificial intelligence was not used in the generation or editing of this blog post.*
 
-What's the purpose of a hackathon? And what do people actually do there? If you're simply curious, or have even considered attending. You're in the right place 🎉. **Read to the end to find out why we were ultimately disqualified, and left early!**
+What's the purpose of a hackathon? And what do people actually do there? If you're simply curious, or have even considered attending, you're in the right place 🎉. **Read to the end to find out why we were ultimately disqualified, and left early!**
 
 ## What the heck is a hackathon?
 
@@ -96,7 +96,7 @@ A week before the event. We were notified that each theme now had additional req
 
 Despite reading the hackathon format documents ahead of time, this change to the theme was pretty unexpected. We tried to pivot our Ecobici preparation but it didn’t seem to fit any of the themes well. We were pretty disappointed because we had become attached to our Ecobici idea.
 
-It also turns out participants weren't allowed to leave the premise on the Saturday night, under threat of disqualification. This might have been okay if we were younger, but meant that we were most probably not going to last the whole event.
+It also turns out participants weren't allowed to leave the premises on the Saturday night, under threat of disqualification. This might have been okay if we were younger, but meant that we were most probably not going to last the whole event.
 
 ## The hackathon begins!
 
