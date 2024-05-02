@@ -116,7 +116,7 @@ While it was quite different from what we originally planned, we still managed t
 
 ## Conclusion
 
-Despite not being able to work on the idea we originally planned, and being disqualified for not staying overnight. Getting our hands dirty prototyping from start to finish, alongside other motivated and smart coders was a unique and memorable experience.
+Despite not being able to work on the idea we originally planned, and being disqualified for not staying overnight. Getting our hands dirty prototyping from start to finish, alongside other motivated and smart coders was memorable experience. Especially in Mexico
 
 ![Team Mosmos](/assets/hackmexico/team-mosmos.jpg)
 
