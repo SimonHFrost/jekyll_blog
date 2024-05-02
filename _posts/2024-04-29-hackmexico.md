@@ -8,7 +8,7 @@ image: /assets/hackmexico/hackmexico.png
 
 *Artificial intelligence was not used in the generation or editing of this blog post.*
 
-What's the purpose of a hackathon? And what do people actually do there? If you're simply curious, or have even considered attending, you're in the right place 🎉. **Read to the end to find out why we were ultimately disqualified, and left early!**
+What's the purpose of a hackathon? And what do people actually do there? If you're simply curious, or have even considered attending. You're in the right place, as this blog post is about my experience preparing and attending HackMexico 2024. **Read to the end to find out why we were ultimately disqualified, and left early!**
 
 ## What the heck is a hackathon?
 
