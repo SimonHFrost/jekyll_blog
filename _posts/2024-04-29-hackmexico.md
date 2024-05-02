@@ -1,27 +1,28 @@
 ---
 layout: post
-title: "We went to hackmexico!"
+title: "HackMexico and Open Data"
 image: /assets/hackmexico/hackmexico.png
 ---
+
+<img class="add-small-padding" alt='HackMexico Hero Logo' src='/assets/hackmexico/hackmexico.png'/>
+
 *Artificial intelligence was not used in the generation or editing of this blog post.*
 
-<img class="add-small-padding" alt='Hackmexico Hero Logo' src='/assets/hackmexico/hackmexico.png'/>
-
-I like coding alone, but I also like coding with other people. Even if you’re not working on the same codebase, having everyone aligned towards a goal is great to keep you focused as well as keeping things interesting.
-
-My home office setup in my apartment is great, but sometimes I need to remind myself to get out and explore the city, and interact with locals as well as other expats. When I heard about the hackathon, and after some quick convincing to my co-founder Jakub ¡We jumped at the chance!
+What's the purpose of a hackathon? And what do people actually do there? If you're simply curious, or have even considered attending. Join me on my journey preparing and attending HackMexico 2024 in Mexico City. **Keep reading to find out why we were ultimately disqualified, and left early!**
 
 ## What the heck is a hackathon?
 
-A hackathon is when you have a fixed amount of time to ‘hack’ or write code towards a specific goal under specific time constraints. No code is allowed to be written beforehand, but in certain events like this one, preparation of UI wireframes and data training AI algorithms can be done ahead of time.
+A hackathon is when you have a fixed amount of time to ‘hack’ AKA code towards a specific goal under specific time constraints. No code is allowed to be written beforehand, but in certain events like this one, preparation of UI wireframes and data training AI algorithms can be done ahead of time.
 
-There are all sorts of hackathons: making a video game, using a new technology, or trying to address specific societal problems. hackmexico was the last, and presented three themes to address modern world needs: financial inclusion, social responsibility, and digital empowerment.
+There are all sorts of hackathons: making a video game, using a new technology, or trying to address specific societal problems. HackMexico was the last, and presented three themes to address modern world needs: financial inclusion, social responsibility, and digital empowerment.
+
+I like coding alone, but I also like coding with others. Even if you’re not working on the same codebase, having everyone aligned towards a goal is great to keep you focused, as well as making things interesting by providing opportunities to interact with locals and other expats.
 
 ![Hackmexico Themes](/assets/hackmexico/themes.png)
 
 ## Brainstorming Ideas
 
-I find visualising products easier when a clear user need has been identified. I broke down social responsibility and digital empowerment into smaller problems based on my experience, and came up with brief solution descriptions.
+I find visualising products easier when a clear need has been identified. I broke down social responsibility and digital empowerment into smaller problems based on my experience, and came up with brief solution descriptions.
 
 ![Potential Solutions](/assets/hackmexico/solutions.jpg)
 
@@ -50,9 +51,10 @@ Ecobici started in 2010 and has been a huge success. In the month of January 202
 
 <img class="add-large-padding" alt='Hackmexico Hero Logo' src='/assets/hackmexico/map.jpg'/>
 
-This is just a small section of Mexico City, each icon represents a docking station with 20 or more bikes!
+*Each icon represents a docking station with 20 or more bikes!*
+{: style="text-align: center;"}
 
-If you can’t tell, I love biking and think Ecobici is amazingly executed, from the well engineered mobile app to the design of the bikes and the docking stations. If you're visiting Mexico City, you can get set up with the android and iOS super quickly.
+If you can’t tell, I love biking and think Ecobici is amazingly executed, from the well engineered mobile app to the design of the bikes and the docking stations. If you're visiting Mexico City, you can get set up with the [android](https://play.google.com/store/apps/details?id=com.lyft.android.mexicocityapp&hl=es_MX) and [iOS](https://apps.apple.com/mx/app/ecobici/id1608397837) super quickly.
 
 ## Ecobici Data
 
@@ -72,9 +74,9 @@ Station Status
 
 ![Ecobici Data Station Status](/assets/hackmexico/station-status.png)
 
-This data is great, but we can’t infer trends over time if we only have a single snapshot in time. Therefore I wrote a small script to save snapshots every hour in Javascript via a Github Actions. It ran for some weeks so that we could infer trends not just based on the time of day, but also the day of the week.
+This data is great, but we can’t infer trends over time if we only have a single snapshot. Therefore I wrote a small script to save snapshots every hour in Javascript via a Github Actions. It ran for some weeks so that we could infer trends not just based on the time of day, but also the day of the week.
 
-If you want to see this script or access the resulting data for calendar week 14, you can access it on my Github here: [https://github.com/SimonHFrost/ecobici-api-poll-and-save](https://github.com/SimonHFrost/ecobici-api-poll-and-save).
+If you want to see this script or access the resulting data for calendar week 14, you can access it on my Github here: [https://github.com/SimonHFrost/ecobici-api-poll-and-save](https://github.com/SimonHFrost/ecobici-api-poll-and-save)
 
 #### Trip Information (historical)
 
@@ -94,22 +96,30 @@ A week before the event. We were notified that each theme now had additional req
 
 Despite reading the hackathon format documents ahead of time, this change to the theme was pretty unexpected. We tried to pivot our Ecobici preparation but it didn’t seem to fit any of the themes well. We were pretty disappointed because we had become attached to our Ecobici idea.
 
+It also turns out participants weren't allowed to leave the premise on the Saturday night, under threat of disqualification. This might have been okay if we were younger, but meant that we were most probably not going to last the whole event.
+
+## The hackathon begins!
+
+Day one of the hackathon began with a countdown and furious coding. The atmosphere was intense, although there didn't seem to be much talking, there was a constant hum of coders busy at work, as well as podium for speakers at the back to inspire everyone.
+
+<img src='/assets/hackmexico/crowd.jpg'/>
+
+Ultimately, we decided the main preparation we could salvage through was to reuse the technology preparation we had done with OpenStreetMap, Vite, and React. We decided to go for the new theme **Social Responsibility: Mexico grapples with the dual challenge of food wastage and food scarcity.**
+
 ## Dorado Dumpster (Golden Dumpster)
-
-Ultimately, we decided the main preparation we could salvage through pivoting was to reuse the technology preparation we had done with OpenStreetMap, Vite, and React. We decided to go for the new theme **Social Responsibility: Mexico grapples with the dual challenge of food wastage and food scarcity.**
-
-<img class="add-large-padding" alt='Hackmexico Hero Logo' src='/assets/hackmexico/dorado-dumpster.jpg'/>
 
 Dorado Dumpster is a dumpster diving app where you can track and share locations where perfectly good groceries have been thrown away that can still be used. It was silly and simple enough that we thought we could ‘hack’ out in short notice.
 
-While it was quite different from what we originally planned, we still managed to jumble together a basic Minimum Viable Product (MVP), learned some new tech, and learned how to work better with each other.
+<img class="add-large-padding" alt='Hackmexico Hero Logo' src='/assets/hackmexico/dorado-dumpster.jpg'/>
+
+While it was quite different from what we originally planned, we still managed to hack together a basic Minimum Viable Product (MVP), learned some new tech, and learn how to work better with each other.
 
 ## Conclusion
 
-Sourcing and normalising data sources is a practice that will become more common as the world becomes consumed by Artificial Intelligence. I was pleasantly surprised to see platforms I love like Ecobici openly publish their data.
+Despite not being able to work on the idea we originally planned, and being disqualified for not staying overnight. Getting our hands dirty prototyping from start to finish, alongside other motivated and smart coders was a unique and memorable experience.
 
 ![Team Mosmos](/assets/hackmexico/team-mosmos.jpg)
 
-Despite not being able to work on the idea we originally planned. Getting our hands dirty rapid prototyping from start to finish, alongside other motivated and smart coders was a memorable experience.
+I was pleasantly surprised to see platforms I love like Ecobici openly publish their data, as I believe sourcing and normalising data sources is a practice that will become more common as the world becomes consumed by artificial intelligence.
 
-Preparing and cleaning up practical data and seeing how it could apply to our project was also a useful insight into what seems to be the explosion of data analyst/AI positions recently.
+If you need help creating or extending your mobile or webapp. Send us an email at [hi@mosmos.mx](mailto:mosmos.mx) or checkout our shiny ✨ new website at [mosmos.mx](https://mosmos.mx)!
