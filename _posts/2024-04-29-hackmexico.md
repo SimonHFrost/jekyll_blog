@@ -16,9 +16,9 @@ A hackathon is when you have a fixed amount of time to ‘hack’ AKA code towar
 
 There are all sorts of hackathons: making a video game, using a new technology, or trying to address specific societal problems. HackMexico was the last, and presented three themes to address modern world needs: financial inclusion, social responsibility, and digital empowerment.
 
-I like coding alone, but I also like coding with others. Even if you’re not working on the same codebase, having everyone aligned towards a goal is great to keep you focused, as well as making things interesting by providing opportunities to interact with locals and other expats.
-
 ![Hackmexico Themes](/assets/hackmexico/themes.png)
+
+I like coding alone, but I also like coding with others. Even if you’re not working on the same codebase, having everyone aligned towards a goal is great to keep you focused, as well as making things interesting by providing opportunities to interact with locals and other expats.
 
 ## Brainstorming Ideas
 
