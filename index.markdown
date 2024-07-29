@@ -11,7 +11,6 @@ list_title: 'Latest Posts'
 }
 
 .profile-container img {
-    /* height: 512px; */
     width: 256px;
     border: 2px solid;
     margin-bottom: 16px; /* Adjust this as needed for non-mobile view */
@@ -29,7 +28,7 @@ list_title: 'Latest Posts'
 @media (max-width: 768px) {
     .profile-container {
         flex-direction: column;
-        align-items: center; /* Center align items in mobile view */
+        align-items: center;
         text-align: center;
     }
 
