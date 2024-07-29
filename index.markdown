@@ -11,10 +11,14 @@ list_title: 'Latest Posts'
 }
 
 .profile-container img {
-    height: 200px;
-    width: 200px;
+    /* height: 512px; */
+    width: 256px;
     border: 2px solid;
     margin-bottom: 16px; /* Adjust this as needed for non-mobile view */
+}
+
+.profile-container .profile-image {
+    text-align: center;
 }
 
 .profile-container div {
@@ -26,6 +30,7 @@ list_title: 'Latest Posts'
     .profile-container {
         flex-direction: column;
         align-items: center; /* Center align items in mobile view */
+        text-align: center;
     }
 
     .profile-container div {
@@ -35,14 +40,15 @@ list_title: 'Latest Posts'
 </style>
 
 <div class="profile-container">
-    <img src="/assets/profile-picture.jpg" alt="Profile Picture">
+    <div class="profile-image">
+        <img src="/assets/profile-picture.jpg" alt="Profile Picture"/>
+        <p>📍🇲🇽 Mexico City (CST)</p>
+    </div>
 
     <div>
-        <p>I'm a technologist in Mexico City, with experience in the start-up scene in Berlin and New Zealand. My interests are in code and usability as a way to solve the world's problems.</p>
-
-        <p>If you have any comments or would like to connect, I'd love to hear from you at <span>simonhfrost(at)gmail(dot)com</span>, or add me on LinkedIn.</p>
+        <p>Freelance Full Stack Engineer interested in technology, start-ups, design, community. This is my blog.</p>
+        <p>Want to work together? Email: simon<span>h</span>frost@gmail.com</p>
     </div>
 </div>
-
 <hr />
 <br />
