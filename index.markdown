@@ -25,6 +25,10 @@ list_title: 'Latest Posts'
     margin-top: 16px;
 }
 
+.location-text {
+  margin-bottom: 0;
+}
+
 @media (max-width: 768px) {
     .profile-container {
         flex-direction: column;
@@ -41,11 +45,11 @@ list_title: 'Latest Posts'
 <div class="profile-container">
     <div class="profile-image">
         <img src="/assets/profile-picture.jpg" alt="Profile Picture"/>
-        <p>📍🇲🇽 Mexico City (CST)</p>
+        <p class="location-text">📍🇲🇽 Mexico City (CST)</p>
     </div>
 
     <div>
-        <p>Freelance Full Stack Engineer interested in technology, start-ups, design, community. This is my blog.</p>
+        <p>Freelance Full Stack Engineer interested in technology, start-ups, design, and community. This is my blog.</p>
         <p>Want to work together? Email: simon<span>h</span>frost@gmail.com</p>
     </div>
 </div>
