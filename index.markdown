@@ -44,7 +44,7 @@ list_title: 'Latest Posts'
 
 <div class="profile-container">
     <div class="profile-image">
-        <img src="/assets/profile-picture.jpg" alt="Profile Picture"/>
+        <img height="180px" src="/assets/profile-picture.jpg" alt="Profile Picture"/>
         <p class="location-text">📍🇲🇽 Mexico City (CST)</p>
     </div>
 
@@ -53,5 +53,9 @@ list_title: 'Latest Posts'
         <p>Want to work together? Email: simon<span>h</span>frost@gmail.com</p>
     </div>
 </div>
-<hr />
+<div class="header-colors">
+    <div class="color1"></div>
+    <div class="color2"></div>
+    <div class="color3"></div>
+</div>
 <br />
