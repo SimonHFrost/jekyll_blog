@@ -16,6 +16,33 @@ list_title: 'Latest Posts'
     margin-right: 16px;
 }
 
+.mobile-only {
+    display: none;
+}
+
+.desktop-only {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .mobile-only {
+        display: block;
+    }
+
+    .desktop-only {
+        display: none;
+    }
+
+    .profile-container {
+        margin-bottom: 0;
+    }
+
+    .profile-container img {
+        margin: 0px;
+        margin-bottom: 8px;
+    }
+}
+
 .profile-container .profile-image {
     text-align: center;
 }
@@ -53,9 +80,8 @@ list_title: 'Latest Posts'
     </div>
 
     <div>
-        <div class="profile-details">
-            <span>📍🇲🇽 Mexico City (CST)</span>
-        </div>
+        <p>📍🇲🇽 Mexico City (CST)</p>
+        <p class="mobile-only">✉️ simonhfrost(at)gmail.com</p>
         <p>Freelance Full Stack Engineer interested in technology, start-ups, design, and community. This is my blog.</p>
     </div>
 </div>
