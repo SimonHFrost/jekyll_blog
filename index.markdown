@@ -7,26 +7,26 @@ list_title: 'Latest Posts'
 .profile-container {
     display: flex;
     align-items: center;
+    padding-top: 16px;
     margin-bottom: 16px;
 }
 
 .profile-container img {
-    width: 256px;
     border: 2px solid;
-    margin-bottom: 16px; /* Adjust this as needed for non-mobile view */
+    max-width: 100000px;
+    margin-right: 16px;
 }
 
 .profile-container .profile-image {
     text-align: center;
 }
 
-.profile-container div {
-    margin-left: 16px;
-    margin-top: 16px;
-}
-
 .location-text {
   margin-bottom: 0;
+}
+
+.profile-details {
+    margin-bottom: 16px;
 }
 
 @media (max-width: 768px) {
@@ -39,18 +39,25 @@ list_title: 'Latest Posts'
     .profile-container div {
         margin-left: 0;
     }
+
+    .profile-details {
+        display: flex;
+        flex-direction: column;
+    }
 }
 </style>
 
 <div class="profile-container">
     <div class="profile-image">
-        <img height="180px" src="/assets/profile-picture.jpg" alt="Profile Picture"/>
-        <p class="location-text">📍🇲🇽 Mexico City (CST)</p>
+        <img height="180px" width="180px" src="/assets/profile-picture.jpg" alt="Profile Picture"/>
+        <p class="location-text"></p>
     </div>
 
     <div>
+        <div class="profile-details">
+            <span>📍🇲🇽 Mexico City (CST)</span>
+        </div>
         <p>Freelance Full Stack Engineer interested in technology, start-ups, design, and community. This is my blog.</p>
-        <p>Want to work together? Email: simon<span>h</span>frost@gmail.com</p>
     </div>
 </div>
 <div class="header-colors">
@@ -58,4 +65,3 @@ list_title: 'Latest Posts'
     <div class="color2"></div>
     <div class="color3"></div>
 </div>
-<br />
