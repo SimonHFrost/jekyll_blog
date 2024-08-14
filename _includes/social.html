@@ -13,13 +13,13 @@
         <use xlink:href="{{ '/assets/minima-social-icons.svg#flickr' | relative_url }}"></use>
       </svg> <span class="username">{{ site.flickr_username| escape }}</span></a></li>{%- endif -%}
   {%- if site.github_username -%}<li><a href="https://github.com/{{ site.github_username| cgi_escape | escape }}"><img
-        class="png-icon" src="/assets/icons/github.png"> <span class="username"></span></a></li>{%- endif -%}
+        title="Github" class="png-icon" src="/assets/icons/github.png"> <span class="username"></span></a></li>{%- endif -%}
   {%- if site.instagram_username -%}<li><a
       href="https://instagram.com/{{ site.instagram_username| cgi_escape | escape }}"><svg class="svg-icon">
         <use xlink:href="{{ '/assets/minima-social-icons.svg#instagram' | relative_url }}"></use>
       </svg> <span class="username">{{ site.instagram_username| escape }}</span></a></li>{%- endif -%}
   {%- if site.linkedin_username -%}<li><a
-      href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}"><img class="png-icon" src="/assets/icons/linkedin.png" <span class="username"></span></a></li>{%- endif -%}
+      href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}"><img class="png-icon" title="LinkedIn" src="/assets/icons/linkedin.png" <span class="username"></span></a></li>{%- endif -%}
   {%- if site.pinterest_username -%}<li><a
       href="https://www.pinterest.com/{{ site.pinterest_username| cgi_escape | escape }}"><svg class="svg-icon">
         <use xlink:href="{{ '/assets/minima-social-icons.svg#pinterest' | relative_url }}"></use>
@@ -44,5 +44,5 @@
         <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
       </svg> <span>{{ site.rss | escape }}</span></a></li>{%- endif -%}
 
-      <a target="_blank" href="https://github.com/SimonHFrost/static-resume/blob/c6b9b737cd474e826f2c87857830e3258b105ae2/Simon%20Frost%20-%20Full%20Stack%20Engineer%20Resume%202024.pdf"><img class="png-icon" src="/assets/icons/globe.png"></img></a>
+      <a target="_blank" href="https://github.com/SimonHFrost/static-resume/blob/c6b9b737cd474e826f2c87857830e3258b105ae2/Simon%20Frost%20-%20Full%20Stack%20Engineer%20Resume%202024.pdf"><img class="png-icon" title="Resume" src="/assets/icons/document.png"></img></a>
 </ul>
