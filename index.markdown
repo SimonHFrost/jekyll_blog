@@ -7,7 +7,6 @@ list_title: 'Latest Posts'
 .profile-container {
     display: flex;
     align-items: center;
-    padding-top: 16px;
     margin-bottom: 16px;
 }
 
