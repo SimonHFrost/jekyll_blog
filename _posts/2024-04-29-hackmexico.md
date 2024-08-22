@@ -6,7 +6,7 @@ image: /assets/hackmexico/hackmexico.png
 
 <img class="add-small-padding" alt='HackMexico Hero Logo' src='/assets/hackmexico/hackmexico.png'/>
 
-*Artificial intelligence was not used in the generation or editing of this blog post.*
+_Artificial intelligence was not used in the generation or editing of this blog post._
 
 What's the purpose of a hackathon? And what do people actually do there? If you're simply curious, or have even considered attending. You're in the right place, as this blog post is about my experience preparing and attending HackMexico 2024. **Read to the end to find out why we were ultimately disqualified, and left early!**
 
@@ -31,15 +31,16 @@ One stood out to me the most: better real-time transport updates. Using technolo
 ## Waze for Ecobici and public transport
 
 ![Waze for Ecobici and public transport](/assets/hackmexico/waze.jpg)
-*This was the first slide of the pitch to my partner*
+_This was the first slide of the pitch to my partner_
 {: style="text-align: center;"}
 
 I’m a huge fan of biking and public transport. It's cheap, better for the environment, and also is used by the majority of the public. I made a quick presentation to pitch to my co-founder to see if I could get him on board.
 
 I liked the catchiness of the concept, which had the following important points:
-* Quickly recognizable: Waze is an app that is (unfortunately) extremely common in Mexico. It helps drivers navigate Mexico’s crazy traffic with real time updates on events like accidents and roadworks.
-* Green! Biking isn’t just low cost, but it’s also good for you.
-* High potential for using AI in some novel, but useful ways: AI is so hyped at the moment, and there seemed to be some obvious use cases for our concept that would get us points with the judges.
+
+- Quickly recognizable: Waze is an app that is (unfortunately) extremely common in Mexico. It helps drivers navigate Mexico’s crazy traffic with real time updates on events like accidents and roadworks.
+- Green! Biking isn’t just low cost, but it’s also good for you.
+- High potential for using AI in some novel, but useful ways: AI is so hyped at the moment, and there seemed to be some obvious use cases for our concept that would get us points with the judges.
 
 ## What the heck is Ecobici?
 
@@ -51,7 +52,7 @@ Ecobici started in 2010 and has been a huge success. In the month of January 202
 
 <img class="add-large-padding" alt='Hackmexico Hero Logo' src='/assets/hackmexico/map.jpg'/>
 
-*Each icon represents a docking station with 20 or more bikes!*
+_Each icon represents a docking station with 20 or more bikes!_
 {: style="text-align: center;"}
 
 If you can’t tell, I love biking and think Ecobici is amazingly executed, from the well engineered mobile app to the design of the bikes and the docking stations. If you're visiting Mexico City, you can get set up with the [android](https://play.google.com/store/apps/details?id=com.lyft.android.mexicocityapp&hl=es_MX) and [iOS](https://apps.apple.com/mx/app/ecobici/id1608397837) super quickly.
