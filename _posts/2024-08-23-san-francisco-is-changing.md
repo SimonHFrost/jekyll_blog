@@ -12,7 +12,7 @@ I felt oddly at home in San Francisco as I stopped over for a few days on my way
 
 ## A changing demographic
 
-San Francisco is one of the biggest tech cities in the world and was affected dramatically by the explosion in remote work. Many tech workers are moving out of the city, keeping their… generous salaries, but slashing their rent. SFChronicle reports a 21% decrease in 25-29 year olds after COVID [[Source]](https://www.sfchronicle.com/bayarea/article/san-francisco-population-data-18140254.php), and you feel it. Wandering around that must have been packed, but now just empty streets.
+San Francisco is one of the biggest tech cities in the world and was affected dramatically by the explosion in remote work. Many tech workers are moving out of the city, keeping their… generous salaries and slashing their rent. SFChronicle reports a 21% decrease in 25-29 year olds after COVID [[Source]](https://www.sfchronicle.com/bayarea/article/san-francisco-population-data-18140254.php), and you feel it. Wandering around that must have been packed, but now just empty streets.
 
 ![Comedians](/assets/sf/comedy.jpg)
 _ChatGPT vs Comedians Comedy Night_
@@ -22,7 +22,9 @@ With the end of the ZIRP (Zero Interest Rate Phenomenon) and thousands of layoff
 
 San Francisco currently has an office vacancy rate of 37% [[Source]](https://www.axios.com/local/san-francisco/2024/07/10/office-vacancy-rate-economic-recovery) and you can feel it. Both by the streets and coworking spaces being emptier. Areas with big offices and coworking spaces are quiet, and Twitter (X) left. [[Source]](https://www.theguardian.com/technology/article/2024/aug/05/x-twitter-san-francisco-office-closing)
 
-The mission was humming. San Francisco is in the process of reinventing itself.
+Despite office areas being dead, home grown locations like the mission were humming with live music, people with macbooks hacking in cafes, and packed local restaurants.
+
+San Francisco is in the process of reinventing itself.
 
 ## Cerebral Valley
 
