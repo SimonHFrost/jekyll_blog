@@ -20,7 +20,7 @@ _ChatGPT vs Comedians Comedy Night_
 
 With the end of the ZIRP (Zero Interest Rate Phenomenon) and thousands of layoffs since 2022. SF wasn’t exempted. [layoffs.fyi](https://layoffs.fy) reports 200k positions eliminated in 2022 alone. This was a second nail in the coffin.
 
-San Francisco currently has an office vacancy rate of 37% [[Source]](https://www.axios.com/local/san-francisco/2024/07/10/office-vacancy-rate-economic-recovery) and you can feel it. Both by the streets and coworking spaces being emptier. Areas with big offices and coworking spaces are quiet, and Twitter (X) left. [[Source]](https://www.theguardian.com/technology/article/2024/aug/05/x-twitter-san-francisco-office-closing)
+San Francisco currently has an office vacancy rate of 37% [[Source]](https://www.axios.com/local/san-francisco/2024/07/10/office-vacancy-rate-economic-recovery) and you can feel it. Both by the streets and coworking spaces being emptier. Areas with big offices and coworking spaces are quiet, and Twitter (X) left. [[Source]](https://www.theguardian.com/technology/article/2024/aug/05/x-twitter-san-francisco-office-closing). This is a big deal because as I learned, Twitter was one of the companies, lured in by tax breaks, bostlered the startup ecosystem there.
 
 Despite office areas being dead, home grown locations like the mission were humming with live music, people with macbooks hacking in cafes, and packed local restaurants.
 
@@ -48,5 +48,7 @@ To find events when you’re there, check out [CerebralValley.ai](https://cerebr
 San Francisco demographics and focus have changed a lot since COVID and the end of ZIRP due to many people leaving the city.
 
 There’s less buzz in the city, but if you look in the right places there’s still plenty of motivated people with their heads down focusing on the right stuff, especially around AI.
+
+Digital work is currently going through a huge shift and is starting to raise questions about the relationship of how physical spaces relate to what we do online.
 
 It’s exciting being a part of it.
