@@ -42,6 +42,6 @@ If you're in San Francisco soon, I highly recommend checking out [CerebralValley
 
 ## Conclusion
 
-San Francisco is reinventing itself as tech workers start to shift their focus towards AI. There’s less buzz in the city, but if you look in the right places there’s plenty of motivated people focusing with their heads down.
+San Francisco is reinventing itself as tech workers start to shift their focus towards AI. There’s less buzz in the city due to COVID and ZIRP, but if you look in the right places there’s plenty of motivated people focusing in the right direction.
 
-Digital work is still going through a huge shift and raising questions around the relationship between physical spaces and how we work. As someone who is big into communities and physical spaces, I'm eager in what happens in San Francisco next.
+Digital work is still going through a huge shift and raising questions around the relationship between physical spaces and how we work. As someone who is big into communities and physical spaces, my eyes are eagerly on tech hubs like San Francisco to see what will happen next.
