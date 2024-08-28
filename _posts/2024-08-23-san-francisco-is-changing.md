@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "San Francisco is reinventing itself"
-image: /assets/hackmexico/hackmexico.png
+image: /assets/sf/skyline.jpg
 ---
 
 ![Skyline](/assets/sf/skyline.jpg)
