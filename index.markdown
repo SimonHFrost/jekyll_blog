@@ -1,6 +1,6 @@
 ---
 layout: home
-list_title: 'Latest Posts'
+list_title: "Latest Posts"
 ---
 
 <style>
@@ -80,10 +80,10 @@ list_title: 'Latest Posts'
     </div>
 
     <div>
-        <p>📍🇲🇽 Mexico City (CST)</p>
         <p class="mobile-only">✉️ simonhfrost(at)gmail.com</p>
-        <p>Freelance Full Stack Engineer interested in technology, start-ups, design, and community. This is my blog.</p>
+        <p>Freelance Full Stack Engineer interested in AI, start-ups, design, and community.</p>
     </div>
+
 </div>
 <div class="header-colors">
     <div class="color1"></div>
