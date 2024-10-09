@@ -85,8 +85,3 @@ list_title: "Latest Posts"
     </div>
 
 </div>
-<div class="header-colors">
-    <div class="color1"></div>
-    <div class="color2"></div>
-    <div class="color3"></div>
-</div>
