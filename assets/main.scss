@@ -107,6 +107,10 @@ body {
   .desktop-only {
     display: none;
   }
+
+  .portfolio-image-row img {
+    max-width: 33%;
+  }
 }
 
 .rss-subscribe {
