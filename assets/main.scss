@@ -109,12 +109,12 @@ body {
   }
 
   .portfolio-image-row img {
-    max-width: 33%;
+    max-width: 100% !important;
   }
 }
 
 .portfolio-image-row img {
-  max-width: 100%;
+  max-width: 33%;
 }
 
 .rss-subscribe {
