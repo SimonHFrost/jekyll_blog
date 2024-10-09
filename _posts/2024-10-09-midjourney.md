@@ -22,9 +22,10 @@ Output:
 
 This ended up being… a bit too bizarre for my preferences. With almost all of the prompt emphasizing surrealness. Feel free to test the prompt and adjust to your liking. The goal here is to be detailed enough that when you reuse the prompts the style will be consistent, so just don’t make it too short.
 
-    An overly trippy lamington…
+An overly trippy lamington…
 
-Step 2 - Give AI a helping hand
+## Step 2 - Give AI a helping hand
+
 I had a specific positioning in mind for my images and found that AI couldn’t read my mind after all. I’ve found from experience that generative AI isn’t best at reflecting positioning, and layout, and it’s usually better to supply a quick sketch.
 
 Here’s what I had in mind for a pink cube lamington. I ended up leaving the lined paper in the sketch as it could add an interesting stylistic element to the end result.
@@ -32,7 +33,9 @@ Here’s what I had in mind for a pink cube lamington. I ended up leaving the li
 It’s been possible to supply reference images through discord for a while, and with the new web interface it’s become even easier. Featuring the button right next to the search area
 
 Cartoon-style illustration of a pink New Zealand lamington, vibrant color palette, playful geometric shapes, funky patterns, bold outlines, slightly exaggerated proportions, retro-inspired elements, smooth gradients, dynamic composition
-Step 3 - Iterate!
+
+## Step 3 - Iterate!
+
 Midjourney will give you four resulting options.
 
 I often find that Midjourney gets close… but not quite there. Once you have something similar to what you want, choose one of the four images that it gave you back and iterate! Clicking iterate in the bottom right hand ‘Creation Actions’ menu will give you four more images (hopefully closer to what’s in your third eye)
@@ -43,5 +46,6 @@ Also try experimenting with your prompt! Remove or add sections that don’t ali
 
 Cartoon-style illustration of a pink New Zealand lamington, vibrant color palette, playful geometric shapes, funky patterns, bold outlines, slightly exaggerated proportions, retro-inspired elements, smooth gradients, dynamic composition --no cream
 
-Conclusion
+## Conclusion
+
 Generative AI tools like midjourney lower the barrier to digital design by offloading some of the creative process to AI.
