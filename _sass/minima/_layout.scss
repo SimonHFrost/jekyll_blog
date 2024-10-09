@@ -193,13 +193,16 @@
   @include relative-font-size(1.75);
 }
 
-.post-list {
-  margin-left: 0;
-  list-style: none;
+.tab-content {
   padding: 8px;
   border-bottom: 3px solid #778183;
   border-left: 3px solid #778183;
   border-right: 3px solid #778183;
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
 
   > li {
     margin-bottom: 20px;
