@@ -16,14 +16,6 @@ list_title: "Latest Posts"
     margin-right: 16px;
 }
 
-.mobile-only {
-    display: none;
-}
-
-.desktop-only {
-    display: block;
-}
-
 @media (max-width: 768px) {
     .mobile-only {
         display: block;
