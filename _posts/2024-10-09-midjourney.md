@@ -8,9 +8,13 @@ Use this opinionated Midjourney prompting workflow to create a set of consistent
 
 I used this process to create the following artistic interpretation of New Zealand deserts. But you can use it for anything from storyboarding, generating stock images, and icons...
 
-![Jaffa](/assets/midjourney/pavlova.png)
+![Sketch Cake](/assets/midjourney/sketch-cube.jpg)
 ![Jaffa](/assets/midjourney/lamington.png)
+![Sketch Cake](/assets/midjourney/sketch-cake.jpg)
+![Jaffa](/assets/midjourney/pavlova.png)
+![Sketch Cake](/assets/midjourney/sketch-spheres.jpg)
 ![Jaffa](/assets/midjourney/jaffa.png)
+![Sketch Cake](/assets/midjourney/sketch-container.jpg)
 ![Jaffa](/assets/midjourney/marmite.png)
 
 ## Step 1 - Determining a seed prompt
