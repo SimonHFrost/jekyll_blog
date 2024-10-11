@@ -1,12 +1,10 @@
 ---
 layout: post
-title: "Midjourney"
+title: "Unleash Midjourney's magic: Creative prompt workflow for themed image generation"
 image: /assets/sf/skyline.jpg
 ---
 
-# Use this guide to generate themed images for your next project
-
-Use this opinionated creative prompting process to create a set of consistently themed, unique, copyright free, brand images for your next project! I used this process to create the following artistic interpretation of New Zealand snacks. But you can use it for anything from storyboarding, stock images, icons.
+Use this opinionated creative prompting workflow to create a set of consistently themed, unique, copyright free, brand images for your next project! I used this process to create the following artistic interpretation of New Zealand snacks. But you can use it for anything from storyboarding, generating stock images, and icons...
 
 ![Jaffa](/assets/midjourney/pavlova.png)
 ![Jaffa](/assets/midjourney/lamington.png)
@@ -19,7 +17,7 @@ To ensure a consistent theme between images, you need consistent prompts. The ea
 
 Input:
 
-    Prepare a midjourney prompt for an image of ![Jaffa](/assets/midjourney/marmite.png)a pink New Zealand lamington, cartoon style modern, funky, and trippy. The aim is to come up with a style I can use with different reference images to convey a theme.
+    Prepare a midjourney prompt for an image of a pink New Zealand lamington, cartoon style modern, funky, and trippy. The aim is to come up with a style I can use with different reference images to convey a theme.
 
 Output:
 
@@ -43,9 +41,9 @@ Here’s what I had in mind for a pink cube lamington. I ended up leaving the li
 
 It’s been possible to supply reference images through discord for a while, and with the new web interface it’s become even easier. Featuring the button right next to the search area
 
-Cartoon-style illustration of a pink New Zealand lamington, vibrant color palette, playful geometric shapes, funky patterns, bold outlines, slightly exaggerated proportions, retro-inspired elements, smooth gradients, dynamic composition
-
 ![Jaffa](/assets/midjourney/add-image.jpg)
+
+    Cartoon-style illustration of a pink New Zealand lamington, vibrant color palette, playful geometric shapes, funky patterns, bold outlines, slightly exaggerated proportions, retro-inspired elements, smooth gradients, dynamic composition
 
 ## Step 3 - Iterate!
 
@@ -61,7 +59,7 @@ Use upscale when you’re happy with what you want, and want higher resolution
 
 Also try experimenting with your prompt! Remove or add sections that don’t align with your vision
 
-Cartoon-style illustration of a pink New Zealand lamington, vibrant color palette, playful geometric shapes, funky patterns, bold outlines, slightly exaggerated proportions, retro-inspired elements, smooth gradients, dynamic composition --no cream
+    Cartoon-style illustration of a pink New Zealand lamington, vibrant color palette, playful geometric shapes, funky patterns, bold outlines, slightly exaggerated proportions, retro-inspired elements, smooth gradients, dynamic composition --no cream
 
 ## Conclusion
 
