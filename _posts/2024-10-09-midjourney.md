@@ -57,12 +57,12 @@ Use upscale when you’re happy with what you want, and want higher resolution
 
 ![Jaffa](/assets/midjourney/upscale.jpg)
 
-Also try experimenting with your prompt! Remove or add sections that don’t align with your vision
+Also try experimenting with your prompt! Remove or add sections that don’t align with your vision. In my case, Midjourney got close with a lammington representation, but I didn't want any cream.
+
+![Cream](/assets/midjourney/cream.png)
 
     Cartoon-style illustration of a pink New Zealand lamington, vibrant color palette, playful geometric shapes, funky patterns, bold outlines, slightly exaggerated proportions, retro-inspired elements, smooth gradients, dynamic composition --no cream
 
 ## Conclusion
-
-![Cream](/assets/midjourney/cream.png)
 
 Generative AI tools like midjourney lower the barrier to digital design by offloading some of the creative process to AI.
