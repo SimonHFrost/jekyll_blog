@@ -11,7 +11,7 @@ list_title: "Latest Posts"
 }
 
 .profile-container img {
-    border: 3px solid #778183;
+    border: 2px solid #778183;
     max-width: 100000px;
     margin-right: 16px;
 }
