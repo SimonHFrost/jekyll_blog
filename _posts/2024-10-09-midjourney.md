@@ -1,21 +1,16 @@
 ---
 layout: post
-title: "Unleash Midjourney's magic: A creative prompt workflow for themed image generation"
-image: /assets/sf/skyline.jpg
+title: "Unleash Midjourney's magic 🧙‍♀️✨ A creative workflow for themed image generation"
+image: /assets/midjourney/arrow/lamington-arrow.jpg
 ---
 
-Use this opinionated Midjourney prompting workflow to create a set of consistently themed, unique, copyright free, brand images for your next project!
+Generative AI use is skyrocketing 🚀, transforming creative workflows across industries. In this post, I'll share the process I used to create an artistic interpretation of New Zealand deserts with Midjourney — a method you can apply to anything from storyboarding and stock image generation to icon design.
 
-I used this process to create the following artistic interpretation of New Zealand deserts. But you can use it for anything from storyboarding, generating stock images, and icons...
-
-![Sketch Cake](/assets/midjourney/sketch-cube.jpg)
-![Jaffa](/assets/midjourney/lamington.png)
-![Sketch Cake](/assets/midjourney/sketch-cake.jpg)
-![Jaffa](/assets/midjourney/pavlova.png)
-![Sketch Cake](/assets/midjourney/sketch-spheres.jpg)
-![Jaffa](/assets/midjourney/jaffa.png)
-![Sketch Cake](/assets/midjourney/sketch-container.jpg)
-![Jaffa](/assets/midjourney/marmite.png)
+<img src="/assets/midjourney/arrow/jaffa-arrow.jpg"/>
+<div style="margin-bottom: 8px"/>
+<img src="/assets/midjourney/arrow/lamington-arrow.jpg"/>
+<div style="margin-bottom: 8px"/>
+<img src="/assets/midjourney/arrow/pavlova-arrow.jpg"/>
 
 ## Step 1 - Determining a seed prompt
 
@@ -31,11 +26,9 @@ Output:
 
 This ended up being… a bit too bizarre for my preferences. With almost all of the prompt emphasizing surrealness. Feel free to test the prompt and adjust to your liking. The goal here is to be detailed enough that when you reuse the prompts the style will be consistent, so just don’t make it too short.
 
-![Real Lammington](/assets/midjourney/real-lammington.png)
-
 An overly trippy lamington…
 
-![Trippy Lammington](/assets/midjourney/trippy.png)
+<img src="/assets/midjourney/arrow/trippy-arrow.jpg"/>
 
 ## Step 2 - Give AI a helping hand
 
@@ -64,6 +57,8 @@ Use upscale when you’re happy with what you want, and want higher resolution
 ![Upscale](/assets/midjourney/upscale.jpg)
 
 Also try experimenting with your prompt! Remove or add sections that don’t align with your vision. In my case, Midjourney got close with a lammington representation, but I didn't want any cream.
+
+## Step 4 - No cream please!
 
 ![Cream](/assets/midjourney/cream.png)
 
