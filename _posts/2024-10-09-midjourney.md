@@ -4,7 +4,7 @@ title: "Unleash Midjourney's magic 🧙‍♀️✨ A creative workflow for them
 image: /assets/midjourney/arrow/lamington-arrow.jpg
 ---
 
-Generative AI use is skyrocketing 🚀, transforming creative workflows across industries. In this post, I'll share the process I used to create an artistic interpretation of New Zealand deserts with Midjourney — a method you can apply to anything from storyboarding and stock image generation to icon design.
+Generative AI use is transforming creative digital design workflows! In this post, I'll share the process I used to create consistently stylized New Zealand deserts with Midjourney, which you can apply throughout digital design from storyboarding, stock image generation, and icons.
 
 <img src="/assets/midjourney/arrow/jaffa-arrow.jpg"/>
 <div style="margin-bottom: 8px"/>
@@ -18,15 +18,17 @@ To ensure a consistent theme between images, you need consistent prompts. The ea
 
 Input:
 
-    Prepare a midjourney prompt for an image of a pink New Zealand lamington, cartoon style modern, funky, and trippy. The aim is to come up with a style I can use with different reference images to convey a theme.
+<div class="code-block">
+Prepare a midjourney prompt for an image of a pink New Zealand lamington, cartoon style modern, funky, and trippy. The aim is to come up with a style I can use with different reference images to convey a theme.
+</div>
 
 Output:
 
-    Pink New Zealand lamington, cartoon-style illustration, vibrant neon colors, surreal distortions, geometric patterns, swirling psychedelic backgrounds, bold outlines, exaggerated proportions, abstract shapes, retro-futuristic elements, liquid textures, kaleidoscopic effects
+<div class="code-block">
+Pink New Zealand lamington, cartoon-style illustration, vibrant neon colors, surreal distortions, geometric patterns, swirling psychedelic backgrounds, bold outlines, exaggerated proportions, abstract shapes, retro-futuristic elements, liquid textures, kaleidoscopic effects
+</div>
 
 This ended up being… a bit too bizarre for my preferences. With almost all of the prompt emphasizing surrealness. Feel free to test the prompt and adjust to your liking. The goal here is to be detailed enough that when you reuse the prompts the style will be consistent, so just don’t make it too short.
-
-An overly trippy lamington…
 
 <img src="/assets/midjourney/arrow/trippy-arrow.jpg"/>
 
@@ -40,9 +42,11 @@ Here’s what I had in mind for a pink cube lamington. I ended up leaving the li
 
 It’s been possible to supply reference images through discord for a while, and with the new web interface it’s become even easier. Featuring the button right next to the search area
 
-![Add Image](/assets/midjourney/add-image.jpg)
+<img src="/assets/midjourney/add-image.jpg" />
 
-    Cartoon-style illustration of a pink New Zealand lamington, vibrant color palette, playful geometric shapes, funky patterns, bold outlines, slightly exaggerated proportions, retro-inspired elements, smooth gradients, dynamic composition
+<div class="code-block">
+Cartoon-style illustration of a pink New Zealand lamington, vibrant color palette, playful geometric shapes, funky patterns, bold outlines, slightly exaggerated proportions, retro-inspired elements, smooth gradients, dynamic composition
+</div>
 
 ## Step 3 - Iterate!
 
@@ -62,7 +66,9 @@ Also try experimenting with your prompt! Remove or add sections that don’t ali
 
 ![Cream](/assets/midjourney/cream.png)
 
-    Cartoon-style illustration of a pink New Zealand lamington, vibrant color palette, playful geometric shapes, funky patterns, bold outlines, slightly exaggerated proportions, retro-inspired elements, smooth gradients, dynamic composition --no cream
+<div class="code-block">
+Cartoon-style illustration of a pink New Zealand lamington, vibrant color palette, playful geometric shapes, funky patterns, bold outlines, slightly exaggerated proportions, retro-inspired elements, smooth gradients, dynamic composition --no cream
+</div>
 
 ## Conclusion
 
