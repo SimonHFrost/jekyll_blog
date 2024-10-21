@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "Unleash Midjourney's magic 🧙‍♀️✨ A creative workflow for themed image generation"
+title: "Unleash Midjourney's magic... A creative workflow for themed image generation"
 image: /assets/midjourney/arrow/lamington-arrow.jpg
 ---
 
-Generative AI use is transforming creative digital design workflows! In this post, I'll share the process I used to create consistently stylized New Zealand deserts with Midjourney, which you can apply throughout digital design from storyboarding, stock image generation, and icons.
+Generative AI is transforming creative digital design. Identifying and optimising workflows with existing AI tools are essential for staying ahead of the curve.
+
+In this blog post, I'll share my workflow to create consistently stylised assets with Midjourney featuring my favorite New Zealand deserts. This workflow can be used throughout digital design from storyboarding, stock image generation, icons, and much, much, more... ✨
 
 <img src="/assets/midjourney/arrow/jaffa-arrow.jpg"/>
 <div style="margin-bottom: 8px"/>
@@ -12,9 +14,9 @@ Generative AI use is transforming creative digital design workflows! In this pos
 <div style="margin-bottom: 8px"/>
 <img src="/assets/midjourney/arrow/pavlova-arrow.jpg"/>
 
-## Step 1 - Determining a seed prompt
+## 1) Develop a consistent style seed prompt
 
-To ensure a consistent theme between images, you need consistent prompts. The easiest way to do this is… to get AI help you 😊. This is what I asked Claude:
+To ensure a consistent theme between images... you need consistent prompts. Crafting a prompt that's stylistically specific, yet general enough to represent your target items can be difficult if you don't have prompt engineering experience. That's where your favorite LLM (Claude, ChatGPT) can help!
 
 Input:
 
@@ -22,53 +24,63 @@ Input:
 Prepare a midjourney prompt for an image of a pink New Zealand lamington, cartoon style modern, funky, and trippy. The aim is to come up with a style I can use with different reference images to convey a theme.
 </div>
 
-Output:
+Prompt:
 
 <div class="code-block">
 Pink New Zealand lamington, cartoon-style illustration, vibrant neon colors, surreal distortions, geometric patterns, swirling psychedelic backgrounds, bold outlines, exaggerated proportions, abstract shapes, retro-futuristic elements, liquid textures, kaleidoscopic effects
 </div>
 
-This ended up being… a bit too bizarre for my preferences. With almost all of the prompt emphasizing surrealness. Feel free to test the prompt and adjust to your liking. The goal here is to be detailed enough that when you reuse the prompts the style will be consistent, so just don’t make it too short.
+## 2) Tweak your prompt
 
 <img src="/assets/midjourney/arrow/trippy-arrow.jpg"/>
 
-## Step 2 - Give AI a helping hand
+This ended up being… a bit too bizarre for me. A LLM should get you to a good stylistic starting point, but you'll have to adjust until you get something close to your target aesthetic.
 
-I had a specific positioning in mind for my images and found that AI couldn’t read my mind after all. I’ve found from experience that generative AI isn’t best at reflecting positioning, and layout, and it’s usually better to supply a quick sketch.
-
-![Sketch Cube](/assets/midjourney/sketch-cube.jpg)
-
-Here’s what I had in mind for a pink cube lamington. I ended up leaving the lined paper in the sketch as it could add an interesting stylistic element to the end result.
-
-It’s been possible to supply reference images through discord for a while, and with the new web interface it’s become even easier. Featuring the button right next to the search area
-
-<img src="/assets/midjourney/add-image.jpg" />
+For me this meant removing abstract references and adjusting some terminology:
 
 <div class="code-block">
 Cartoon-style illustration of a pink New Zealand lamington, vibrant color palette, playful geometric shapes, funky patterns, bold outlines, slightly exaggerated proportions, retro-inspired elements, smooth gradients, dynamic composition
 </div>
 
-## Step 3 - Iterate!
+## 3) Upload reference images
 
-Midjourney will give you four resulting options.
+I find Midjourney isn't great with specifics. Although the technology is constantly improving, prompts like 'on the left side' or using specific colors can be a surprising challenge.
 
-I often find that Midjourney gets close… but not quite there. Once you have something similar to what you want, choose one of the four images that it gave you back and iterate! Clicking iterate in the bottom right hand ‘Creation Actions’ menu will give you four more images (hopefully closer to what’s in your third eye)
+I had specific positioning in mind and found it was quicker to supply a quick sketch.
+
+![Sketch Cube](/assets/midjourney/sketch-cube.jpg)
+
+I ended up including the lined paper as it could add an interesting stylistic element. Ultimately this is a creative workflow, which often requires creative solutions!
+
+Since August 2024, Midjourney is accessible directly from <a href="midjourney.com">Midjourney.com</a>. One of the benefits is that it has become super easy to upload images with a promminent icon button right next to the search area.
+
+<img src="/assets/midjourney/add-image-small.png" />
+
+## 4) No cream please!
+
+Midjourney is fixated on giving me a Lammington with cream. Honing in to your perfect prompt
+
+![Cream](/assets/midjourney/cream.png)
+
+<div class="code-block">
+Cartoon-style illustration of a pink New Zealand lamington, ... --no cream
+</div>
+
+## 5) Iterate!
+
+The key to a good generated assets are the iterations along the way. I often find that Midjourney gets close… yet you might not know what is lacking. That's where variations come in!
 
 ![Vary](/assets/midjourney/vary.jpg)
+
+Choose one of the four images that it gave you back and iterate! Clicking iterate in the bottom right hand ‘Creation Actions’ menu will give you four more images (hopefully closer to what’s in your third eye)
+
+Midjourney will give you four resulting options.
 
 Use upscale when you’re happy with what you want, and want higher resolution
 
 ![Upscale](/assets/midjourney/upscale.jpg)
 
 Also try experimenting with your prompt! Remove or add sections that don’t align with your vision. In my case, Midjourney got close with a lammington representation, but I didn't want any cream.
-
-## Step 4 - No cream please!
-
-![Cream](/assets/midjourney/cream.png)
-
-<div class="code-block">
-Cartoon-style illustration of a pink New Zealand lamington, vibrant color palette, playful geometric shapes, funky patterns, bold outlines, slightly exaggerated proportions, retro-inspired elements, smooth gradients, dynamic composition --no cream
-</div>
 
 ## Conclusion
 
