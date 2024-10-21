@@ -4,7 +4,7 @@ title: "Unleash Midjourney's magic... A creative workflow for themed image gener
 image: /assets/midjourney/arrow/lamington-arrow.jpg
 ---
 
-Generative AI is transforming creative digital design. Identifying and optimising workflows with existing AI tools are essential for staying ahead of the curve.
+Generative AI is transforming creative digital design. Identifying and optimising workflows with existing AI tools are essential for staying ahead of the curve 📈.
 
 In this blog post, I'll share my workflow to create consistently stylised assets with Midjourney featuring my favorite New Zealand deserts. This workflow can be used throughout digital design from storyboarding, stock image generation, icons, and much, much, more... ✨
 
@@ -50,9 +50,9 @@ I had specific positioning in mind and found it was quicker to supply a quick sk
 
 ![Sketch Cube](/assets/midjourney/sketch-cube.jpg)
 
-I ended up including the lined paper as it could add an interesting stylistic element. Ultimately this is a creative workflow, which often requires creative solutions!
+I included the lined paper as it would add an interesting stylistic element. Ultimately this is a creative workflow, which often requires creative solutions!
 
-Since August 2024, Midjourney is accessible directly from <a href="midjourney.com">Midjourney.com</a>. One of the benefits is that it has become super easy to upload images with a promminent icon button right next to the search area.
+Since August 2024, Midjourney has become more accessible with it's new web interface <a href="midjourney.com">Midjourney.com</a>. One of the benefits is that it has become super easy to upload images with a promminent icon button right next to the search area.
 
 <img src="/assets/midjourney/add-image-small.png" />
 
