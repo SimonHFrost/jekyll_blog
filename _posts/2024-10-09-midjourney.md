@@ -66,7 +66,7 @@ This is where mastery of the Midjourney API comes in, with <span style="backgrou
 Cartoon-style illustration of a pink New Zealand lamington, ... --no cream
 </div>
 
-Midjourney is a powerful tool and it's worth exploring other commands via the documentation and Youtube if you're serious about improving your prompt engineering skills.
+Midjourney is a powerful tool and there are a range of similar commands that are worth exploring via the documentation and Youtube if you're serious about improving your prompt engineering skills.
 
 ## 5) Iterate!
 
@@ -74,11 +74,9 @@ The key to good generated assets are the variations along the way! I often find 
 
 <img style="margin: auto" src="/assets/midjourney/vary.jpg"/>
 
-Choose one of the four images that it gave you back and iterate! Clicking iterate in the bottom right hand ‘Creation Actions’ menu will give you four more images (hopefully closer to what’s in your third eye)
+Choose one of the four images that it gave you back and iterate! Clicking iterate in the bottom right hand ‘Creation Actions’ menu will give you four resulting options.
 
-Midjourney will give you four resulting options.
-
-Use upscale when you’re happy with what you want, and want higher resolution
+Use upscale when you’re happy with what you want, and want a higher resolution.
 
 ![Upscale](/assets/midjourney/upscale.jpg)
 
