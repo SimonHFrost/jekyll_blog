@@ -4,7 +4,7 @@ title: "Unleash Midjourney's magic... A creative workflow for themed image gener
 image: /assets/midjourney/arrow/lamington-arrow.jpg
 ---
 
-Generative AI is transforming creative digital design. Identifying and optimising workflows with existing AI tools are essential for staying ahead of the curve 📈.
+Generative AI is transforming creative digital design. Identifying and optimising workflows with existing AI tools are essential for staying ahead of rapid developments in the field 📈.
 
 In this blog post, I'll share my workflow to create consistently stylised assets with Midjourney featuring my favorite New Zealand deserts. This workflow can be used throughout digital design from storyboarding, stock image generation, icons, and much, much, more... ✨
 
@@ -14,9 +14,9 @@ In this blog post, I'll share my workflow to create consistently stylised assets
 <div style="margin-bottom: 8px"/>
 <img src="/assets/midjourney/arrow/pavlova-arrow.jpg"/>
 
-## 1) Develop a consistent style seed prompt
+## 1) Seed a consistent style prompt
 
-To ensure a consistent theme between images... you need consistent prompts. Crafting a prompt that's stylistically specific, yet general enough to represent your target items can be difficult if you don't have prompt engineering experience. That's where your favorite LLM (Claude, ChatGPT) can help!
+To ensure a consistent theme between images... you need consistent prompts. Crafting a prompt that's stylistically specific, yet general enough to cover your subjects can be difficult if you don't have prompt engineering experience. That's where your favorite LLM (Claude, ChatGPT) can help!
 
 Input:
 
@@ -34,9 +34,7 @@ Pink New Zealand lamington, cartoon-style illustration, vibrant neon colors, sur
 
 <img src="/assets/midjourney/arrow/trippy-arrow.jpg"/>
 
-This ended up being… a bit too bizarre for me. A LLM should get you to a good stylistic starting point, but you'll have to adjust until you get something close to your target aesthetic.
-
-For me this meant removing abstract references and adjusting some terminology:
+A LLM should get you to a good stylistic starting point, but you'll have to adjust until you get something close to your target aesthetic. Mine ended up being… a bit too bizarre for me, and in my case meant removing abstract references and adjusting some terminology:
 
 <div class="code-block">
 Cartoon-style illustration of a pink New Zealand lamington, vibrant color palette, playful geometric shapes, funky patterns, bold outlines, slightly exaggerated proportions, retro-inspired elements, smooth gradients, dynamic composition
@@ -44,33 +42,37 @@ Cartoon-style illustration of a pink New Zealand lamington, vibrant color palett
 
 ## 3) Upload reference images
 
-I find Midjourney isn't great with specifics. Although the technology is constantly improving, prompts like 'on the left side' or using specific colors can be a surprising challenge.
+I find Midjourney isn't great with specifics. I had exact positioning in mind, and although the technology is constantly improving, prompts like 'on the left side' or using specific colors can be a surprising challenge.
 
-I had specific positioning in mind and found it was quicker to supply a quick sketch.
+Since I knew exactly how I wanted the subject to be positioned, I did a quick sketch:
 
 ![Sketch Cube](/assets/midjourney/sketch-cube.jpg)
 
-I included the lined paper as it would add an interesting stylistic element. Ultimately this is a creative workflow, which often requires creative solutions!
+I included the lined paper as it could add an interesting stylistic element. Ultimately this is a creative workflow, which often requires creative solutions!
 
-Since August 2024, Midjourney has become more accessible with it's new web interface <a href="midjourney.com">Midjourney.com</a>. One of the benefits is that it has become super easy to upload images with a promminent icon button right next to the search area.
+The new Midjourney web platform (<a href="midjourney.com">Midjourney.com</a>) is a lot more accessible compared to the original Discord. One of the benefits is that it is super easy to upload images with an icon directly in the search area.
 
 <img src="/assets/midjourney/add-image-small.png" />
 
-## 4) No cream please!
+## 4) No cream please! (Optional)
 
-Midjourney is fixated on giving me a Lammington with cream. Honing in to your perfect prompt
+Midjourney was fixated on generating a Lammington with a cream dolop on the top, and while a lammington <i>has</i> cream, it's not a visual feature.
 
 ![Cream](/assets/midjourney/cream.png)
+
+This is where mastery of the Midjourney API comes in, with <span style="background-color: black; color: white; font-family: monospace; padding: 4px;">--no cream</span> we can tell Midjourney to exclude specific items.
 
 <div class="code-block">
 Cartoon-style illustration of a pink New Zealand lamington, ... --no cream
 </div>
 
+Midjourney is a powerful tool and it's worth exploring other commands via the documentation and Youtube if you're serious about improving your prompt engineering skills.
+
 ## 5) Iterate!
 
-The key to a good generated assets are the iterations along the way. I often find that Midjourney gets close… yet you might not know what is lacking. That's where variations come in!
+The key to good generated assets are the variations along the way! I often find that Midjourney gets close… but you might not know what is lacking. That's where variations come in!
 
-![Vary](/assets/midjourney/vary.jpg)
+<img style="margin: auto" src="/assets/midjourney/vary.jpg"/>
 
 Choose one of the four images that it gave you back and iterate! Clicking iterate in the bottom right hand ‘Creation Actions’ menu will give you four more images (hopefully closer to what’s in your third eye)
 
@@ -84,4 +86,8 @@ Also try experimenting with your prompt! Remove or add sections that don’t ali
 
 ## Conclusion
 
-Generative AI tools like midjourney lower the barrier to digital design by offloading some of the creative process to AI.
+Generative AI tools like Midjourney lower the barrier of digital design by offloading creative workflows to AI. Identifying and optimising these workflows are the key for staying ahead in the rapidly changing AI landscape.
+
+The new Midjourney.com webapp makes difficult tasks easier with more intuitive access to common operations like adding reference images, generating variations, and upscaling.
+
+I hope you find this workflow useful!
