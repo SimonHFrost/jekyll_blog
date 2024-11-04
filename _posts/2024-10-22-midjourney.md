@@ -72,13 +72,13 @@ Midjourney is a powerful tool and there are a range of similar commands that are
 
 The key to good generated assets are the variations along the way! I often find that Midjourney gets close… but you might not know what is lacking. That's where variations come in!
 
-<img style="margin: auto" src="/assets/midjourney/vary.jpg"/>
+<img style="margin: auto; display: block;" src="/assets/midjourney/vary.jpg"/>
 
 Choose one of the four images that it gave you back and iterate! Clicking iterate in the bottom right hand ‘Creation Actions’ menu will give you four resulting options.
 
 Use upscale when you’re happy with what you want, and want a higher resolution.
 
-![Upscale](/assets/midjourney/upscale.jpg)
+<img style="margin: auto; display: block;" src="/assets/midjourney/upscale.jpg"/>
 
 Also try experimenting with your prompt! Remove or add sections that don’t align with your vision. In my case, Midjourney got close with a lammington representation, but I didn't want any cream.
 
