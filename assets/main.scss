@@ -113,6 +113,11 @@ body {
   }
 }
 
+.portfolio-image-row {
+  justify-content: space-evenly;
+  display: flex;
+}
+
 .portfolio-image-row img {
   max-width: 33%;
 }
