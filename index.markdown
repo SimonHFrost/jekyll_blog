@@ -73,7 +73,8 @@ list_title: "Latest Posts"
 
     <div>
         <p class="mobile-only">✉️ simonhfrost(at)gmail.com</p>
-        <p>Freelance Full Stack Engineer interested in AI, start-ups, design, and community.</p>
+        <p style="margin-bottom: 0; font-weight: bold;">Freelance Frontend Engineer</p>
+        <p style="margin-bottom: 0;">Interested in LLMs, start-ups, design, and community.</p>
     </div>
 
 </div>
