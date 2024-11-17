@@ -108,9 +108,21 @@ body {
     display: none;
   }
 
+  .portfolio-image-row {
+    flex-direction: column;
+  }
+
   .portfolio-image-row img {
     max-width: 100% !important;
   }
+
+  .portfolio-image-row img:not(:last-child) {
+    margin-bottom: 8px;
+  }
+}
+
+.portfolio-item {
+  margin-bottom: 16px;
 }
 
 .portfolio-image-row {
@@ -120,6 +132,8 @@ body {
 
 .portfolio-image-row img {
   max-width: 33%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
 }
 
 .rss-subscribe {
