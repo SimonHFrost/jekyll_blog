@@ -65,8 +65,18 @@ body {
   cursor: pointer;
 }
 
-.tabs__label:first-of-type {
+[for="tab-blog-posts"] {
   border-right: 0;
+}
+
+@media (max-width: 768px) {
+  [for="tab-blog-posts"] {
+    border-left: none;
+  }
+
+  [for="tab-portfolio"] {
+    border-right: none;
+  }
 }
 
 .tabs__radio {
