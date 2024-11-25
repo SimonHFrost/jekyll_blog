@@ -11,6 +11,38 @@ layout: default
     }
 </script>
 
+<style>
+details {
+  position: relative;
+}
+
+details > summary {
+  list-style: none;
+}
+
+summary h2 {
+  margin-left: 24px;
+}
+
+details > summary::marker,
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Optional: Add your own custom marker */
+details > summary:before {
+  content: "▶";
+  position: absolute;
+  left: 0;
+  top: 6px;
+  margin-right: 0.5em;
+}
+
+details[open] > summary:before {
+  content: "▼";
+}
+</style>
+
 
 <div class="home">
   {%- if page.title -%}
@@ -52,26 +84,23 @@ layout: default
     <div class="tabs__content">
       <div id="content2" class="tab-content">
         <div class="portfolio-item">
-          <a href="https://slowmad.app" target="_blank" rel="noopener noreferrer"><h2>Slowmad.app (2024) <img src="/assets/icons/external-link.svg"/></h2></a>
-          <p>Trip planner using Claude AI for recommendations and routing</p>
-          <div class="portfolio-image-row">
-            <img src='/assets/portfolio/slowmad/slowmad-1.jpg'></img>
-            <img src='/assets/portfolio/slowmad/slowmad-2.jpg'></img>
-          </div>
-        </div>
-
-        <div class="portfolio-item" style="display: none;">
-          <a href="https://aqifast.com" target="_blank" rel="noopener noreferrer"><h2>Aqifast.com (2024) <img src="/assets/icons/external-link.svg"/></h2></a>
-          <p>Design and performance focused AQI (Air Quality Index) checker</p>
-          <div class="portfolio-image-row">
-            <img src='/assets/portfolio/aqifast/aqifast-1.jpg'></img>
-          </div>
+          <details>
+            <summary>
+              <a href="https://slowmad.app" target="_blank" rel="noopener noreferrer"><h2>Slowmad.app (2024) <img src="/assets/icons/external-link.svg"/></h2></a>
+              <p>Trip planner using Claude AI for recommendations and routing</p>
+            </summary>
+            <div class="portfolio-image-row">
+              <img src='/assets/portfolio/slowmad/slowmad-1.jpg'></img>
+              <img src='/assets/portfolio/slowmad/slowmad-2.jpg'></img>
+            </div>
+          </details>
         </div>
 
         <div class="portfolio-item">
-          <a href="https://play.google.com/store/apps/details?id=mx.klar.app" target="_blank" rel="noopener noreferrer"><h2>Klar.mx (2022) <img src="/assets/icons/external-link.svg"/></h2></a>
-          <p>Credit challenger bank for Mexico</p>
-          <div class="portfolio-image-row">
+          <details>
+            <summary><a href="https://play.google.com/store/apps/details?id=mx.klar.app" target="_blank" rel="noopener noreferrer"><h2>Klar.mx (2022) <img src="/assets/icons/external-link.svg"/></h2></a>
+            <p>Credit challenger bank for Mexico</p></summary>
+            <div class="portfolio-image-row">
             <img src='/assets/portfolio/klar/klar-1.webp'></img>
             <img src='/assets/portfolio/klar/klar-2.webp'></img>
             <img src='/assets/portfolio/klar/klar-3.webp'></img>
@@ -79,25 +108,28 @@ layout: default
         </div>
 
         <div class="portfolio-item">
-          <a href="planet.com"><h2>Planet.com (2017) <img src="/assets/icons/external-link.svg"/></h2></a>
-          <p>Satellite aerospace company</p>
-          <div class="portfolio-image-row">
+          <details>
+            <summary><a href="planet.com"><h2>Planet.com (2017) <img src="/assets/icons/external-link.svg"/></h2></a>
+            <p>Satellite aerospace company</p></summary>
+            <div class="portfolio-image-row">
             <img src='/assets/portfolio/planet/planet-1.jpg' class="big"></img>
           </div>
         </div>
 
         <div class="portfolio-item">
-          <a href="https://n26.com/en-at/blog/take-a-tour-of-the-brand-new-n26-for-web"><h2>N26 (2016) <img src="/assets/icons/external-link.svg"/></h2></a>
-          <p>Challenger bank for Germany</p>
-          <div class="portfolio-image-row">
+          <details>
+            <summary><a href="https://n26.com/en-at/blog/take-a-tour-of-the-brand-new-n26-for-web"><h2>N26 (2016) <img src="/assets/icons/external-link.svg"/></h2></a>
+            <p>Challenger bank for Germany</p></summary>
+            <div class="portfolio-image-row">
             <img src='/assets/portfolio/n26/n26-3.png' class="big"></img>
           </div>
         </div>
 
         <div class="portfolio-item">
-          <a href="blacklane.com"><h2>Blacklane (2015) <img src="/assets/icons/external-link.svg"/></h2></a>
-          <p>Luxury car booking service</p>
-          <div class="portfolio-image-row">
+          <details>
+            <summary><a href="blacklane.com"><h2>Blacklane (2015) <img src="/assets/icons/external-link.svg"/></h2></a>
+            <p>Luxury car booking service</p></summary>
+            <div class="portfolio-image-row">
             <img src='/assets/portfolio/blacklane/blacklane-1.png'></img>
           </div>
         </div>
