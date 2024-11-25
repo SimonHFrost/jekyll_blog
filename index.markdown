@@ -70,11 +70,31 @@ list_title: "Latest Posts"
         display: flex;
         flex-direction: column;
     }
+
+    .fade-in {
+      opacity: 0;
+      transition: opacity 0.3s ease-out;
+    }
+
+    .fade-in.visible {
+      opacity: 1;
+    }
 }
 </style>
 
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+    function fadeIn() {
+      const image = document.getElementsByClassName('profile-image')[0];
+      image.classList.add('visible');
+    }
+
+      fadeIn();
+    });
+</script>
+
 <div class="profile-container">
-    <div class="profile-image">
+    <div class="profile-image fade-in">
         <img height="180px" width="180px" src="/assets/profile-picture.jpg" alt="Profile Picture"/>
         <!-- <p class="location-text">Mexico City, Mexico</p> -->
     </div>
