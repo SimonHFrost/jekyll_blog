@@ -79,6 +79,11 @@ list_title: "Latest Posts"
     .fade-in.visible {
       opacity: 1;
     }
+
+    .calendly-button {
+        padding: 0px;
+        margin: 0px;
+    }
 }
 </style>
 
@@ -103,6 +108,8 @@ list_title: "Latest Posts"
         <p class="mobile-only">✉️ simonhfrost(at)gmail.com</p>
         <p style="margin-bottom: 0; font-weight: bold;">Freelance Frontend Engineer</p>
         <p>Interested in LLMs, start-ups, design, and community.</p>
+        <p style="margin-bottom: 0;">Keen to chat about a collaboration, or just to catch up?</p>
+        <a class="calendly-button" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/simonhfrost/30min?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=ff9e00'});return false;">Schedule a quick call!</a>
     </div>
 
 </div>
