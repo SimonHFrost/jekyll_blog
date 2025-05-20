@@ -1,4 +1,4 @@
-# Jekyll Blog (See live at simonhfrost.com)
+# Jekyll Blog (See live at simonfrost.io)
 
 ## Run locally
 `bundle exec jekyll build`
