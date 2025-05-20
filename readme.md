@@ -1,4 +1,4 @@
-# Jekyll Blog (See live at simonhfrost.com)
+# Jekyll Blog (See live at simonfrost.io)
 
 ## Run locally
 `bundle exec jekyll build`
@@ -9,7 +9,7 @@ navigate to `localhost:4000``
 
 ## Deploy locally
 
-Just commit changes and github pages should auto deploy
+Just commit changes and github pages will auto deploy
 
 ## Image compression
 
