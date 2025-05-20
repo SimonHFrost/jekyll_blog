@@ -9,7 +9,7 @@ navigate to `localhost:4000``
 
 ## Deploy locally
 
-Just commit changes and github pages should auto deploy
+Just commit changes and github pages will auto deploy
 
 ## Image compression
 
