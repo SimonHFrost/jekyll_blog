@@ -15,7 +15,7 @@ title: "Generating code from wireframes"
 
 Converting wireframes automatically to code is easy right? With the press of the big ol' red AI button, you can transform static designs into well designed, interactive code. It is possible! But there are techniques you'll need to overcome to ensure you're faster than writing everything manually.
 
-![Button](/assets/ai-code-generation/button.png)
+![Button](/assets/ai-code-generation/button.jpg)
 
 ## Building a solid foundation
 
@@ -28,7 +28,7 @@ Clear documentation reduces hallucinations and results in more accurate code. Yo
 
 In Cursor, you can link documentation URLs with the command @docs. Currently the process isn't super transparent and it's not clear how the documentation is indexed, so you can also create local files and send them with requests. But this is continuously improving.
 
-![Documentation](/assets/ai-code-generation/documentation.png)
+![Documentation](/assets/ai-code-generation/documentation.jpg)
 
 Ensure you add as much documentation as possible: component libraries, framework documentation, and local files like linting and code style.
 
@@ -40,7 +40,7 @@ Designs are often static and don't accurately represent real-world variations in
 
 If you're using Figma, I recommend the Figma to Code, or Builder.io plugin, but find the best tool that works for you. Figma to Code is open source, so you can modify the generation if needed like adding custom html tags.
 
-![Arrows](/assets/ai-code-generation/arrows.png)
+![Arrows](/assets/ai-code-generation/arrows.jpg)
 
 The exported code won't be perfect so take your time molding it to your needs and style, AI will be using it as an example frequently in the future!
 
@@ -53,7 +53,7 @@ Generating a whole project or even separate screens can be difficult as there's 
 
 Give AI less chance to get things wrong and use git commits as 'save points'. It's often faster to revert changes and try a different prompt, rather than debugging edge cases.
 
-![Talking](/assets/ai-code-generation/talking.png)
+![Talking](/assets/ai-code-generation/talking.jpg)
 
 It's time to level up your prompt engineering! Take time to be terse and provide references. Screenshots are amazing for inserting copy without even having to copy paste, they can also serve to communicate design terminology you might not know.
 
@@ -68,7 +68,7 @@ As always, having code quality tools like automated testing and linting are doub
 
 When you commit your code it will ultimately be attributed to your identity. So if you don't read every single line generated, make sure you're happy to put your name behind it!
 
-![Vibes](/assets/ai-code-generation/vibes.png)
+![Vibes](/assets/ai-code-generation/vibes.jpg)
 
 Or you know… just vibe it out. It's your choice dude.
 
@@ -80,4 +80,4 @@ For best results, start slowly to make sure that AI has high quality examples as
 
 Every day AI and humanity are learning from each other, let's continue exploring this relationship together...
 
-![Sunset](/assets/ai-code-generation/sunset.png)
+![Sunset](/assets/ai-code-generation/sunset.jpg)
