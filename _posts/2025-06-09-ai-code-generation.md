@@ -19,7 +19,7 @@ Converting wireframes automatically to code is easy right? With the press of the
 AI performs better when it has context. Make sure you start with a good boilerplate code and define important structural decisions so AI doesn't have to fill in the gaps.
 
 
-## Connect documentation
+#### Connect documentation
 
 Clear documentation reduces hallucinations and results in more accurate code. You'll waste less time explaining the same concepts through prompts, as well as minimise visual glitches or bugs.
 
@@ -31,7 +31,7 @@ Ensure you add as much documentation as possible: component libraries, framework
 
 
 
-## Export designs
+#### Export designs
 
 Designs are often static and don't accurately represent real-world variations in screen sizes and interactivity. But it's a good start!
 
@@ -46,7 +46,7 @@ The exported code won't be perfect so take your time molding it to your needs an
 
 Generating a whole project or even separate screens can be difficult as there's much to interpret. It's time to leverage the 'Language' in Large Language Model (LLM), by breaking up the screens into conversations and chatting through your designs.
 
-## Keep Changes Small
+#### Keep Changes Small
 
 Give AI less chance to get things wrong and use git commits as 'save points'. It's often faster to revert changes and try a different prompt, rather than debugging edge cases.
 
@@ -57,9 +57,7 @@ It's time to level up your prompt engineering! Take time to be terse and provide
 
 Mentioning existing components that the AI can use as a template is essential for making sure you have a consistent codebase.
 
-
-
-## Review Everything
+#### Review Everything
 
 Code may appear to be working at the surface, but dig a little and you'll find it often needs adjustments. Take care about code that's 'almost there'. If you rush forward, bugs will often compound while AI builds itself. It's better to catch problems early before they get out of control.
 
@@ -71,14 +69,12 @@ When you commit your code it will ultimately be attributed to your identity. So 
 
 Or you know… just vibe it out. It's up to you dude.
 
-
-
 ## Conclusion
 
 AI is a powerful code generation tool, but it's far from being a one button-press solution.
 
-For best results, start slowly to make sure that AI has high quality examples as you collaboratively build. Keep changes small, and leverage existing tools like git for 'save points' and automated quality checks like linting to make sure your code base stays consistent and happy.
+For best results, start slowly to make sure that AI has high quality examples as you collaboratively build. Keep changes small, and leverage existing tools like git for 'save points' and automated quality checks like linting to make sure your code base stays healthy.
 
-Every day AI is teaching us more about humanity, let's continue exploring this relationship together...
+Every day AI and humanity are learning from each other, let's continue exploring this relationship together...
 
 ![Sunset](/assets/ai-code-generation/sunset.png)
