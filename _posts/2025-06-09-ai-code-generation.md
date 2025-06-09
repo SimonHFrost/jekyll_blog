@@ -3,6 +3,13 @@ layout: post
 title: "Generating code from wireframes"
 ---
 
+<style>
+.post-content img {
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+</style>
+
 Converting wireframes automatically to code is easy right? With the press of the big ol' red AI button, you can transform static designs into well designed, interactive code. It is possible! But there are techniques you'll need to overcome to ensure you're faster than writing everything manually.
 
 ![Button](/assets/ai-code-generation/button.png)
@@ -10,8 +17,6 @@ Converting wireframes automatically to code is easy right? With the press of the
 ## Building a solid foundation
 
 AI performs better when it has context. Make sure you start with a good boilerplate code and define important structural decisions so AI doesn't have to fill in the gaps.
-
-
 
 
 ## Connect documentation
@@ -30,9 +35,9 @@ Ensure you add as much documentation as possible: component libraries, framework
 
 Designs are often static and don't accurately represent real-world variations in screen sizes and interactivity. But it's a good start!
 
-![Arrows](/assets/ai-code-generation/arrows.png)
-
 If you're using Figma, I recommend the Figma to Code, or Builder.io plugin, but find the best tool that works for you. Figma to Code is open source, so you can modify the generation if needed like adding custom html tags.
+
+![Arrows](/assets/ai-code-generation/arrows.png)
 
 The exported code won't be perfect so take your time molding it to your needs and style, AI will be using it as an example frequently in the future!
 
