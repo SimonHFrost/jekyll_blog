@@ -1,0 +1,79 @@
+---
+layout: post
+title: "Generating code from wireframes"
+---
+
+Converting wireframes automatically to code is easy right? With the press of the big ol' red AI button, you can transform static designs into well designed, interactive code. It is possible! But there are techniques you'll need to overcome to ensure you're faster than writing everything manually.
+
+![Button](/assets/ai-code-generation/button.png)
+
+## Building a solid foundation
+
+AI performs better when it has context. Make sure you start with a good boilerplate code and define important structural decisions so AI doesn't have to fill in the gaps.
+
+
+
+
+## Connect documentation
+
+Clear documentation reduces hallucinations and results in more accurate code. You'll waste less time explaining the same concepts through prompts, as well as minimise visual glitches or bugs.
+
+In Cursor, you can link documentation URLs with the command @docs. Currently the process isn't super transparent and it's not clear how the documentation is indexed, so you can also create local files and send them with requests. But this is continuously improving.
+
+![Documentation](/assets/ai-code-generation/documentation.png)
+
+Ensure you add as much documentation as possible: component libraries, framework documentation, and local files like linting and code style.
+
+
+
+## Export designs
+
+Designs are often static and don't accurately represent real-world variations in screen sizes and interactivity. But it's a good start!
+
+![Arrows](/assets/ai-code-generation/arrows.png)
+
+If you're using Figma, I recommend the Figma to Code, or Builder.io plugin, but find the best tool that works for you. Figma to Code is open source, so you can modify the generation if needed like adding custom html tags.
+
+The exported code won't be perfect so take your time molding it to your needs and style, AI will be using it as an example frequently in the future!
+
+
+## Chat it Out!
+
+Generating a whole project or even separate screens can be difficult as there's much to interpret. It's time to leverage the 'Language' in Large Language Model (LLM), by breaking up the screens into conversations and chatting through your designs.
+
+## Keep Changes Small
+
+Give AI less chance to get things wrong and use git commits as 'save points'. It's often faster to revert changes and try a different prompt, rather than debugging edge cases.
+
+![Talking](/assets/ai-code-generation/talking.png)
+
+It's time to level up your prompt engineering! Take time to be terse and provide references. Screenshots are amazing for inserting copy without even having to copy paste, they can also serve to communicate design terminology you might not know.
+
+
+Mentioning existing components that the AI can use as a template is essential for making sure you have a consistent codebase.
+
+
+
+## Review Everything
+
+Code may appear to be working at the surface, but dig a little and you'll find it often needs adjustments. Take care about code that's 'almost there'. If you rush forward, bugs will often compound while AI builds itself. It's better to catch problems early before they get out of control.
+
+As always, having code quality tools like automated testing and linting are doubly as useful for AI.
+
+When you commit your code it will ultimately be attributed to your identity. So if you don't read every single line generated, make sure you're happy to put your name behind it!
+
+![Vibes](/assets/ai-code-generation/vibes.png)
+
+Or you know… just vibe it out. It's up to you dude.
+
+
+
+## Conclusion
+
+AI is a powerful code generation tool, but it's far from being a one button-press solution.
+
+For best results, start slowly to make sure that AI has high quality examples as you collaboratively build. Keep changes small, and leverage existing tools like git for 'save points' and automated quality checks like linting to make sure your code base stays consistent and happy.
+
+Let's continue exploring the
+
+![Sunset](/assets/ai-code-generation/sunset.png)
