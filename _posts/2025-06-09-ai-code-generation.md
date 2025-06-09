@@ -69,13 +69,13 @@ When you commit your code it will ultimately be attributed to your identity. So 
 
 ![Vibes](/assets/ai-code-generation/vibes.png)
 
-Or you know… just vibe it out. It's up to you dude.
+Or you know… just vibe it out. It's your choice dude.
 
 ## Conclusion
 
 AI is a powerful code generation tool, but it's far from being a one button-press solution.
 
-For best results, start slowly to make sure that AI has high quality examples as you collaboratively build. Keep changes small, and leverage existing tools like git for 'save points' and automated quality checks like linting to make sure your code base stays healthy.
+For best results, start slowly to make sure that AI has high quality examples as you collaboratively chat it out. Keep changes small, and leverage existing tools like git for 'save points' and automated quality checks like linting to make sure your code base stays healthy.
 
 Every day AI and humanity are learning from each other, let's continue exploring this relationship together...
 
