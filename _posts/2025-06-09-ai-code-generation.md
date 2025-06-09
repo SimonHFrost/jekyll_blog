@@ -74,6 +74,6 @@ AI is a powerful code generation tool, but it's far from being a one button-pres
 
 For best results, start slowly to make sure that AI has high quality examples as you collaboratively build. Keep changes small, and leverage existing tools like git for 'save points' and automated quality checks like linting to make sure your code base stays consistent and happy.
 
-Let's continue exploring the
+Every day AI is teaching us more about humanity, let's continue exploring this relationship together...
 
 ![Sunset](/assets/ai-code-generation/sunset.png)
