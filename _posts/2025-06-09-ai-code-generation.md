@@ -7,7 +7,7 @@ title: "Generating code from wireframes"
 .post-content img {
   border: 1px solid black;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 16/9;
   height: auto;
   object-fit: cover;
 }
