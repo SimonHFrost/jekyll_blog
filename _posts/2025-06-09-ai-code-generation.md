@@ -59,14 +59,14 @@ Converting wireframes automatically to code is easy right? With the press of the
 
 ## Building a solid foundation
 
-AI performs better when it has context. Make sure you start with a good boilerplate code and define important structural decisions so AI doesn't have to fill in the gaps.
+AI performs better when it has context. Make sure you start with good boilerplate code and define important structural decisions so AI doesn't have to fill in the gaps.
 
 
 #### Connect documentation
 
-Clear documentation reduces hallucinations and results in more accurate code. You'll waste less time explaining the same concepts through prompts, as well as minimise visual glitches or bugs.
+Clear documentation reduces hallucinations and means you'll waste less time explaining the same concepts through prompts, as well as minimise visual glitches or bugs.
 
-In Cursor, you can link documentation URLs with the command @docs. Currently it's not clear how the documentation is indexed, you can also create local files and send them with requests. Transparency on how Cursor uses documentation for requests is continuously improving...
+In Cursor, you can link documentation URLs with the command @docs. Currently it's not clear how the documentation is indexed, you can also create local files and send them with requests. Transparency on how Cursor uses documentation to determine output is continuously improving...
 
 ![Documentation](/assets/ai-code-generation/documentation.jpg)
 
@@ -98,7 +98,7 @@ Mentioning existing components that the AI can use as a template is essential fo
 
 #### Review Everything
 
-Code may appear to be working at the surface, but dig a little and you'll find it often needs adjustments. Take care about code that's 'almost there'. If you rush forward, bugs will often compound while AI builds itself. It's better to catch problems early before they get out of control.
+Code may appear to be working at the surface, but dig a little and you'll find it often needs adjustments. Take care about code that's 'almost there'. If you rush forward, bugs will often compound while AI reference itself. It's better to catch problems early before they get out of control.
 
 As always, having code quality tools like automated testing and linting are doubly as useful for AI.
 
