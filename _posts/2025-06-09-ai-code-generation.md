@@ -9,9 +9,49 @@ title: "Generating code from wireframes"
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
   aspect-ratio: 16/9;
   height: auto;
-  object-fit: cover;
+  width: 100%;
+  background-color: #f5f5f5;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+  color: transparent;
+}
+
+.post-content img:not(.loaded) {
+  opacity: 0.8;
+}
+
+.post-content img.loaded {
+  opacity: 1;
 }
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const images = document.querySelectorAll('.post-content img');
+
+  images.forEach(function(img) {
+    const src = img.src;
+    const tempImg = new Image();
+
+    // Set the background image immediately but keep it hidden
+    img.style.backgroundImage = `url(${src})`;
+    img.style.color = 'transparent';
+
+    tempImg.onload = function() {
+      img.classList.add('loaded');
+    };
+
+    tempImg.onerror = function() {
+      img.classList.add('loaded');
+    };
+
+    tempImg.src = src;
+  });
+});
+</script>
 
 Converting wireframes automatically to code is easy right? With the press of the big ol' red AI button, you can transform static designs into well designed, interactive code. It is possible! But there are techniques you'll need to overcome to ensure you're faster than writing everything manually.
 
