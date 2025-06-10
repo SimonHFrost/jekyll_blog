@@ -66,24 +66,21 @@ AI performs better when it has context. Make sure you start with a good boilerpl
 
 Clear documentation reduces hallucinations and results in more accurate code. You'll waste less time explaining the same concepts through prompts, as well as minimise visual glitches or bugs.
 
-In Cursor, you can link documentation URLs with the command @docs. Currently the process isn't super transparent and it's not clear how the documentation is indexed, so you can also create local files and send them with requests. But this is continuously improving.
+In Cursor, you can link documentation URLs with the command @docs. Currently it's not clear how the documentation is indexed, you can also create local files and send them with requests. Transparency on how Cursor uses documentation for requests is continuously improving...
 
 ![Documentation](/assets/ai-code-generation/documentation.jpg)
 
 Ensure you add as much documentation as possible: component libraries, framework documentation, and local files like linting and code style.
 
-
-
 #### Export designs
 
 Designs are often static and don't accurately represent real-world variations in screen sizes and interactivity. But it's a good start!
 
-If you're using Figma, I recommend the Figma to Code, or Builder.io plugin, but find the best tool that works for you. Figma to Code is open source, so you can modify the generation if needed like adding custom html tags.
+If you're using Figma, I recommend the Figma to Code, or Builder.io export plugin, but find the best tool that works for you. Figma to Code is open source, so you can modify the generation if needed like adding custom html tags.
 
 ![Arrows](/assets/ai-code-generation/arrows.jpg)
 
-The exported code won't be perfect so take your time molding it to your needs and style, AI will be using it as an example frequently in the future!
-
+Technology isn't quite there yet, so exported code won't be perfect. Take your time molding it to your needs and style, AI will be using it as an example frequently in the future!
 
 ## Chat it Out!
 
@@ -96,7 +93,6 @@ Give AI less chance to get things wrong and use git commits as 'save points'. It
 ![Talking](/assets/ai-code-generation/talking.jpg)
 
 It's time to level up your prompt engineering! Take time to be terse and provide references. Screenshots are amazing for inserting copy without even having to copy paste, they can also serve to communicate design terminology you might not know.
-
 
 Mentioning existing components that the AI can use as a template is essential for making sure you have a consistent codebase.
 
@@ -114,7 +110,7 @@ Or you know… just vibe it out. It's your choice dude.
 
 ## Conclusion
 
-AI is a powerful code generation tool, but it's far from being a one button-press solution.
+AI is a perfect use case for generating code from wireframes, but it's far from being a one button-press solution.
 
 For best results, start slowly to make sure that AI has high quality examples as you collaboratively chat it out. Keep changes small, and leverage existing tools like git for 'save points' and automated quality checks like linting to make sure your code base stays healthy.
 
