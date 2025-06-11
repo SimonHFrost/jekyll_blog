@@ -102,7 +102,7 @@ list_title: "Latest Posts"
 
     <div class="profile-summary">
         <p class="mobile-only">✉️ simonhfrost(at)gmail.com</p>
-        <p style="margin-bottom: 0; font-weight: bold;">Freelance Frontend Engineer</p>
+        <p style="margin-bottom: 0; font-weight: bold;">Freelance Product Engineer</p>
         <p>Interested in LLMs, design, and community.</p>
         <!-- <p style="margin-bottom: 0;">Keen to chat about a collaboration, or just to catch up?</p> -->
     </div>
