@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Generating code from wireframes"
+image: /assets/ai-code-generation/button.jpg
 ---
 
 <style>
