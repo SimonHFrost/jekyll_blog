@@ -5,11 +5,11 @@
 
 `bundle exec jekyll serve`
 
-navigate to `localhost:4000``
+navigate to `localhost:4000`
 
 ## Deploy locally
 
-Just commit changes and github pages will auto deploy
+Auto deploy on commit with Github pages
 
 ## Image compression
 
