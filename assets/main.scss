@@ -5,12 +5,16 @@
 @import "minima";
 
 body {
-  background-image: url("background/white-waves.webp");
-  background-repeat: repeat;
+  background: transparent;
 }
 
 .page-content {
   padding: 0;
+}
+
+.wrapper {
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;
 }
 
 .site-footer {
@@ -67,6 +71,11 @@ body {
 
 [for="tab-blog-posts"] {
   border-right: 0;
+  border-left: 0;
+}
+
+[for="tab-portfolio"] {
+  border-right: 0;
 }
 
 @media (max-width: 768px) {
@@ -75,6 +84,11 @@ body {
   }
 
   [for="tab-portfolio"] {
+    border-right: none;
+  }
+
+  .wrapper {
+    border-left: none;
     border-right: none;
   }
 }
@@ -160,4 +174,46 @@ body {
   background-color: #111;
   font-family: monospace;
   color: white;
+}
+
+.unicorn-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: white;
+  animation: fadeInBackground 1s ease-in-out 0.5s forwards;
+  opacity: 1;
+}
+
+@keyframes fadeInBackground {
+  0% {
+    background-color: white;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+.unicorn-background > div {
+  width: 100vw !important;
+  height: 100vh !important;
+  max-width: none !important;
+  opacity: 0;
+  animation: fadeInUnicorn 1s ease-in-out 1s forwards;
+}
+
+@keyframes fadeInUnicorn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
