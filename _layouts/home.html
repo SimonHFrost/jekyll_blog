@@ -3,12 +3,41 @@ layout: default
 ---
 
 <script>
-    var urlParams = new URLSearchParams(window.location.search);
-    if (urlParams.get('projects') === 'true') {
-      window.onload = function() {
+    // Handle URL changes without page reload
+    document.addEventListener('DOMContentLoaded', function() {
+      function updateURL(path) {
+        history.pushState(null, null, path);
+      }
+
+      function handlePopState() {
+        if (window.location.pathname === '/portfolio/') {
+          document.querySelector('#tab-portfolio').checked = true;
+        } else {
+          document.querySelector('#tab-blog-posts').checked = true;
+        }
+      }
+
+      // Check initial URL
+      if (window.location.pathname === '/portfolio/') {
         document.querySelector('#tab-portfolio').checked = true;
-      };
-    }
+      }
+
+      // Handle tab changes
+      document.querySelector('#tab-blog-posts').addEventListener('change', function() {
+        if (this.checked) {
+          updateURL('/');
+        }
+      });
+
+      document.querySelector('#tab-portfolio').addEventListener('change', function() {
+        if (this.checked) {
+          updateURL('/portfolio/');
+        }
+      });
+
+      // Handle browser back/forward
+      window.addEventListener('popstate', handlePopState);
+    });
 </script>
 
 <style>
@@ -30,94 +59,15 @@ layout: default
     <label for="tab-blog-posts" class="tabs__label" style="margin-left:-15px;">Blog</label>
     <div class="tabs__content">
       <div id="content1" class="tab-content">
-        <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
-        <ul class="post-list">
-          {%- for post in site.posts -%}
-          <li>
-            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
-            <h4>
-              <a class="post-link" href="{{ post.url | relative_url }}">
-                {{ post.title | escape }}
-              </a>
-            </h4>
-            {%- if site.show_excerpts -%}
-              {{ post.excerpt }}
-            {%- endif -%}
-          </li>
-          {%- endfor -%}
-        </ul>
-
-        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+        {% include blog-content.html %}
 
       </div>
     </div>
     <input type="radio" class="tabs__radio" name="tabs-example" id="tab-portfolio">
-    <label for="tab-portfolio" class="tabs__label"style="margin-right:-15px;">Projects</label>
+    <label for="tab-portfolio" class="tabs__label" style="margin-right:-15px;">Portfolio</label>
     <div class="tabs__content">
       <div id="content2" class="tab-content">
-        <div class="portfolio-item">
-          <div>
-            <h2><a href="https://rough.app" target="_blank" rel="noopener noreferrer">Rough.app (2024) <img src="/assets/icons/external-link.svg"/></a></h2>
-            <p>Project management tool for remote teams</p>
-            <div class="portfolio-image-row">
-              <img class="big" src='/assets/portfolio/rough/rough-1.png'></img>
-            </div>
-          </div>
-        </div>
-
-        <div class="portfolio-item">
-          <div>
-            <h2><a href="https://slowmad.app" target="_blank" rel="noopener noreferrer">Slowmad.app (2024) <img src="/assets/icons/external-link.svg"/></a></h2>
-            <p>Mobile first trip planner using Claude AI for recommendations and routing</p>
-            <div class="portfolio-image-row">
-              <img src='/assets/portfolio/slowmad/slowmad-1.jpg'></img>
-              <img src='/assets/portfolio/slowmad/slowmad-2.jpg'></img>
-            </div>
-          </div>
-        </div>
-
-        <div class="portfolio-item">
-          <div>
-            <h2><a href="https://play.google.com/store/apps/details?id=mx.klar.app" target="_blank" rel="noopener noreferrer">Klar.mx (2022) <img src="/assets/icons/external-link.svg"/></a></h2>
-            <p>Mexican neobank cross platform mobile app focused on credit</p>
-            <div class="portfolio-image-row">
-              <img src='/assets/portfolio/klar/klar-1.webp'></img>
-              <img src='/assets/portfolio/klar/klar-2.webp'></img>
-              <img src='/assets/portfolio/klar/klar-3.webp'></img>
-            </div>
-          </div>
-        </div>
-
-        <div class="portfolio-item">
-          <div>
-            <h2><a href="https://planet.com" target="_blank" rel="noopener noreferrer">Planet.com (2017) <img src="/assets/icons/external-link.svg"/></a></h2>
-            <p>Satellite imagery web application for access management and tasking</p>
-            <div class="portfolio-image-row">
-              <img src='/assets/portfolio/planet/planet-1.jpg' class="big"></img>
-            </div>
-          </div>
-        </div>
-
-        <div class="portfolio-item">
-          <div>
-            <h2><a href="https://n26.com/en-at/blog/take-a-tour-of-the-brand-new-n26-for-web" target="_blank" rel="noopener noreferrer">N26 (2016) <img src="/assets/icons/external-link.svg"/></a></h2>
-            <p>German neobank web application focused around UX and premium offerings</p>
-            <div class="portfolio-image-row">
-              <img src='/assets/portfolio/n26/n26-3.png' class="big"></img>
-            </div>
-          </div>
-        </div>
-
-        <div class="portfolio-item">
-          <div>
-            <h2><a href="https://blacklane.com" target="_blank" rel="noopener noreferrer">Blacklane (2015) <img src="/assets/icons/external-link.svg"/></a></h2>
-            <p>Luxury car booking service</p>
-            <div class="portfolio-image-row">
-              <img src='/assets/portfolio/blacklane/blacklane-1.png'></img>
-            </div>
-          </div>
-        </div>
+        {% include portfolio-content.html %}
       </div>
     </div>
   </div>
