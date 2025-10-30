@@ -4,11 +4,34 @@
   {%- include head.html -%}
 
   <body>
-    <!-- Unicorn Studio Background -->
-    <div class="unicorn-background">
+    <!-- Browser-specific Background -->
+    <div class="unicorn-background" id="animatedBg">
       <div data-us-project="gcvVBDluJVuqSpfNTKkJ"></div>
       <script type="text/javascript">!function(){if(!window.UnicornStudio){window.UnicornStudio={isInitialized:!1};var i=document.createElement("script");i.src="https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v1.4.33/dist/unicornStudio.umd.js",i.onload=function(){window.UnicornStudio.isInitialized||(UnicornStudio.init(),window.UnicornStudio.isInitialized=!0)},(document.head || document.body).appendChild(i)}}();</script>
     </div>
+    <div class="static-background" id="staticBg" style="display: none;"></div>
+
+    <script>
+      // Detect browser and device to show appropriate background
+      function detectBrowser() {
+        const userAgent = navigator.userAgent.toLowerCase();
+        const isChrome = userAgent.includes('chrome') && !userAgent.includes('edg');
+        const isSafari = userAgent.includes('safari') && !userAgent.includes('chrome');
+        const isMobile = /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(userAgent) || window.innerWidth <= 768;
+
+        if ((isChrome || isSafari) && !isMobile) {
+          // Show animated background for Chrome and Safari on desktop only
+          document.getElementById('animatedBg').style.display = 'flex';
+          document.getElementById('staticBg').style.display = 'none';
+        } else {
+          // Show static background for mobile or other browsers
+          document.getElementById('animatedBg').style.display = 'none';
+          document.getElementById('staticBg').style.display = 'block';
+        }
+      }
+
+      detectBrowser();
+    </script>
 
     {%- include header.html -%}
 
