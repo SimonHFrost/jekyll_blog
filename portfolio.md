@@ -55,6 +55,13 @@ permalink: /portfolio/
     margin-bottom: 16px;
 }
 
+@media (min-width: 769px) {
+    .profile-summary {
+        text-align: center;
+        margin: auto;
+    }
+}
+
 @media (max-width: 768px) {
     .profile-container {
         flex-direction: column;
@@ -101,10 +108,10 @@ permalink: /portfolio/
     </div>
 
     <div class="profile-summary">
-        <p class="mobile-only">✉️ simonhfrost(at)gmail.com</p>
         <p style="margin-bottom: 0; font-weight: bold;">Freelance Full Stack Engineer</p>
         <p style="margin-bottom: 0;">🇲🇽 Mexico City</p>
-        <p>AI, design, and community</p>
+        <p style="margin-bottom: 0;">AI, design, and community</p>
+        <p class="mobile-only mobile-email">✉️ simonhfrost(at)gmail.com</p>
         <!-- <p style="margin-bottom: 0;">Keen to chat about a collaboration, or just to catch up?</p> -->
     </div>
 
