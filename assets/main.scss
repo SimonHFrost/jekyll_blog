@@ -26,6 +26,10 @@ body {
   min-height: 0;
 }
 
+.site-header .wrapper {
+  padding-top: 0;
+}
+
 .header-colors {
   top: 0;
   left: 0;
@@ -149,6 +153,10 @@ body {
   margin-bottom: 16px;
 }
 
+.portfolio-item h2 {
+  margin-bottom: 8px;
+}
+
 .portfolio-image-row {
   justify-content: space-evenly;
   display: flex;
@@ -236,4 +244,8 @@ body {
     background-size: cover;
     background-position: center;
   }
+}
+
+a img[src="/assets/icons/external-link.svg"] {
+  margin-top: -4px;
 }

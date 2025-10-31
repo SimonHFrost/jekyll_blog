@@ -102,8 +102,8 @@ layout: home
     <div class="profile-summary">
         <p class="mobile-only">✉️ simonhfrost(at)gmail.com</p>
         <p style="margin-bottom: 0; font-weight: bold;">Freelance Full Stack Engineer</p>
-        <p style="margin-bottom: 0;">AI, design, and community</p>
-        <p>🇲🇽 Mexico City</p>
+        <p style="margin-bottom: 0;">🇲🇽 Mexico City</p>
+        <p>AI, design, and community</p>
         <!-- <p style="margin-bottom: 0;">Keen to chat about a collaboration, or just to catch up?</p> -->
     </div>
 
