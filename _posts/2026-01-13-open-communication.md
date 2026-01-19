@@ -64,4 +64,4 @@ No. Private messages should still be used for sensitive information or feedback.
 Conclusion
 ---
 
-Every message we send in our organisation is a decision about who we include in the conversation. The conscious decision to include as many people as possible by using public channels is the best way we can use open communication to make us all more productive, and happier :)
+Every message we send in our organisation is a decision about who we include in the conversation. The conscious decision to include as many people as possible by using public channels is the best way we can use open communication to make us all more productive... and happier :)
