@@ -48,7 +48,7 @@ Managing channels
 
 The key to using channels effectively is making it feel like a community
 
-I'm not a fan of creating strict rules, but managing your channels so conversations can stay focused and on topic, and varied enough so everyone isn't talking over each other.
+I'm not a fan of creating strict rules, but it's good when channels can stay focused and on topic, but varied enough so everyone isn't talking over each other.
 
 ![Community](/assets/open-communication/community.png)
 
