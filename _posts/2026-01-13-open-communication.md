@@ -1,8 +1,14 @@
 ---
 layout: post
-title: Open Communication
-published: false
+title: Open Communication in Organisations
 ---
+
+<style>
+.post-content img {
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+</style>
 
 The internet has changed the way we communicate in organisations, and most of us haven't caught up yet.
 
@@ -12,9 +18,9 @@ What has the internet enabled?
 ---
 
 * Complete privacy - Fully encrypted, authenticated messages
-* One to many - Communciation is now sent to exactly to the people you want
+* One to many - Messages sent exactly to the people you want
 
-[globe]
+![Globe](/assets/open-communication/globe.png)
 
 Both of these determine who you include in the conversation, whether you're concious of it or not.
 
@@ -30,10 +36,10 @@ If you need information from someone, don't private message them. Instead find a
 
 The benefits:
  * No more ping pong - if you're asking the wrong person, the correct person can jump in and avoid uncessary round-trips
- * Global context - the context is useful for others working in similar areas, but not directly
- * Searchable - for anyone that wants to see why decisions were made, of to catch up
+ * Global context - the context is useful for others working in similar areas
+ * Searchable - for anyone that wants to see why decisions were made, or catch up
 
-[open book]
+![Open book](/assets/open-communication/book.png)
 
 If someone private messages you, polietly ask them to @mention you in an appropriate channel and answer there. This can be awkward at the begining, but it's important to set a culture of open communication early so it becomes automatic.
 
@@ -42,9 +48,9 @@ Managing channels
 
 The key to using channels effectively is making it feel like a community
 
-[community]
-
 I'm not a fan of creating strict rules, but managing your channels so conversations can stay focused and on topic, and varied enough so everyone isn't talking over each other.
+
+![Community](/assets/open-communication/community.png)
 
 Channels can take all forms, from long running broader topics, to short time specific ones. Channels should also be actively archived (still searchable!) when inactive to reduce bloat. Ideally everybody should be able to create channels.
 
