@@ -108,8 +108,8 @@ list_title: "Latest Posts"
 
     <div class="profile-summary">
         <p style="margin-bottom: 0; font-weight: bold;">Freelance Full Stack Engineer</p>
-        <p style="margin-bottom: 0;">🇲🇽 Mexico City</p>
         <p style="margin-bottom: 0;">Helping founders ship faster 🚀</p>
+        <p style="margin-bottom: 0;">🇲🇽 Mexico City</p>
         <p class="mobile-only mobile-email">✉️ simonhfrost(at)gmail.com</p>
         <!-- <p style="margin-bottom: 0;">Keen to chat about a collaboration, or just to catch up?</p> -->
     </div>
