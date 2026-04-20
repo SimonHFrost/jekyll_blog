@@ -13,7 +13,7 @@ list_title: "Latest Posts"
 .profile-container img {
     border: 2px solid #778183;
     max-width: 100000px;
-    margin-right: 16px;
+    margin-left: 16px;
 }
 
 .profile-summary > p:last-child {
@@ -64,7 +64,7 @@ list_title: "Latest Posts"
 
 @media (max-width: 768px) {
     .profile-container {
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
         text-align: center;
     }
@@ -102,16 +102,16 @@ list_title: "Latest Posts"
 </script>
 
 <div class="profile-container">
-    <div class="profile-image fade-in">
-        <img height="180px" width="180px" src="/assets/profile-picture-2026.png" alt="Profile Picture"/>
-    </div>
-
     <div class="profile-summary">
         <p style="margin-bottom: 0; font-weight: bold;">Full-Stack Agentic Engineer</p>
         <p style="margin-bottom: 0;">Helping founders ship faster 🚀</p>
         <p style="margin-bottom: 0;">🇲🇽 Mexico City</p>
         <p class="mobile-only mobile-email">✉️ simonhfrost(at)gmail.com</p>
         <!-- <p style="margin-bottom: 0;">Keen to chat about a collaboration, or just to catch up?</p> -->
+    </div>
+
+    <div class="profile-image fade-in">
+        <img height="180px" width="180px" src="/assets/profile-picture.jpg" alt="Profile Picture"/>
     </div>
 
 </div>
