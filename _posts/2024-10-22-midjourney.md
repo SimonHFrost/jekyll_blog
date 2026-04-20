@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Unleash Midjourney's magic... A creative workflow for themed image generation"
+title: "A creative workflow for themed image generation with Midjourney"
 image: /assets/midjourney/arrow/lamington-arrow.jpg
 ---
 

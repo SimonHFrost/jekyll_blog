@@ -39,17 +39,17 @@ body {
   width: 100%;
 
   .color1 {
-    background-color: #de5b1b;
+    background-color: #ED1C24;
     flex: 1;
   }
 
   .color2 {
-    background-color: #f8db5b;
+    background-color: #ED1C24;
     flex: 1;
   }
 
   .color3 {
-    background-color: #778183;
+    background-color: #ED1C24;
     flex: 1;
   }
 }
@@ -108,7 +108,7 @@ body {
 }
 
 .tabs__radio:checked + .tabs__label {
-  color: #de5b1b;
+  color: #ED1C24;
 }
 
 .tabs__radio:not(:checked) + .tabs__label {
