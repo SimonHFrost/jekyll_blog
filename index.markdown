@@ -111,7 +111,7 @@ list_title: "Latest Posts"
     </div>
 
     <div class="profile-image fade-in">
-        <img height="180px" width="180px" src="/assets/profile-picture.jpg" alt="Profile Picture"/>
+        <img height="180px" width="180px" src="/assets/profile-picture-2026.jpg" alt="Profile Picture"/>
     </div>
 
 </div>
