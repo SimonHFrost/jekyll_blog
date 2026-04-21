@@ -11,7 +11,7 @@ permalink: /portfolio/
 }
 
 .profile-container img {
-    border: 2px solid #778183;
+    border: 2px solid #ED1C24;
     max-width: 100000px;
     margin-right: 16px;
 }
