@@ -1,3 +1,42 @@
+<style>
+  .portfolio-subprojects {
+    margin-top: 8px;
+  }
+  .portfolio-subprojects details {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+  }
+  .portfolio-subprojects details[open] {
+    background-color: rgba(0, 0, 0, 0.02);
+  }
+  .portfolio-subprojects summary {
+    cursor: pointer;
+    font-weight: 500;
+  }
+  .portfolio-subprojects details > *:not(summary) {
+    margin-top: 8px;
+  }
+</style>
+
+<div class="portfolio-item">
+  <div>
+    <h2>Bennett Legal</h2>
+    <p>Optimised agentic workflows and built dashboard for Texas based law firm</p>
+    <div class="portfolio-subprojects">
+      <details>
+        <summary>Claude memories/skills</summary>
+        <p>Designed reusable Claude memories and skills to streamline recurring legal tasks across the firm.</p>
+      </details>
+      <details>
+        <summary>Legal document generation</summary>
+        <p>Built automated pipelines for drafting and assembling case documents from structured inputs.</p>
+      </details>
+    </div>
+  </div>
+</div>
+
 <div class="portfolio-item">
   <div>
     <h2><a href="https://www.changepath.ai/en" target="_blank" rel="noopener noreferrer">Changepath.ai <img src="/assets/icons/external-link.svg"/></a></h2>
