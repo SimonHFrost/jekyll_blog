@@ -1,113 +1,107 @@
 <style>
-  .portfolio-subprojects {
-    margin-top: 8px;
+  .portfolio-item > details {
+    margin-bottom: 16px;
   }
-  .portfolio-subprojects details {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 8px 12px;
-    margin-bottom: 8px;
-  }
-  .portfolio-subprojects details[open] {
-    background-color: rgba(0, 0, 0, 0.02);
-  }
-  .portfolio-subprojects summary {
+  .portfolio-item > details > summary {
     cursor: pointer;
-    font-weight: 500;
+    list-style: none;
   }
-  .portfolio-subprojects details > *:not(summary) {
-    margin-top: 8px;
+  .portfolio-item > details > summary::-webkit-details-marker {
+    display: none;
+  }
+  .portfolio-item > details > summary h2 {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  .portfolio-item > details > summary h2::before {
+    content: "▸";
+    display: inline-block;
+    margin-right: 8px;
+    transition: transform 0.15s ease;
+    font-size: 0.8em;
+  }
+  .portfolio-item > details[open] > summary h2::before {
+    transform: rotate(90deg);
+  }
+  .portfolio-item > details > .portfolio-body {
+    padding-top: 8px;
   }
 </style>
 
 <div class="portfolio-item">
-  <div>
-    <h2>Bennett Legal</h2>
-    <p>Optimised agentic workflows and built dashboard for Texas based law firm</p>
-    <div class="portfolio-subprojects">
-      <details>
-        <summary>Claude memories/skills</summary>
-        <p>Designed reusable Claude memories and skills to streamline recurring legal tasks across the firm.</p>
-      </details>
-      <details>
-        <summary>Legal document generation</summary>
-        <p>Built automated pipelines for drafting and assembling case documents from structured inputs.</p>
-      </details>
+  <details>
+    <summary><h2>Bennett Legal (2026)</h2></summary>
+    <div class="portfolio-body">
+      <p>Optimised agentic workflows and built dashboard for Texas based law firm</p>
+      <ul>
+        <li>Claude memories/skills</li>
+        <li>Legal document generation</li>
+      </ul>
     </div>
-  </div>
+  </details>
 </div>
 
 <div class="portfolio-item">
-  <div>
-    <h2><a href="https://www.changepath.ai/en" target="_blank" rel="noopener noreferrer">Changepath.ai <img src="/assets/icons/external-link.svg"/></a></h2>
-    <p>AI-powered career orientation for gen-z and millennials</p>
-    <div class="portfolio-image-row">
-      <img src='/assets/portfolio/changepath/onboarding.png'></img>
-      <img src='/assets/portfolio/changepath/questions.png'></img>
-      <img src='/assets/portfolio/changepath/insights.png'></img>
+  <details>
+    <summary><h2><a href="https://www.changepath.ai/en" target="_blank" rel="noopener noreferrer">Changepath.ai <img src="/assets/icons/external-link.svg"/></a></h2></summary>
+    <div class="portfolio-body">
+      <p>AI-powered career orientation for gen-z and millennials</p>
+      <div class="portfolio-image-row">
+        <img src='/assets/portfolio/changepath/onboarding.png'></img>
+        <img src='/assets/portfolio/changepath/questions.png'></img>
+        <img src='/assets/portfolio/changepath/insights.png'></img>
+      </div>
     </div>
-  </div>
-</div>
-
-<!-- <div class="portfolio-item">
-  <div>
-    <h2>Slowmad.app</h2>
-    <p>Mobile first trip planner using Claude AI for recommendations and routing</p>
-    <div class="portfolio-image-row">
-      <img src='/assets/portfolio/slowmad/slowmad-1.jpg'></img>
-      <img src='/assets/portfolio/slowmad/slowmad-2.jpg'></img>
-    </div>
-  </div>
+  </details>
 </div>
 
 <div class="portfolio-item">
-  <div>
-    <h2><a href="https://rough.app" target="_blank" rel="noopener noreferrer">Rough.app <img src="/assets/icons/external-link.svg"/></a></h2>
-    <p>Project management tool for remote teams</p>
-    <div class="portfolio-image-row">
-      <img class="big" src='/assets/portfolio/rough/rough-1.png'></img>
+  <details>
+    <summary><h2><a href="https://play.google.com/store/apps/details?id=mx.klar.app" target="_blank" rel="noopener noreferrer">Klar.mx <img src="/assets/icons/external-link.svg"/></a></h2></summary>
+    <div class="portfolio-body">
+      <p>Mexican neobank cross platform mobile app focused on credit</p>
+      <div class="portfolio-image-row">
+        <img src='/assets/portfolio/klar/klar-1.webp'></img>
+        <img src='/assets/portfolio/klar/klar-2.webp'></img>
+        <img src='/assets/portfolio/klar/klar-3.webp'></img>
+      </div>
     </div>
-  </div>
-</div> -->
-
-<div class="portfolio-item">
-  <div>
-    <h2><a href="https://play.google.com/store/apps/details?id=mx.klar.app" target="_blank" rel="noopener noreferrer">Klar.mx <img src="/assets/icons/external-link.svg"/></a></h2>
-    <p>Mexican neobank cross platform mobile app focused on credit</p>
-    <div class="portfolio-image-row">
-      <img src='/assets/portfolio/klar/klar-1.webp'></img>
-      <img src='/assets/portfolio/klar/klar-2.webp'></img>
-      <img src='/assets/portfolio/klar/klar-3.webp'></img>
-    </div>
-  </div>
+  </details>
 </div>
 
 <div class="portfolio-item">
-  <div>
-    <h2><a href="https://planet.com" target="_blank" rel="noopener noreferrer">Planet.com <img src="/assets/icons/external-link.svg"/></a></h2>
-    <p>Satellite imagery web application for access management and tasking</p>
-    <div class="portfolio-image-row">
-      <img src='/assets/portfolio/planet/planet-1.jpg' class="big"></img>
+  <details>
+    <summary><h2><a href="https://planet.com" target="_blank" rel="noopener noreferrer">Planet.com <img src="/assets/icons/external-link.svg"/></a></h2></summary>
+    <div class="portfolio-body">
+      <p>Satellite imagery web application for access management and tasking</p>
+      <div class="portfolio-image-row">
+        <img src='/assets/portfolio/planet/planet-1.jpg' class="big"></img>
+      </div>
     </div>
-  </div>
+  </details>
 </div>
 
 <div class="portfolio-item">
-  <div>
-    <h2><a href="https://n26.com/en-at/blog/take-a-tour-of-the-brand-new-n26-for-web" target="_blank" rel="noopener noreferrer">N26 <img src="/assets/icons/external-link.svg"/></a></h2>
-    <p>German neobank web application focused on UX and premium offerings</p>
-    <div class="portfolio-image-row">
-      <img src='/assets/portfolio/n26/n26-3.png' class="big"></img>
+  <details>
+    <summary><h2><a href="https://n26.com/en-at/blog/take-a-tour-of-the-brand-new-n26-for-web" target="_blank" rel="noopener noreferrer">N26 <img src="/assets/icons/external-link.svg"/></a></h2></summary>
+    <div class="portfolio-body">
+      <p>German neobank web application focused on UX and premium offerings</p>
+      <div class="portfolio-image-row">
+        <img src='/assets/portfolio/n26/n26-3.png' class="big"></img>
+      </div>
     </div>
-  </div>
+  </details>
 </div>
 
 <div class="portfolio-item">
-  <div>
-    <h2><a href="https://blacklane.com" target="_blank" rel="noopener noreferrer">Blacklane <img src="/assets/icons/external-link.svg"/></a></h2>
-    <p>Luxury car booking service</p>
-    <div class="portfolio-image-row">
-      <img src='/assets/portfolio/blacklane/blacklane-1.png'></img>
+  <details>
+    <summary><h2><a href="https://blacklane.com" target="_blank" rel="noopener noreferrer">Blacklane <img src="/assets/icons/external-link.svg"/></a></h2></summary>
+    <div class="portfolio-body">
+      <p>Luxury car booking service</p>
+      <div class="portfolio-image-row">
+        <img src='/assets/portfolio/blacklane/blacklane-1.png'></img>
+      </div>
     </div>
-  </div>
+  </details>
 </div>
