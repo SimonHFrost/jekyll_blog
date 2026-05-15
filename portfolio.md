@@ -103,7 +103,7 @@ permalink: /portfolio/
 
 <div class="profile-container">
     <div class="profile-image fade-in">
-        <img height="180px" width="180px" src="/assets/profile-picture-2026.png" alt="Profile Picture"/>
+        <img height="180px" width="180px" src="/assets/profile-picture-2026.jpg" alt="Profile Picture"/>
         <!-- <p class="location-text">Mexico City, Mexico</p> -->
     </div>
 
