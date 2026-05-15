@@ -10,10 +10,10 @@ body {
 
 .page-content {
   padding: 0;
+}
+
+.page-content > .wrapper {
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
 }
 
 .wrapper {
