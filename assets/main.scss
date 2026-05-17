@@ -176,6 +176,10 @@ body {
   max-width: 66%;
 }
 
+.portfolio-image-row.left {
+  justify-content: flex-start;
+}
+
 .rss-subscribe {
   margin-bottom: 0;
 }
