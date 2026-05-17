@@ -20,9 +20,9 @@ What has the internet enabled?
 * Complete privacy - Fully encrypted, authenticated messages
 * One to many - Messages sent exactly to the people you want
 
-![Globe](/assets/open-communication/globe.png)
-
 Both of these determine who you include in the conversation, whether you're concious of it or not.
+
+![Globe](/assets/open-communication/globe.png)
 
 Open communication is the key
 ---
