@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "I haven't written a line of code in 6 months"
+title: "Rise of the agentic engineer"
 draft: true
 ---
 
