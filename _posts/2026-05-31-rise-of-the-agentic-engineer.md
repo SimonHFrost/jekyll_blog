@@ -70,6 +70,8 @@ I still ship full-stack applications every week. I just don't type the code anym
 
 Because it's accurate — it describes what I actually do day to day, and also because tech has always meant keeping up, and forward thinking. The last time I saw a shift this big was smartphones. Before that, the internet itself.
 
+![Business card](/assets/agentic-engineer/business-card.png)
+
 ## Conclusion
 
 In a word that's consumed by software, I argue that Agentic Engineering is as significant a technolgy shift as the iPhone.
