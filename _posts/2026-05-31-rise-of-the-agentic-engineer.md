@@ -40,6 +40,8 @@ It’s a skill, you need to learn how to use it effectively. There’s a drop in
 It’s better with new or early projects - there’s generally less complexity and also better training material publicly available
 It has fundamentally changed coding workflows
 
+![Levels](/assets/agentic-engineer/levels.png)
+
 ## Generalists win this round
 
 For twenty years, the bottleneck in software was implementation. Specialists won — the person who knew the framework deepest shipped fastest.
