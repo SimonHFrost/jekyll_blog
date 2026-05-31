@@ -11,28 +11,34 @@ draft: true
 }
 </style>
 
-I still ship full-stack applications every week. I just don't type the code anymore.
+Agentic engineering is the more stable version of vibe coding.
+
+Peter Steinberger (creator of viral AI project OpenClaw) calls this new way of working agentic engineering, and I think the name is going to stick.
+
+Mat Shumer wrote "something big is happening" https://shumer.dev/something-big-is-happening
+
+Simon Willison https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/
 
 ## What changed
 
-A few things landed at the same time, and the combination is what broke the dam:
+A few things landed at the same time:
 
-- Cursor hit $1B ARR and shipped their own foundation model, Composer
 - Terminal-first agents like Claude Code went mainstream
-- Opus 4.5 and Codex 5.3 got good enough to handle vague, ambiguous input — the kind of brief a real client actually gives you
-- MCP and Skills made tooling composable
+- Cursor hit $1B ARR and shipped their own foundation model, Composer
+- Opus 4.5 and Codex 5.3 got good enough to handle vague, ambiguous input
+- MCP and Skills create abstractions which gave users even more leverage when building
 
-Individually, each was incremental. Together, they crossed a threshold. Mat Shumer wrote "something big is happening" and a lot of us nodded.
+Individually, each is a significant indicator of tech heading towards an AI direction. Together, it shows a fundamental shift in the industry.
 
-Peter Steinberger (Austrian creator of OpenClaw) calls this new way of working agentic engineering, and I think the name is going to stick.
+## It feels more like designing more than coding
 
-## It feels more like managing than coding
-
-The job now looks like this: I describe what I want, the agent goes off, I review, I give feedback, it iterates. Sometimes I have three or four of them running in parallel git worktrees, each on a different feature.
-
-It's closer to being a tech lead than an IC. You're not writing the code, you're setting the standard for what gets merged.
-
-The weird part is the waiting. The first week I felt guilty about it, like I was slacking. Then I realised the waiting was the work — that's when I'm thinking about the next problem, reviewing the last output, deciding what to ship.
+It’s like managing an employee - talk to it about what you want, waiting, and giving feedback
+You don’t code by typing any more, you describe the problem
+You can start with one agent, but there’s potential for managing whole software engineering teams in the future.
+Vibe coding, vibe engineering, and now agentic engineering
+It’s a skill, you need to learn how to use it effectively. There’s a drop in productivity  initially as you learn how to prompt and configure tooling
+It’s better with new or early projects - there’s generally less complexity and also better training material publicly available
+It has fundamentally changed coding workflows
 
 ## Generalists win this round
 
@@ -44,28 +50,28 @@ This is the best news a generalist has had in a long time.
 
 ## Isn't it all slop?
 
-I get asked this constantly. The honest answer is: it can be, if you let it.
+The principles of writing good code haven't changed. Reviewing code is now more important than ever. Every line of code is a liability, by reducing lines of code, having good tests, and follow principles like make it work > make it right > make it efficient.
 
-The principles haven't changed since I started writing software. Manage complexity by reducing lines of code. Review every change. Manually test the feature instead of trusting the green checkmark. Harden and clean up before merging.
-
-Slop is a discipline problem, not a tooling problem. Bad engineers were shipping bad code with autocomplete in 2015 too.
+Slop is a discipline problem, not a tooling problem. Best practices are still important to prevent hard to debug production issues, and maintaining development velocity.
 
 ## The unlock is real, but overstated
 
-The "you'll 100x your output" crowd is selling courses. The "it's all hype" crowd hasn't tried it properly. Both are wrong.
+Don't believe all the hype, attention grabbing headlines usually have alterior motives like engagement baiting or selling online courses.
 
-From my own work and from what clients tell me: at least 40% faster, on real projects, with real deadlines. Sometimes much more on greenfield work, sometimes less on tangled legacy code. It's a real productivity gain, not a revolution and not a fad.
+From my subjective experience and from what clients tell me: at least 40% faster on real projects. There are cases on greenfield work, sometimes less on tangled legacy code. It's a real productivity gain, not a revolution and not a fad.
 
-## Why the rebrand
+## I'm rebranding
 
 I'm updating my title to Full-Stack Agentic Engineer.
 
-Partly because it's accurate — it describes what I actually do day to day. Partly because working in tech has always meant keeping up, and signalling that you've caught the next wave matters. The last time I saw a shift this big was smartphones. Before that, the internet itself.
+I still ship full-stack applications every week. I just don't type the code anymore.
 
-I want to be on the side of the people building what comes next, not the side explaining why the old way was fine.
+Because it's accurate — it describes what I actually do day to day, and also because tech has always meant keeping up, and forward thinking. The last time I saw a shift this big was smartphones. Before that, the internet itself.
 
 ## Conclusion
 
-If you're a founder shipping something interesting and you want to move faster, get in touch — simonhfrost(at)gmail.com.
+In a word that's consumed by software, I argue that Agentic Engineering is as significant a technolgy shift as the iPhone.
 
-If you're an engineer still typing every line by hand, try going a full week without doing that. See what happens. I think you'll be surprised which parts of the job you miss, and which parts you don't.
+It's a fundamental shift for the software engineering industry because software isn't the bottleneck anymore. Taste, judgement, and domain knowledge are most likely holding you back.
+
+If you're a founder shipping something interesting and you want to move faster, get in touch — simonhfrost(at)gmail.com.
