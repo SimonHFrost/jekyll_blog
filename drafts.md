@@ -3,6 +3,7 @@ layout: page
 title: Drafts
 permalink: /drafts/
 noindex: true
+gated: true
 sitemap: false
 ---
 

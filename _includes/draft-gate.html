@@ -1,0 +1,77 @@
+<!-- Client-side gate for draft/hidden pages. NOTE: cosmetic only — the page
+     source is static and (for this public repo) readable in the repo. Not real auth. -->
+<style>
+  html.draft-locked body { visibility: hidden; }
+  #draft-gate {
+    visibility: visible !important;
+    position: fixed; inset: 0; z-index: 99999;
+    display: flex; align-items: center; justify-content: center;
+    background: #fff;
+  }
+  #draft-gate form {
+    width: 100%; max-width: 320px; padding: 0 24px;
+    text-align: center;
+  }
+  #draft-gate h2 { margin: 0 0 4px; }
+  #draft-gate p { margin: 0 0 20px; color: #666; font-size: 0.9rem; }
+  #draft-gate input {
+    width: 100%; box-sizing: border-box;
+    padding: 10px 12px; margin-bottom: 12px;
+    border: 1px solid #ccc; border-radius: 4px; font-size: 1rem;
+  }
+  #draft-gate button {
+    width: 100%; padding: 10px 12px;
+    background: #ED1C24; color: #fff; border: 0; border-radius: 4px;
+    font-size: 1rem; cursor: pointer;
+  }
+  #draft-gate .draft-gate-error {
+    color: #ED1C24; font-size: 0.85rem; min-height: 1.2em; margin: 0 0 8px;
+  }
+</style>
+<script>
+(function () {
+  var USER = "simonhfrost", PASS = "mydrafts", KEY = "draftAuth";
+  var root = document.documentElement;
+  root.classList.add("draft-locked");
+
+  if (sessionStorage.getItem(KEY) === "1") {
+    root.classList.remove("draft-locked");
+    return;
+  }
+
+  function buildGate() {
+    var gate = document.createElement("div");
+    gate.id = "draft-gate";
+    gate.innerHTML =
+      '<form>' +
+        '<h2>🚧 Drafts</h2>' +
+        '<p>This area is private. Please sign in.</p>' +
+        '<p class="draft-gate-error" id="draft-gate-error"></p>' +
+        '<input type="text" id="draft-gate-user" placeholder="Username" autocomplete="username" autofocus>' +
+        '<input type="password" id="draft-gate-pass" placeholder="Password" autocomplete="current-password">' +
+        '<button type="submit">Enter</button>' +
+      '</form>';
+    document.body.appendChild(gate);
+
+    gate.querySelector("form").addEventListener("submit", function (e) {
+      e.preventDefault();
+      var u = document.getElementById("draft-gate-user").value;
+      var p = document.getElementById("draft-gate-pass").value;
+      if (u === USER && p === PASS) {
+        sessionStorage.setItem(KEY, "1");
+        gate.remove();
+        root.classList.remove("draft-locked");
+      } else {
+        document.getElementById("draft-gate-error").textContent = "Incorrect username or password.";
+        document.getElementById("draft-gate-pass").value = "";
+      }
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", buildGate);
+  } else {
+    buildGate();
+  }
+})();
+</script>
