@@ -5,6 +5,7 @@ draft: true
 noindex: true
 ---
 
+<pre style="white-space: pre-wrap; word-break: break-word;">
 Thin Client with Expo and Next.js
     Minimise work but support native iphone and android
     Main criteria: Feel native, and pass apple review
@@ -34,3 +35,4 @@ Talking to itself https://dwyer.co.za/static/claude-mixes-up-who-said-what-and-t
     Conclusion
         Context is King, The more context you give agents the more they can run autonomously
         A lot of ‘dev ops’ isn’t solved with coding agents
+</pre>
