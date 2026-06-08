@@ -24,6 +24,9 @@ Claude Opus is my go-to, with Codex as reviewer
 Permission fatigue
 Auto mode https://claude.com/blog/auto-mode and RC is great
     Authentication methods
+
+One Clerk login, one Convex backend, two surfaces. Clerk handles who you are; Convex handles everything you do — and trusts Clerk by verifying its signed token on every request before a single line of app code runs. The mobile app doesn't rebuild the product; it logs in natively, then hands a fresh token into a WebView of the web app, re-minting it every ~50 seconds. And the whole switch to Clerk shipped without a flag day: it ran beside the old password system as a second trusted issuer, quietly migrating each user the next time they signed in. Nobody was locked out. Nobody noticed.
+
     Payments
         Initially started with RC but IAP was a prereq
         A lot of config

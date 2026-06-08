@@ -9,6 +9,13 @@ draft: true
   border: 1px solid black;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
 }
+.post-content img.business-card {
+  border: none;
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 </style>
 
 Agentic engineering is the more stable version of vibe coding.
@@ -70,7 +77,7 @@ I still ship full-stack applications every week. I just don't type the code anym
 
 Because it's accurate — it describes what I actually do day to day, and also because tech has always meant keeping up, and forward thinking. The last time I saw a shift this big was smartphones. Before that, the internet itself.
 
-![Business card](/assets/agentic-engineer/business-card.png)
+<img class="business-card" src="/assets/agentic-engineer/business-card.png" alt="Business card">
 
 ## Conclusion
 
