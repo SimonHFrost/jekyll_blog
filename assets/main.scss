@@ -101,11 +101,17 @@ body {
   }
 
   // Let the animated background show through around the profile on mobile
-  .background-block-color {
+  .page-content > .wrapper {
     background: transparent;
   }
 
-  // Keep the blog/portfolio content readable over the animation
+  // Keep the top "Simon Frost" bar on a white background
+  .site-header .wrapper {
+    background: #fff;
+  }
+
+  // Keep the blog/portfolio content readable over the animation, so the
+  // animation only shows in the profile band between the header and tabs
   .tabs {
     background: #fafafa;
   }

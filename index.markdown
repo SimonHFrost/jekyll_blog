@@ -44,7 +44,7 @@ list_title: "Latest Posts"
 
     .profile-summary {
         background: #fff;
-        border-radius: 10px;
+        border: 2px solid #778183;
         padding: 16px 20px;
         box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
     }
