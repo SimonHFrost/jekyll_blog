@@ -20,8 +20,8 @@
         const isMobile = /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(userAgent) || window.innerWidth <= 768;
 
         if (isMobile) {
-          // Hide all backgrounds on mobile
-          document.getElementById('animatedBg').style.display = 'none';
+          // Show animated background on mobile
+          document.getElementById('animatedBg').style.display = 'flex';
           document.getElementById('staticBg').style.display = 'none';
         } else if (isChrome || isSafari) {
           // Show animated background for Chrome and Safari on desktop only

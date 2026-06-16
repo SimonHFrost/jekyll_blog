@@ -22,7 +22,7 @@ list_title: "Latest Posts"
 
 @media (max-width: 768px) {
     .profile-summary > p:last-child {
-        margin-bottom: 16px;
+        margin-bottom: 0;
     }
 
     .mobile-only {
@@ -40,6 +40,13 @@ list_title: "Latest Posts"
     .profile-container img {
         margin: 0px;
         margin-bottom: 16px;
+    }
+
+    .profile-summary {
+        background: #fff;
+        border-radius: 10px;
+        padding: 16px 20px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
     }
 }
 

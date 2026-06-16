@@ -99,6 +99,16 @@ body {
     border-left: none;
     border-right: none;
   }
+
+  // Let the animated background show through around the profile on mobile
+  .background-block-color {
+    background: transparent;
+  }
+
+  // Keep the blog/portfolio content readable over the animation
+  .tabs {
+    background: #fafafa;
+  }
 }
 
 .tabs__radio {
