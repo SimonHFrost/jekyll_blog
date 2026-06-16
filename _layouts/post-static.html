@@ -9,27 +9,36 @@
 
     {%- include header.html -%}
 
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    {%- assign words = content | number_of_words -%}
+    {%- assign read_time = words | divided_by: 200 | at_least: 1 -%}
+
+    {%- capture post_meta -%}
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: date_format }}</time>
+      · {{ read_time }} min read
+      {%- if page.author -%}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+      {%- endif -%}
+    {%- endcapture -%}
+
     <main class="page-content" aria-label="Content">
+      <!-- Mobile: small white title card over a transparent hero -->
       <div class="post-hero">
         <header class="post-header">
           <div class="post-header-box">
             <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-            <p class="post-meta">
-              <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-                {{ page.date | date: date_format }}
-              </time>
-              {%- assign words = content | number_of_words -%}
-              {%- assign read_time = words | divided_by: 200 | at_least: 1 -%}
-              · {{ read_time }} min read
-              {%- if page.author -%}
-                • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-              {%- endif -%}</p>
+            <p class="post-meta">{{ post_meta }}</p>
           </div>
         </header>
       </div>
       <div class="wrapper background-block-color">
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+          <!-- Desktop: original header inside the content block -->
+          <header class="post-header post-header--inline">
+            <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+            <p class="post-meta">{{ post_meta }}</p>
+          </header>
 
           <div class="post-content e-content" itemprop="articleBody">
             {{ content }}
@@ -54,42 +63,44 @@
         border-bottom: 3px solid grey;
       }
 
-      /* Transparent hero so the background shows around a small white title card */
+      /* Desktop: original inline header; mobile hero hidden */
       .post-hero {
-        text-align: center;
-        padding: 56px 15px;
-      }
-
-      .post-hero .post-header {
-        margin: 0;
-      }
-
-      .post-header-box {
-        display: inline-block;
-        background: #fff;
-        padding: 14px 28px;
-        border-radius: 6px;
-        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
-      }
-
-      .post-header-box .post-title {
-        font-size: 28px;
-        line-height: 1.2;
-        margin: 0;
-      }
-
-      .post-header-box .post-meta {
-        margin: 6px 0 0;
-        font-size: 13px;
+        display: none;
       }
 
       @media (max-width: 768px) {
+        /* Mobile: small white title card over a transparent hero */
+        .post-header--inline {
+          display: none;
+        }
+
         .post-hero {
+          display: block;
+          text-align: center;
           padding: 32px 15px;
+        }
+
+        .post-hero .post-header {
+          margin: 0;
+        }
+
+        .post-header-box {
+          display: inline-block;
+          background: #fff;
+          padding: 14px 28px;
+          border-radius: 6px;
+          box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
         }
 
         .post-header-box .post-title {
           font-size: 22px;
+          line-height: 1.2;
+          margin: 0;
+        }
+
+        .post-header-box .post-meta {
+          margin: 6px 0 0;
+          font-size: 13px;
         }
       }
 
