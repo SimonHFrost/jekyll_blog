@@ -151,6 +151,19 @@ body {
   .portfolio-image-row img:not(:last-child) {
     margin-bottom: 8px;
   }
+
+  .portfolio-image-row.keep-row {
+    flex-direction: row;
+    gap: 6px;
+  }
+
+  .portfolio-image-row.keep-row img {
+    max-width: 33% !important;
+  }
+
+  .portfolio-image-row.keep-row img:not(:last-child) {
+    margin-bottom: 0;
+  }
 }
 
 .portfolio-item {
