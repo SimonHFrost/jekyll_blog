@@ -50,19 +50,18 @@
           return;
         }
 
-        var headerBottom = header.getBoundingClientRect().bottom + window.scrollY;
         var tabsTop = tabs.getBoundingClientRect().top + window.scrollY;
-        var gap = tabsTop - headerBottom;
-        if (gap <= 0) {
+        if (tabsTop <= 0) {
           return;
         }
 
-        // Position the background in the gap and match its height exactly.
-        bg.style.top = headerBottom + 'px';
-        bg.style.height = gap + 'px';
+        // Extend the animation from the very top of the screen down to the
+        // tabs, so it stays visible behind the header (which scrolls away).
+        bg.style.top = '0px';
+        bg.style.height = tabsTop + 'px';
         bg.style.alignItems = 'flex-start';
         // Over-size the canvas so only the top 75% shows (bottom 25% clipped).
-        inner.style.setProperty('height', (gap / 0.75) + 'px', 'important');
+        inner.style.setProperty('height', (tabsTop / 0.75) + 'px', 'important');
       }
 
       window.addEventListener('load', fitAnimatedBackground);

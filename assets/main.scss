@@ -265,6 +265,11 @@ body {
   animation: fadeInUnicorn 1s ease-in-out 1s forwards;
 }
 
+// Hide the "Made with unicorn.studio" watermark badge
+.unicorn-background a {
+  display: none !important;
+}
+
 @keyframes fadeInUnicorn {
   0% {
     opacity: 0;

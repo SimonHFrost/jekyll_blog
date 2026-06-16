@@ -1,0 +1,126 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - link "Simon Frost" [ref=e7] [cursor=pointer]:
+        - /url: /
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - link "Github" [ref=e10] [cursor=pointer]:
+            - /url: https://github.com/simonhfrost
+            - img "Github" [ref=e11]
+        - listitem [ref=e12]:
+          - link "LinkedIn" [ref=e13] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/simonhfrost
+            - img "LinkedIn" [ref=e14]
+        - link "Resume" [ref=e15] [cursor=pointer]:
+          - /url: https://raw.githubusercontent.com/SimonHFrost/static-resume/master/Simon%20Frost%20Product%20Engineer%20Resume.pdf
+          - img "Resume" [ref=e16]
+  - main "Content" [ref=e21]:
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - paragraph [ref=e26]: Full-Stack Agentic Engineer
+          - paragraph [ref=e27]: Helping founders ship faster 🚀
+          - paragraph [ref=e28]: 🇲🇽 Mexico City
+          - paragraph [ref=e29]: ✉️ simonhfrost(at)gmail.com
+        - img "Profile Picture" [ref=e31]
+      - generic [ref=e32]:
+        - generic [ref=e33] [cursor=pointer]: Blog
+        - generic [ref=e35]:
+          - list [ref=e36]:
+            - listitem [ref=e37]:
+              - text: Jan 18, 2026 · 2 min read
+              - heading "Open Communication in Organisations" [level=4] [ref=e38]:
+                - link "Open Communication in Organisations" [ref=e39] [cursor=pointer]:
+                  - /url: /2026/01/18/open-communication.html
+            - listitem [ref=e40]:
+              - text: Jan 5, 2026 · 1 min read
+              - heading "Optimism is a strategic advantage" [level=4] [ref=e41]:
+                - link "Optimism is a strategic advantage" [ref=e42] [cursor=pointer]:
+                  - /url: /2026/01/05/optimism.html
+            - listitem [ref=e43]:
+              - text: Jun 9, 2025 · 3 min read
+              - heading "Generating code from wireframes" [level=4] [ref=e44]:
+                - link "Generating code from wireframes" [ref=e45] [cursor=pointer]:
+                  - /url: /2025/06/09/ai-code-generation.html
+            - listitem [ref=e46]:
+              - text: May 28, 2025 · 3 min read
+              - heading "2024 Review" [level=4] [ref=e47]:
+                - link "2024 Review" [ref=e48] [cursor=pointer]:
+                  - /url: /2025/05/28/2024-review.html
+            - listitem [ref=e49]:
+              - text: Oct 22, 2024 · 3 min read
+              - heading "A creative workflow for themed image generation with Midjourney" [level=4] [ref=e50]:
+                - link "A creative workflow for themed image generation with Midjourney" [ref=e51] [cursor=pointer]:
+                  - /url: /2024/10/22/midjourney.html
+            - listitem [ref=e52]:
+              - text: Aug 23, 2024 · 2 min read
+              - heading "San Francisco is reinventing itself" [level=4] [ref=e53]:
+                - link "San Francisco is reinventing itself" [ref=e54] [cursor=pointer]:
+                  - /url: /2024/08/23/san-francisco-is-reinventing-itself.html
+            - listitem [ref=e55]:
+              - text: Apr 29, 2024 · 7 min read
+              - heading "HackMexico and Open Data" [level=4] [ref=e56]:
+                - link "HackMexico and Open Data" [ref=e57] [cursor=pointer]:
+                  - /url: /2024/04/29/hackmexico.html
+            - listitem [ref=e58]:
+              - text: Apr 3, 2024 · 3 min read
+              - heading "5 challenges Mexicans face daily" [level=4] [ref=e59]:
+                - link "5 challenges Mexicans face daily" [ref=e60] [cursor=pointer]:
+                  - /url: /2024/04/03/opportunities-in-mexico.html
+            - listitem [ref=e61]:
+              - text: Nov 8, 2023 · 2 min read
+              - heading "Ruby Retreat 2023" [level=4] [ref=e62]:
+                - link "Ruby Retreat 2023" [ref=e63] [cursor=pointer]:
+                  - /url: /2023/11/08/ruby-retreat-2023.html
+            - listitem [ref=e64]:
+              - text: Oct 12, 2023 · 5 min read
+              - 'heading "Book Review: The Mom Test" [level=4] [ref=e65]':
+                - 'link "Book Review: The Mom Test" [ref=e66] [cursor=pointer]':
+                  - /url: /2023/10/12/mom-test-book-review.html
+            - listitem [ref=e67]:
+              - text: Jun 2, 2017 · 3 min read
+              - heading "Getting started in React with Redux" [level=4] [ref=e68]:
+                - link "Getting started in React with Redux" [ref=e69] [cursor=pointer]:
+                  - /url: /2017/06/02/getting-started-in-react-with-redux.html
+            - listitem [ref=e70]:
+              - text: May 3, 2016 · 4 min read
+              - heading "Agile Development Doesn’t Work For Music Production" [level=4] [ref=e71]:
+                - link "Agile Development Doesn’t Work For Music Production" [ref=e72] [cursor=pointer]:
+                  - /url: /2016/05/03/agile-development-doesn-t-work-for-music-production.html
+            - listitem [ref=e73]:
+              - text: Apr 11, 2016 · 2 min read
+              - heading "Web Animation Options" [level=4] [ref=e74]:
+                - link "Web Animation Options" [ref=e75] [cursor=pointer]:
+                  - /url: /2016/04/11/web-animation-options.html
+            - listitem [ref=e76]:
+              - text: Oct 31, 2015 · 3 min read
+              - heading "Unminifying Google Tag Manager" [level=4] [ref=e77]:
+                - link "Unminifying Google Tag Manager" [ref=e78] [cursor=pointer]:
+                  - /url: /2015/10/31/unminifying-google-tag-manager.html
+            - listitem [ref=e79]:
+              - text: Oct 31, 2015 · 1 min read
+              - heading "Pixi.js Sprite Animation" [level=4] [ref=e80]:
+                - link "Pixi.js Sprite Animation" [ref=e81] [cursor=pointer]:
+                  - /url: /2015/10/31/pixi-js-sprite-animation.html
+            - listitem [ref=e82]:
+              - text: Oct 31, 2015 · 1 min read
+              - heading "One Week of Joylent" [level=4] [ref=e83]:
+                - link "One Week of Joylent" [ref=e84] [cursor=pointer]:
+                  - /url: /2015/10/31/one-week-of-joylent.html
+            - listitem [ref=e85]:
+              - text: Oct 31, 2015 · 2 min read
+              - heading "Making my first iOS app at Midihack" [level=4] [ref=e86]:
+                - link "Making my first iOS app at Midihack" [ref=e87] [cursor=pointer]:
+                  - /url: /2015/10/31/making-my-first-ios-app-at-midihack.html
+            - listitem [ref=e88]:
+              - text: Oct 31, 2015 · 1 min read
+              - heading "Debugging Javascript Callbacks with the Chrome Debugger" [level=4] [ref=e89]:
+                - link "Debugging Javascript Callbacks with the Chrome Debugger" [ref=e90] [cursor=pointer]:
+                  - /url: /2015/10/31/debugging-javascript-callbacks-with-the-chrome-debugger.html
+          - paragraph [ref=e91]:
+            - text: subscribe
+            - link "via RSS" [ref=e92] [cursor=pointer]:
+              - /url: /feed.xml
+        - generic [ref=e93] [cursor=pointer]: Portfolio
+        - text: ▸ ▸ ▸ ▸ ▸ ▸
