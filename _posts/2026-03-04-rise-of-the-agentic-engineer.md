@@ -28,23 +28,22 @@ In case you didn't hear, LLMs are kind of becoming a big deal. The world is real
 
 Recent big milestones:
 
-- Terminal-first agentic interfaces like Claude Code and Codex went mainstream
-- Cursor hit $1B ARR and shipped their own foundation model, Composer
-https://letsdatascience.com/blog/cursor-hit-2-billion-in-revenue-then-it-told-developers-to-stop-coding
-- Opus 4.5 and Codex 5.3 got good enough to handle vague input, and more ambitious tasks
-- Standards like MCP and Skills solidified, to provide abstractions that give more leverage when building
+- Terminal-first agentic interfaces like [Claude Code](https://composio.dev/content/claude-code-vs-openai-codex) and [Codex](https://www.builder.io/blog/codex-vs-claude-code) went mainstream
+- Cursor [hit $1B ARR](https://www.saastr.com/cursor-hit-1b-arr-in-17-months-the-fastest-b2b-to-scale-ever-and-its-not-even-close) and shipped their own foundation model, [Composer](https://letsdatascience.com/blog/cursor-hit-2-billion-in-revenue-then-it-told-developers-to-stop-coding)
+- [Opus 4.5](https://every.to/vibe-check/vibe-check-opus-4-5-is-the-coding-model-we-ve-been-waiting-for) and [Codex 5.3](https://medium.com/@unicodeveloper/claude-code-vs-codex-vs-opencode-which-ai-coding-agent-is-actually-the-best-in-2026-baa9f6fd5374) got good enough to handle vague input, and more ambitious tasks
+- Standards like [MCP](https://daily.dev/blog/mcp-model-context-protocol-why-developers-should-care) and [Skills](https://offthegridxp.substack.com/p/the-genius-of-anthropics-claude-agent-skills-2025) solidified, to provide abstractions that give more leverage when building
 
 ## The buzz online
 
 The consensus is that December 2025 was a turning point where LLMs exceeded junior/mid-level skilled engineers in their ability to deal with ambigious input and ability to take on complex tasks.
 
-- Mat Shumer "Something big is happening" blog details engineers handing over more responsibility to agents: https://shumer.dev/something-big-is-happening
-- Simon Willison says that engineers are reading less code, and how bottlenecks are shifting: https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/
-- Peter Steinberger (creator of viral AI project OpenClaw) coining the term 'agentic engineering'
+- Mat Shumer's ["Something big is happening"](https://shumer.dev/something-big-is-happening) details engineers handing over more responsibility to agents
+- Simon Willison on how engineers are [reading less code, and how bottlenecks are shifting](https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/)
+- Peter Steinberger (creator of viral AI project OpenClaw) [coining the term 'agentic engineering'](https://steipete.me/posts/just-talk-to-it)
 
 Individually, each of these is an indicator of the industry shifting quickly. Together, it shows a fundamental shift in how we build software.
 
-## It's more like designing more than coding
+## Designing and managing instead of coding
 
 It's a more mature version of vibe coding.
 
@@ -89,10 +88,10 @@ Because it's accurate — it describes what I actually do day to day, and also b
 
 ## Conclusion
 
-In a word that's increasingly consumed by software, Agentic Engineering is a significant technolgy shift I'd argue is as big as the invention of the the iPhone.
+In a word that's increasingly consumed by software, Agentic Engineering is a significant shift I'd argue is as big as the invention of the the iPhone.
 
-Much like object orientated it's a higher level of abstraction.
+Much like object orientated programming, agentic engineering is a higher level of abstraction that lets you think of bigger picture problems.
 
-It's a fundamental shift for the software engineering industry because software isn't the bottleneck anymore. Taste, judgement, and domain knowledge are most likely holding you back.
+It's a fundamental shift because software isn't the bottleneck anymore. Taste, judgement, and domain knowledge are most likely holding you back.
 
 If you're a startup or founder shipping something interesting and you want to move faster, get in touch — simonhfrost(at)gmail.com.
