@@ -106,8 +106,10 @@ body {
     border-right: none;
   }
 
-  // Let the animated background show through around the profile on mobile
-  .page-content > .wrapper {
+  // Let the animated background show through around the profile on mobile.
+  // Home only — post pages must keep their solid background so the article
+  // text stays readable over the static background image.
+  body:not(.post-body) .page-content > .wrapper {
     background: transparent;
   }
 
