@@ -14,6 +14,9 @@ body {
 
 .page-content > .wrapper {
   min-height: 100vh;
+  // Sit above the floating greeting so it only peeks out below this block
+  position: relative;
+  z-index: 1;
 }
 
 .wrapper {
@@ -220,7 +223,8 @@ body {
   bottom: 16px;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 1000;
+  // Behind the main content block so it only peeks out as you scroll to the end
+  z-index: 0;
   background: #fff;
   border: 3px solid grey;
   border-radius: 4px;
