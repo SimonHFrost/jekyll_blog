@@ -289,6 +289,18 @@ body {
     background-size: cover;
     background-position: center;
   }
+
+  // The animated background is only visible in the profile band on mobile.
+  // Constrain it to that band so the whole composition (and its movement)
+  // fits inside the visible area instead of being cropped off-screen.
+  .unicorn-background {
+    height: 60vh;
+    align-items: flex-start;
+  }
+
+  .unicorn-background > div {
+    height: 60vh !important;
+  }
 }
 
 a img[src="/assets/icons/external-link.svg"] {
