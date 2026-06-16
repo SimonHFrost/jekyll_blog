@@ -45,35 +45,31 @@ Individually, each of these is an indicator of the industry shifting quickly. Al
 
 ## Designing instead of coding
 
-Engineers don't code by typing any more, you describe the problem. It’s like managing an employee - talk to it about what you want, waiting, and giving feedback
+You don't code by typing any more, you describe the problem. It feels less like engineering and more like managing an employee - you talk about what you want, wait, then give feedback. Think of it as a more mature version of vibe coding.
 
-It's a more mature version of vibe coding.
+It's a skill like any other, and you have to learn to use it well. Expect a dip in productivity at first while you figure out how to prompt and configure your tooling. It works best on new or early projects, where there's less complexity and more public training material for the model to draw on.
 
-It’s a skill, you need to learn how to use it effectively. There’s a drop in productivity initially as you learn how to prompt and configure tooling, but
-It’s better with new or early projects - there’s generally less complexity and also better training material publicly available
-
-This is just the beginnning. You start with one agent, but tooling is improving to handle there’s potential for managing whole software engineering teams in the future.
-It has fundamentally changed coding workflows
+And this is just the beginning. Today you manage one agent, but the tooling is improving fast, and soon you'll be orchestrating whole engineering teams of them. It has already fundamentally changed the way I work.
 
 ![Levels](/assets/agentic-engineer/levels.png)
 
 ## Generalists win this round
 
-For twenty years, the bottleneck in software was implementation. Specialists won — the person who knew the framework deepest shipped fastest. The bottleneck is now judgment. What should we build? Does this UX make sense? Is this the right architecture? Coding was always a subset of building, and now the rest of building matters more.
+For twenty years, the bottleneck in software was implementation. Specialists won — the person who knew the framework deepest shipped fastest. Now the bottleneck is judgment. What should we build? Does this UX make sense? Is this the right architecture? Coding was always a subset of building, and now the rest of building matters more.
 
-This is the best news generalists have has had in a long time. As a classical front-end engineer, this gives me more time to focus on other parts of the business like devops, UX, and
+This is the best news a generalist has had in a long time. As a front-end engineer by trade, I spend less time typing components and more time on the parts of the business that actually move the needle - devops, UX, and talking to users.
 
 ## What about the slop?!
 
-The principles of writing good code haven't changed. Reviewing code is now more important than ever. Every line of code is a liability, by reducing lines of code and having good tests, you can still minimise the amount of bugs in production. Make it work > make it right > make it efficient.
+The principles of writing good code haven't changed, and reviewing it is more important than ever. Every line is a liability, so keep them few, lean on good tests, and you'll still keep bugs out of production. Make it work > make it right > make it efficient.
 
-Slop is a discipline problem, not a tooling problem. Best practices are still important to prevent hard to debug production issues, and maintaining development velocity.
+Slop is a discipline problem, not a tooling problem. Best practices still matter — they're what prevent hard-to-debug production issues and keep your velocity up.
 
 ## Cautious optimism
 
-Don't believe all the hype, attention grabbing headlines usually have alterior motives like engagement baiting or selling online courses.
+Don't believe all the hype. Attention-grabbing headlines usually have ulterior motives, like baiting engagement or selling you an online course.
 
-From my experience and from what clients tell me: it's at least 40% faster on real projects. There are cases on greenfield work, sometimes less on tangled legacy code. It's a real productivity gain, not a revolution and not a fad.
+From my own experience, and from what clients tell me, it's at least 40% faster on real projects. More on greenfield work, less on tangled legacy code. It's a genuine productivity gain — not a revolution, and not a fad.
 
 ## I'm rebranding
 
@@ -81,16 +77,14 @@ I'm updating my title to Full-Stack Agentic Engineer.
 
 I still ship full-stack applications every week. I just don't type the code anymore.
 
-Because it's accurate — it describes what I actually do day to day, and also because tech has always meant keeping up, and forward thinking. The last time I saw a shift this big was smartphones. Before that, the internet itself.
+It's accurate — it describes what I actually do day to day. And tech has always rewarded keeping up and thinking forward. The last time I saw a shift this big was smartphones; before that, the internet itself.
 
 <img class="business-card" src="/assets/agentic-engineer/business-card.png" alt="Business card">
 
 ## Conclusion
 
-In a word that's increasingly consumed by software, Agentic Engineering is a significant shift I'd argue is as big as the invention of the the iPhone.
+In a world increasingly consumed by software, agentic engineering is a shift I'd argue is as big as the iPhone. Much like object-oriented programming, it's a higher level of abstraction that frees you to think about bigger problems.
 
-Much like object orientated programming, agentic engineering is a higher level of abstraction that lets you think of bigger picture problems.
-
-It's a fundamental shift because software isn't the bottleneck anymore. Taste, judgement, and domain knowledge are most likely holding you back.
+It matters because software isn't the bottleneck anymore. Taste, judgement, and domain knowledge are what's holding you back now.
 
 If you're a startup or founder shipping something interesting and you want to move faster, get in touch — simonhfrost(at)gmail.com.
