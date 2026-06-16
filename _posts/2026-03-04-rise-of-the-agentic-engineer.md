@@ -76,7 +76,7 @@ Slop is a discipline problem, not a tooling problem. Best practices still matter
 
 ![Cautious optimism](/assets/agentic-engineer/cautious-optimism.png)
 
-Don't believe all the hype. Attention-grabbing headlines usually have monetary motives, like baiting engagement or selling you an online course.
+Don't believe *ALL* the hype. Attention-grabbing headlines usually have monetary motives, like baiting engagement or selling you an online course.
 
 From my experience and what clients tell me, it's feels~ 40% faster. Greenfield work is great - controlling it less yields better results as it picks sensible defaults. Legacy work is also amazing, migrations are way easier and summaries of complex architecture make build faster. It's a genuinely seems like a productivity gain across the board.
 
