@@ -96,8 +96,10 @@ This best describes what I do day to day. And tech has always rewarded keeping u
 
 ![Conclusion](/assets/agentic-engineer/conclusion.png)
 
-In a world increasingly consumed by software, agentic engineering is a shift I'd argue is as big as a shift in the industrial industry. Much like object-oriented programming, it's created a higher level of abstraction that frees you to think about bigger problems.
+Software isn't the bottleneck anymore. Now it's taste, judgement, and domain knowledge that are holding you back.
 
-It matters because software isn't the bottleneck anymore. Taste, judgement, and domain knowledge are what's holding you back. And in an increasingly software consuming world, humanity isn't prepared for the prosperity.
+Agentic engineering is a shift I think is as big as the shift of specialisation in the industrial industry.
+
+And for a world that's consuming more and more software, humanity isn't prepared for what's coming next
 
 If you're a startup or founder shipping something interesting and want to move faster, get in touch — simonhfrost(at)gmail.com.
