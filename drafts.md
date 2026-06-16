@@ -16,7 +16,7 @@ Works in progress. Not linked from anywhere — bookmark this page.
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       <span class="post-meta">{{ post.date | date: date_format }}</span>
       <h4>
-        <a class="post-link" href="{{ post.url | relative_url }}">
+        <a class="post-link" href="{{ post.url | remove: '.html' | relative_url }}">
           {{ post.title | escape }}
         </a>
       </h4>

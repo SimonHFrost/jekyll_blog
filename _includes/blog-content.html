@@ -8,7 +8,7 @@
     {%- assign read_time = words | divided_by: 200 | at_least: 1 -%}
     <span class="post-meta">{{ post.date | date: date_format }} · {{ read_time }} min read</span>
     <h4>
-      <a class="post-link" href="{{ post.url | relative_url }}">
+      <a class="post-link" href="{{ post.url | remove: '.html' | relative_url }}">
         {{ post.title | escape }}
       </a>
     </h4>
