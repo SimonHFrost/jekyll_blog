@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Rise of the agentic engineer"
-draft: true
 ---
 
 <style>
