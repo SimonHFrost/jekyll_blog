@@ -24,6 +24,8 @@ In this blog I'll summarise what Agentic Engineering is, explain why it's signif
 
 ## What changed
 
+![What changed](/assets/agentic-engineer/what-changed.png)
+
 In case you didn't hear, LLMs are kind of becoming a big deal. The world is realising software is a perfect candidate for the generative output text LLMs produce: there's a ton of training material from open source repositories, and the output is verifiable - if the app works then you can verify it's doing a good job.
 
 Recent big milestones:
@@ -35,6 +37,8 @@ Recent big milestones:
 
 ## The buzz online
 
+![The buzz online](/assets/agentic-engineer/buzz-online.png)
+
 December 2025 was a turning point where LLMs exceeded junior/mid-level skilled engineers in their ability to deal with ambigious input and take on complex tasks.
 
 - Mat Shumer's ["Something big is happening"](https://shumer.dev/something-big-is-happening) details engineers handing over more responsibility to agents
@@ -44,6 +48,8 @@ December 2025 was a turning point where LLMs exceeded junior/mid-level skilled e
 Individually, each of these is an indicator of the industry shifting quickly. Altogether, it shows a fundamental shift in the future of building software.
 
 ## Designing instead of coding
+
+![Designing instead of coding](/assets/agentic-engineer/designing.png)
 
 You don't code by typing any more, you describe the problem. It feels less like engineering and more like managing an employee - you talk about what you want, wait, then give feedback. Think of it as a more mature version of vibe coding.
 
@@ -55,11 +61,15 @@ And this is just the beginning. Today you manage one agent, but the tooling is i
 
 ## Generalists win this round
 
+![Generalists win this round](/assets/agentic-engineer/generalists.png)
+
 For twenty years, the bottleneck in software was implementation. Specialists won — the person who knew the framework deepest shipped fastest. Now the bottleneck is judgment. What should we build? Does this UX make sense? Is this the right architecture? Coding was always a subset of building, and now the rest of building matters more.
 
 This is the best news a generalist has had in a long time. As a front-end engineer by trade, I spend less time typing components and more time on the parts of the business that actually move the needle - devops, UX, and talking to users.
 
 ## What about the slop?!
+
+![What about the slop?!](/assets/agentic-engineer/slop.png)
 
 The principles of writing good code haven't changed, and reviewing it is more important than ever. Every line is a liability, so keep them few, lean on good tests, and you'll still keep bugs out of production. Make it work > make it right > make it efficient.
 
@@ -67,11 +77,15 @@ Slop is a discipline problem, not a tooling problem. Best practices still matter
 
 ## Cautious optimism
 
+![Cautious optimism](/assets/agentic-engineer/cautious-optimism.png)
+
 Don't believe all the hype. Attention-grabbing headlines usually have ulterior motives, like baiting engagement or selling you an online course.
 
 From my own experience, and from what clients tell me, it's at least 40% faster on real projects. More on greenfield work, less on tangled legacy code. It's a genuine productivity gain — not a revolution, and not a fad.
 
 ## I'm rebranding
+
+![I'm rebranding](/assets/agentic-engineer/rebranding.png)
 
 I'm updating my title to Full-Stack Agentic Engineer.
 
@@ -82,6 +96,8 @@ It's accurate — it describes what I actually do day to day. And tech has alway
 <img class="business-card" src="/assets/agentic-engineer/business-card.png" alt="Business card">
 
 ## Conclusion
+
+![Conclusion](/assets/agentic-engineer/conclusion.png)
 
 In a world increasingly consumed by software, agentic engineering is a shift I'd argue is as big as the iPhone. Much like object-oriented programming, it's a higher level of abstraction that frees you to think about bigger problems.
 
