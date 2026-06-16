@@ -141,7 +141,7 @@ body {
 }
 
 .tabs__radio:not(:checked) + .tabs__label {
-  border-bottom: solid 2px grey;
+  border-bottom: solid 3px grey;
 }
 
 .tabs__radio:checked + .tabs__label + .tabs__content {
