@@ -18,21 +18,21 @@ draft: true
 }
 </style>
 
-Shipping software has fundamentally changed. 'Agentic engineering' is taking over, and software engineer's responsibilities have shifted significantly.
+Shipping software has fundamentally changed. Agentic engineering is taking over, and software engineer's responsibilities have shifted significantly.
 
-In this blog I'll summarise what Agentic Engineering is, explain why it's significant, and why it's beneficial for everyone.
+In this blog I'll summarise what Agentic Engineering is, why it's significant, and why it's beneficial for everyone.
 
 ## What changed
 
 ![What changed](/assets/agentic-engineer/what-changed.png)
 
-In case you didn't hear, LLMs are kind of becoming a big deal. The world is realising software is a perfect candidate for the generative output text LLMs produce: there's a ton of training material from open source repositories, and the output is verifiable - if the app works then you can verify it's doing a good job.
+In case you didn't hear, LLMs are kind of a big deal. The world is realising software is a perfect candidate for the generative output text LLMs produce. There's a ton of training material from open source repositories, and the output is verifiable - if the app works then you can somewhat verify it's doing a good job.
 
-Recent big milestones:
+Recent milestones (in the last 6 months!):
 
 - Terminal-first agentic interfaces like [Claude Code](https://serpsculpt.com/claude-code-usage-statistics/) and [Codex](https://codex.danielvaughan.com/2026/04/09/codex-3-million-users-growth-usage-limits/) went mainstream
-- Cursor [hit $1B ARR](https://www.saastr.com/cursor-hit-1b-arr-in-17-months-the-fastest-b2b-to-scale-ever-and-its-not-even-close) and shipped their own foundation model, [Composer](https://letsdatascience.com/blog/cursor-hit-2-billion-in-revenue-then-it-told-developers-to-stop-coding)
-- [Opus 4.5](https://every.to/vibe-check/vibe-check-opus-4-5-is-the-coding-model-we-ve-been-waiting-for) and [Codex 5.3](https://medium.com/@unicodeveloper/claude-code-vs-codex-vs-opencode-which-ai-coding-agent-is-actually-the-best-in-2026-baa9f6fd5374) got good enough to handle vague input, and more ambitious tasks
+- Cursor [hit $2B ARR](https://letsdatascience.com/blog/cursor-hit-2-billion-in-revenue-then-it-told-developers-to-stop-coding) and shipped their own foundation model, [Composer 2](https://siliconangle.com/2026/03/19/vibe-coding-startup-cursor-launches-programming-optimized-composer-2-model/)
+- [Opus 4.6](https://techcrunch.com/2026/02/05/anthropic-releases-opus-4-6-with-new-agent-teams/) and [Codex 5.3](https://medium.com/@unicodeveloper/claude-code-vs-codex-vs-opencode-which-ai-coding-agent-is-actually-the-best-in-2026-baa9f6fd5374) got good enough to handle vague input, and more ambitious tasks
 - Standards like [MCP](https://daily.dev/blog/mcp-model-context-protocol-why-developers-should-care) and [Skills](https://offthegridxp.substack.com/p/the-genius-of-anthropics-claude-agent-skills-2025) solidified, to provide abstractions that give more leverage when building
 
 ## The buzz online
@@ -57,8 +57,6 @@ It's a skill like any other, and you have to learn to use it well. Expect a dip 
 
 And this is just the beginning. Today you manage one agent, but the tooling is improving fast, and soon you'll be orchestrating whole engineering teams of them. It has already fundamentally changed the way I work.
 
-![Levels](/assets/agentic-engineer/levels.png)
-
 ## Generalists win this round
 
 ![Generalists win this round](/assets/agentic-engineer/generalists.png)
@@ -79,19 +77,19 @@ Slop is a discipline problem, not a tooling problem. Best practices still matter
 
 ![Cautious optimism](/assets/agentic-engineer/cautious-optimism.png)
 
-Don't believe all the hype. Attention-grabbing headlines usually have ulterior motives, like baiting engagement or selling you an online course.
+Don't believe all the hype. Attention-grabbing headlines usually have monetary motives, like baiting engagement or selling you an online course.
 
-From my own experience, and from what clients tell me, it's at least 40% faster on real projects. More on greenfield work, less on tangled legacy code. It's a genuine productivity gain — not a revolution, and not a fad.
+From my experience and what clients tell me, it's feels~ 40% faster. Greenfield work is great - controlling it less yields better results as it picks sensible defaults. Legacy work is also amazing, migrations are way easier and summaries of complex architecture make build faster. It's a genuinely seems like a productivity gain across the board.
 
 ## I'm rebranding
 
 ![I'm rebranding](/assets/agentic-engineer/rebranding.png)
 
-I'm updating my title to Full-Stack Agentic Engineer.
+I'm updating my identity to Full-Stack Agentic Engineer.
 
 I still ship full-stack applications every week. I just don't type the code anymore.
 
-It's accurate — it describes what I actually do day to day. And tech has always rewarded keeping up and thinking forward. The last time I saw a shift this big was smartphones; before that, the internet itself.
+This best describes what I do day to day. And tech has always rewarded keeping up and thinking forward. The last time I saw a shift this big was smartphones; before that, the internet itself.
 
 <img class="business-card" src="/assets/agentic-engineer/business-card.png" alt="Business card">
 
@@ -99,7 +97,7 @@ It's accurate — it describes what I actually do day to day. And tech has alway
 
 ![Conclusion](/assets/agentic-engineer/conclusion.png)
 
-In a world increasingly consumed by software, agentic engineering is a shift I'd argue is as big as the iPhone. Much like object-oriented programming, it's a higher level of abstraction that frees you to think about bigger problems.
+In a world increasingly consumed by software, agentic engineering is a shift I'd argue is as big as a shift in the industrial industry. Much like object-oriented programming, it's a higher level of abstraction that frees you to think about bigger problems.
 
 It matters because software isn't the bottleneck anymore. Taste, judgement, and domain knowledge are what's holding you back now.
 
