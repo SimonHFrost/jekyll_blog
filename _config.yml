@@ -26,6 +26,9 @@ url: "https://simonfrost.ai" # the base hostname & protocol for your site, e.g. 
 linkedin_username: simonhfrost
 github_username: simonhfrost
 
+# Clean, extensionless post URLs (e.g. /2026/03/04/title/ instead of ...title.html)
+permalink: pretty
+
 defaults:
   - scope:
       path: ""
