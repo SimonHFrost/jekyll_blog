@@ -11,7 +11,7 @@ permalink: /portfolio/
 }
 
 .profile-container img {
-    border: 2px solid #ED1C24;
+    border: 3px solid #ED1C24;
     max-width: 100000px;
     margin-right: 16px;
 }
@@ -22,7 +22,7 @@ permalink: /portfolio/
 
 @media (max-width: 768px) {
     .profile-summary > p:last-child {
-        margin-bottom: 16px;
+        margin-bottom: 0;
     }
 
     .mobile-only {
@@ -40,6 +40,14 @@ permalink: /portfolio/
     .profile-container img {
         margin: 0px;
         margin-bottom: 16px;
+    }
+
+    .profile-summary {
+        background: #fff;
+        border: 3px solid #778183;
+        padding: 16px 20px;
+        margin-bottom: 24px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
     }
 }
 
