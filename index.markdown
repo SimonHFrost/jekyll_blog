@@ -46,6 +46,7 @@ list_title: "Latest Posts"
         background: #fff;
         border: 2px solid #778183;
         padding: 16px 20px;
+        margin-bottom: 24px;
         box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
     }
 }
