@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Rise of the agentic engineer"
+draft: true
 ---
 
 <style>
@@ -30,8 +31,8 @@ In case you didn't hear, LLMs are kind of a big deal. The world is realising sof
 Recent milestones (in the last 6 months!):
 
 - Terminal-first agentic interfaces like [Claude Code](https://serpsculpt.com/claude-code-usage-statistics/) and [Codex](https://codex.danielvaughan.com/2026/04/09/codex-3-million-users-growth-usage-limits/) went mainstream
-- Cursor [hit $2B ARR](https://letsdatascience.com/blog/cursor-hit-2-billion-in-revenue-then-it-told-developers-to-stop-coding) and shipped their own foundation model, [Composer 2](https://siliconangle.com/2026/03/19/vibe-coding-startup-cursor-launches-programming-optimized-composer-2-model/)
-- [Opus 4.6](https://techcrunch.com/2026/02/05/anthropic-releases-opus-4-6-with-new-agent-teams/) and [Codex 5.3](https://medium.com/@unicodeveloper/claude-code-vs-codex-vs-opencode-which-ai-coding-agent-is-actually-the-best-in-2026-baa9f6fd5374) got good enough to handle vague input, and more ambitious tasks
+- Cursor [hit $1B ARR](https://www.saastr.com/cursor-hit-1b-arr-in-17-months-the-fastest-b2b-to-scale-ever-and-its-not-even-close) and shipped their own foundation model, [Composer](https://letsdatascience.com/blog/cursor-hit-2-billion-in-revenue-then-it-told-developers-to-stop-coding)
+- [Opus 4.5](https://every.to/vibe-check/vibe-check-opus-4-5-is-the-coding-model-we-ve-been-waiting-for) and [Codex 5.3](https://medium.com/@unicodeveloper/claude-code-vs-codex-vs-opencode-which-ai-coding-agent-is-actually-the-best-in-2026-baa9f6fd5374) got good enough to handle vague input, and more ambitious tasks
 - Standards like [MCP](https://daily.dev/blog/mcp-model-context-protocol-why-developers-should-care) and [Skills](https://offthegridxp.substack.com/p/the-genius-of-anthropics-claude-agent-skills-2025) solidified, to provide abstractions that give more leverage when building
 
 ## The buzz online
@@ -44,7 +45,7 @@ December 2025 was a turning point where LLMs exceeded junior/mid-level skilled e
 - Simon Willison on how engineers are [reading less code, and how bottlenecks are shifting](https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/)
 - Peter Steinberger (creator of viral AI project OpenClaw) [coining the term 'agentic engineering'](https://steipete.me/posts/just-talk-to-it)
 
-Individually, each of these is an indicator of the industry shifting quickly. Altogether, it shows a fundamental shift in the future of building software.
+Each of these indicate the industry shifting quickly. Altogether, it shows a fundamental shift in the future of building software.
 
 ## Designing instead of coding
 
@@ -56,35 +57,37 @@ It's a skill like any other, and you have to learn to use it well. Expect a dip 
 
 And this is just the beginning. Today you manage one agent, but the tooling is improving fast, and soon you'll be orchestrating whole engineering teams of them. It has already fundamentally changed the way I work.
 
+![Levels](/assets/agentic-engineer/levels.png)
+
 ## Generalists win this round
 
 ![Generalists win this round](/assets/agentic-engineer/generalists.png)
 
-For twenty years, the bottleneck in software was implementation. Specialists won — the person who knew the framework deepest shipped fastest. Now the bottleneck is judgment. What should we build? Does this UX make sense? Is this the right architecture? Coding was always a subset of building, and now the rest of building matters more.
+For twenty years, the bottleneck in software was implementation. Specialists won - the person who knew the framework deepest shipped fastest. Now the bottleneck is judging what to build. Does this UX make sense? Is this the right architecture? Coding was always a subset of building, and now the rest of building matters more.
 
-This is the best news a generalist has had in a long time. As a front-end engineer by trade, I spend less time typing components and more time on the parts of the business that actually move the needle - devops, UX, and talking to users.
+As a front-end engineer by trade, I spend less time typing components and more time on wholistic parts of the business - devops, UX, and talking to users.
 
 ## What about the slop?!
 
 ![What about the slop?!](/assets/agentic-engineer/slop.png)
 
-The principles of writing good code haven't changed, and reviewing it is more important than ever. Every line is a liability, so keep them few, lean on good tests, and you'll still keep bugs out of production. Make it work > make it right > make it efficient.
+The principles of writing good code haven't changed, reviewing it is more important than ever. Every line is a liability, so follow good practices and automate testing.
 
-Slop is a discipline problem, not a tooling problem. Best practices still matter — they're what prevent hard-to-debug production issues and keep your velocity up.
+Make it work > make it right > make it efficient.
 
 ## Cautious optimism
 
 ![Cautious optimism](/assets/agentic-engineer/cautious-optimism.png)
 
-Don't believe *ALL* the hype. Attention-grabbing headlines usually have monetary motives, like baiting engagement or selling you an online course.
+Don't believe ALL the hype. Attention-grabbing headlines usually have monetary motives, like baiting engagement or selling you an online course.
 
-From my experience and what clients tell me, it's feels~ 40% faster. Greenfield work is great - controlling it less yields better results as it picks sensible defaults. Legacy work is also amazing, migrations are way easier and summaries of complex architecture make build faster. It's a genuinely seems like a productivity gain across the board.
+What clients tell me, it's feels~ 40% faster. Greenfield work is great - controlling it less yields better results as it picks sensible defaults. Legacy work is also amazing, migrations are way easier and summaries of complex architecture make build faster. It's a genuinely seems like a productivity gain across the board.
 
 ## I'm rebranding
 
 ![I'm rebranding](/assets/agentic-engineer/rebranding.png)
 
-I'm updating my identity to Full-Stack Agentic Engineer.
+My identity is updating to Full-Stack Agentic Engineer.
 
 I still ship full-stack applications every week. I just don't type the code anymore.
 
@@ -96,8 +99,8 @@ This best describes what I do day to day. And tech has always rewarded keeping u
 
 ![Conclusion](/assets/agentic-engineer/conclusion.png)
 
-In a world increasingly consumed by software, agentic engineering is a shift I'd argue is as big as a shift in the industrial industry. Much like object-oriented programming, it's a higher level of abstraction that frees you to think about bigger problems.
+In a world increasingly consumed by software, agentic engineering is a shift I'd argue is as big as a shift in the industrial industry. Much like object-oriented programming, it's created a higher level of abstraction that frees you to think about bigger problems.
 
-It matters because software isn't the bottleneck anymore. Taste, judgement, and domain knowledge are what's holding you back now.
+It matters because software isn't the bottleneck anymore. Taste, judgement, and domain knowledge are what's holding you back. And in an increasingly software consuming world, humanity isn't prepared for the prosperity.
 
-If you're a startup or founder shipping something interesting and you want to move faster, get in touch — simonhfrost(at)gmail.com.
+If you're a startup or founder shipping something interesting and want to move faster, get in touch — simonhfrost(at)gmail.com.
