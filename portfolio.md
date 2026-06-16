@@ -117,7 +117,7 @@ permalink: /portfolio/
     </div>
 
     <div class="profile-summary">
-        <p style="margin-bottom: 0; font-weight: bold;">Freelance Full Stack Engineer</p>
+        <p style="margin-bottom: 0; font-weight: bold;">Full-Stack Agentic Engineer</p>
         <p style="margin-bottom: 0;">🇲🇽 Mexico City</p>
         <p style="margin-bottom: 0;">AI, design, and community</p>
         <p class="mobile-only mobile-email">✉️ simonhfrost(at)gmail.com</p>
