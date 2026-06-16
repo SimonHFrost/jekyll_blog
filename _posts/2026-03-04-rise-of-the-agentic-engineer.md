@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Rise of the agentic engineer"
+description: "Shipping software has fundamentally changed. What agentic engineering is, why it matters, and what it means for engineers, founders, and everyone building."
+image: /assets/agentic-engineer/what-changed.png
 ---
 
 <style>
@@ -100,6 +102,6 @@ Software isn't the bottleneck anymore. Now it's taste, judgement, and domain kno
 
 Agentic engineering is a shift I think is as big as the shift of specialisation in the industrial industry.
 
-And for a world that's consuming more and more software, humanity isn't prepared for what's coming next
+And for a world that's consuming more and more software, humanity isn't prepared for what's coming next.
 
 If you're a startup or founder shipping something interesting and want to move faster, get in touch — simonhfrost(at)gmail.com.

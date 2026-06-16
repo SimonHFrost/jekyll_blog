@@ -25,8 +25,18 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://simonfrost.ai" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: simonhfrost
 github_username: simonhfrost
+description: >-
+  Full-Stack Agentic Engineer. Faster shipping, same standards.
+twitter:
+  card: summary_large_image
 
 defaults:
+  # Default social-share image for every page; seo-tag resolves it to an
+  # absolute URL. Per-page `image:` front matter overrides this.
+  - scope:
+      path: ""
+    values:
+      image: /assets/profile-picture-2026.jpg
   - scope:
       path: ""
       type: posts
