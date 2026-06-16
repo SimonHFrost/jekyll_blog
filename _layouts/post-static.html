@@ -10,10 +10,9 @@
     {%- include header.html -%}
 
     <main class="page-content" aria-label="Content">
-      <div class="wrapper background-block-color">
-        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
-          <header class="post-header">
+      <div class="post-hero">
+        <header class="post-header">
+          <div class="post-header-box">
             <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
             <p class="post-meta">
               <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -26,7 +25,11 @@
               {%- if page.author -%}
                 • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
               {%- endif -%}</p>
-          </header>
+          </div>
+        </header>
+      </div>
+      <div class="wrapper background-block-color">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
           <div class="post-content e-content" itemprop="articleBody">
             {{ content }}
@@ -49,6 +52,45 @@
       .post-body .page-content > .wrapper {
         margin-bottom: 25vh;
         border-bottom: 3px solid grey;
+      }
+
+      /* Transparent hero so the background shows around a small white title card */
+      .post-hero {
+        text-align: center;
+        padding: 56px 15px;
+      }
+
+      .post-hero .post-header {
+        margin: 0;
+      }
+
+      .post-header-box {
+        display: inline-block;
+        background: #fff;
+        padding: 14px 28px;
+        border-radius: 6px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+      }
+
+      .post-header-box .post-title {
+        font-size: 28px;
+        line-height: 1.2;
+        margin: 0;
+      }
+
+      .post-header-box .post-meta {
+        margin: 6px 0 0;
+        font-size: 13px;
+      }
+
+      @media (max-width: 768px) {
+        .post-hero {
+          padding: 32px 15px;
+        }
+
+        .post-header-box .post-title {
+          font-size: 22px;
+        }
       }
 
       .static-background {
