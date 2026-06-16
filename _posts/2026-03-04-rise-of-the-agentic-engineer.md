@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Rise of the agentic engineer"
-draft: true
 ---
 
 <style>
@@ -56,8 +55,6 @@ You don't code by typing any more, you describe the problem. It feels less like 
 It's a skill like any other, and you have to learn to use it well. Expect a dip in productivity at first while you figure out how to prompt and configure your tooling. It works best on new or early projects, where there's less complexity and more public training material for the model to draw on.
 
 And this is just the beginning. Today you manage one agent, but the tooling is improving fast, and soon you'll be orchestrating whole engineering teams of them. It has already fundamentally changed the way I work.
-
-![Levels](/assets/agentic-engineer/levels.png)
 
 ## Generalists win this round
 
