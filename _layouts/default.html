@@ -35,6 +35,44 @@
       }
 
       detectBrowser();
+
+      // On mobile, size the animated background to exactly fill the gap
+      // between the header and the Blog/Portfolio tabs, and crop the weird
+      // bottom 10% of the animation by over-sizing the inner canvas.
+      function fitAnimatedBackground() {
+        var bg = document.getElementById('animatedBg');
+        var inner = bg ? bg.querySelector('div') : null;
+        var header = document.querySelector('.site-header');
+        var tabs = document.querySelector('.tabs');
+        var isMobile = window.innerWidth <= 768;
+
+        if (!isMobile || !bg || !inner || !header || !tabs) {
+          return;
+        }
+
+        var headerBottom = header.getBoundingClientRect().bottom + window.scrollY;
+        var tabsTop = tabs.getBoundingClientRect().top + window.scrollY;
+        var gap = tabsTop - headerBottom;
+        if (gap <= 0) {
+          return;
+        }
+
+        // Position the background in the gap and match its height exactly.
+        bg.style.top = headerBottom + 'px';
+        bg.style.height = gap + 'px';
+        bg.style.alignItems = 'flex-start';
+        // Over-size the canvas so only the top 90% shows (bottom 10% clipped).
+        inner.style.setProperty('height', (gap / 0.9) + 'px', 'important');
+      }
+
+      window.addEventListener('load', fitAnimatedBackground);
+      window.addEventListener('resize', fitAnimatedBackground);
+      document.addEventListener('DOMContentLoaded', function () {
+        fitAnimatedBackground();
+        // Re-fit after the animation canvas has had time to initialise.
+        setTimeout(fitAnimatedBackground, 300);
+        setTimeout(fitAnimatedBackground, 1200);
+      });
     </script>
 
     {%- include header.html -%}
