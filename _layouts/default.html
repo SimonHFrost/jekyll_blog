@@ -61,8 +61,8 @@
         bg.style.top = headerBottom + 'px';
         bg.style.height = gap + 'px';
         bg.style.alignItems = 'flex-start';
-        // Over-size the canvas so only the top 90% shows (bottom 10% clipped).
-        inner.style.setProperty('height', (gap / 0.9) + 'px', 'important');
+        // Over-size the canvas so only the top 75% shows (bottom 25% clipped).
+        inner.style.setProperty('height', (gap / 0.75) + 'px', 'important');
       }
 
       window.addEventListener('load', fitAnimatedBackground);
