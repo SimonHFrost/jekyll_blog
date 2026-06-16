@@ -14,7 +14,6 @@ permalink: /portfolio/
     border: 3px solid #ED1C24;
     max-width: 100000px;
     margin-right: 16px;
-    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
 }
 
 .profile-summary > p:last-child {
@@ -41,6 +40,7 @@ permalink: /portfolio/
     .profile-container img {
         margin: 0px;
         margin-bottom: 16px;
+        box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
     }
 
     .profile-summary {

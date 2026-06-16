@@ -14,7 +14,6 @@ list_title: "Latest Posts"
     border: 3px solid #778183;
     max-width: 100000px;
     margin-left: 16px;
-    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
 }
 
 .profile-summary > p:last-child {
@@ -41,6 +40,7 @@ list_title: "Latest Posts"
     .profile-container img {
         margin: 0px;
         margin-bottom: 16px;
+        box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
     }
 
     .profile-summary {
