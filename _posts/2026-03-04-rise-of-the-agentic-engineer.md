@@ -60,7 +60,7 @@ And this is just the beginning. Today you manage one agent, but the tooling is i
 
 ![Generalists win this round](/assets/agentic-engineer/generalists.png)
 
-For twenty years, the bottleneck in software was implementation. Specialists won - the person who knew the framework deepest shipped fastest. Now the bottleneck is judging what to build. Does this UX make sense? Is this the right architecture? Coding was always a subset of building, and now the rest of building matters more.
+For twenty years, the bottleneck in software was implementation. Specialists won, the person who knew the framework deepest shipped fastest. Now the bottleneck is judging what to build. Does this UX make sense? Is this the right architecture? Coding was always a subset of building, and now the rest of building matters more.
 
 As a front-end engineer by trade, I spend less time typing components and more time on wholistic parts of the business - devops, UX, and talking to users.
 
