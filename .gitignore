@@ -4,3 +4,9 @@ _site
 .jekyll-metadata
 vendor
 .DS_Store
+
+# Playwright MCP artifacts
+.playwright-mcp/
+fixed-preview.png
+full-scene.png
+simonfrost-mobile.png
