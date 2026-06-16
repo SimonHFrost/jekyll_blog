@@ -40,7 +40,10 @@ body {
   display: flex;
   flex-direction: row;
   height: 3px;
-  width: 100%;
+  // Bleed out past the wrapper's 15px padding so the line reaches the page edges
+  width: auto;
+  margin-left: -15px;
+  margin-right: -15px;
 
   .color1 {
     background-color: #ED1C24;
