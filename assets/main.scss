@@ -234,6 +234,11 @@ body {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
+// On the home page, make the greeting container twice as big (text unchanged)
+body:not(.post-body) .floating-greeting {
+  padding: 8px 96px;
+}
+
 .portfolio-image-row.left {
   justify-content: flex-start;
   margin-bottom: 32px;
