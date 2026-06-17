@@ -98,6 +98,8 @@ This is a more accurate description of my role, and tech has always been about l
 
 ![Conclusion](/assets/agentic-engineer/conclusion.png)
 
-Software isn't the bottleneck anymore. It's taste, judgement, and domain knowledge that are holding you back. Make sure you're staying ahead.
+Software isn't the bottleneck anymore. It's taste, judgement, and domain knowledge that are holding you back. As an eternal optimist in a world where software consumption is ever increasing, I'm excited for humanities unexpected future.
+
+Make sure you're staying ahead.
 
 If you're a startup or founder shipping something interesting and want to move faster, while keeping the same high standards, get in touch — simonhfrost(at)gmail.com.
