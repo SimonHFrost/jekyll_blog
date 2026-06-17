@@ -86,9 +86,7 @@ From what clients tell me, it feels ~40% faster. Greenfield work is great — co
 
 ![I'm rebranding](/assets/agentic-engineer/rebranding.png)
 
-I'm updating my identity to Full-Stack Agentic Engineer.
-
-I still ship full-stack code, I just don't type it manually anymore.
+I'm updating my identity to Full-Stack Agentic Engineer. I still ship full-stack code, I just don't type it manually anymore.
 
 This is a more accurate description of my role, and tech has always been about looking forward. Especially when the shift is as big as specialisation in the industrial age.
 
