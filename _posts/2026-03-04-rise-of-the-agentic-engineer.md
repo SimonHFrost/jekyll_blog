@@ -88,9 +88,9 @@ What clients tell me, it's feels~ 40% faster. Greenfield work is great - control
 
 I'm updating my identity to Full-Stack Agentic Engineer.
 
-I still ship full-stack applications every week. I just don't type the code anymore.
+I still ship full-stack code, I just don't type it manually anymore.
 
-This best describes what I do day to day. And tech has always rewarded keeping up and thinking forward. The last time I saw a shift this big was smartphones; before that, the internet itself.
+This is a more accurate description of my role, and tech has always been about looking forward. Especially when the shift is as big as specialisation in the industrial age.
 
 <img class="business-card" src="/assets/agentic-engineer/business-card.png" alt="Business card">
 
