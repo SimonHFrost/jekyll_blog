@@ -98,10 +98,6 @@ This best describes what I do day to day. And tech has always rewarded keeping u
 
 ![Conclusion](/assets/agentic-engineer/conclusion.png)
 
-Software isn't the bottleneck anymore. Now it's taste, judgement, and domain knowledge that are holding you back.
+Software isn't the bottleneck anymore. It's taste, judgement, and domain knowledge that are holding you back. Make sure you're staying ahead.
 
-Agentic engineering is a shift I think is as big as the shift of specialisation in the industrial industry.
-
-And for a world that's consuming more and more software, humanity isn't prepared for what's coming next.
-
-If you're a startup or founder shipping something interesting and want to move faster, get in touch — simonhfrost(at)gmail.com.
+If you're a startup or founder shipping something interesting and want to move faster, while keeping the same high standards, get in touch — simonhfrost(at)gmail.com.
