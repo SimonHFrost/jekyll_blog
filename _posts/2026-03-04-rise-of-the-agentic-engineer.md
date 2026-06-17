@@ -80,13 +80,13 @@ Make it work > make it right > make it efficient.
 
 Don't believe ALL the hype. Attention-grabbing headlines usually have monetary motives, like baiting engagement or selling you an online course.
 
-What clients tell me, it's feels~ 40% faster. Greenfield work is great - controlling it less yields better results as it picks sensible defaults. Legacy work is also amazing, migrations are way easier and summaries of complex architecture make build faster. It's a genuinely seems like a productivity gain across the board.
+What clients tell me, it's feels~ 40% faster. Greenfield work is great - controlling it less yields better results as it picks sensible defaults. Legacy work is also amazing, migrations are way easier and summaries of complex architecture make building faster. It's a genuinely seems like a productivity gain across the board.
 
 ## I'm rebranding
 
 ![I'm rebranding](/assets/agentic-engineer/rebranding.png)
 
-My identity is updating to Full-Stack Agentic Engineer.
+I'm updating my identity to Full-Stack Agentic Engineer.
 
 I still ship full-stack applications every week. I just don't type the code anymore.
 
