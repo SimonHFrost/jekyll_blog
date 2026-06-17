@@ -119,7 +119,7 @@ permalink: /portfolio/
     <div class="profile-summary">
         <p style="margin-bottom: 0; font-weight: bold;">Full-Stack Agentic Engineer</p>
         <p style="margin-bottom: 0;">🇲🇽 Mexico City</p>
-        <p style="margin-bottom: 0;">AI, design, and community</p>
+        <p style="margin-bottom: 0;">Move faster with the same high standards.</p>
         <p class="mobile-only mobile-email">✉️ simonhfrost(at)gmail.com</p>
         <!-- <p style="margin-bottom: 0;">Keen to chat about a collaboration, or just to catch up?</p> -->
     </div>
