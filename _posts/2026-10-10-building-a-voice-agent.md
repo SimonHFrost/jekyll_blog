@@ -2,38 +2,55 @@
 layout: post
 title: "Building a voice agent"
 description: "What building a coaching assistant taught me about design, verification, and faster feedback loops with coding agents."
+image: /assets/building-a-voice-agent/voice-conversation.png
 draft: true
 noindex: true
 ---
 
-Are you a software engineer in 2026 if you haven't built a chatbot? This year I worked with a client to build a voice coaching assistant. The project showed me how my process has changed since I started using coding agents: implementation is faster, so design, verification, and feedback loops matter even more.
+![A person speaking into a flowing voice interface](/assets/building-a-voice-agent/voice-conversation.png)
 
-## Design is more important than ever
+Are you a software engineer in 2026 if you haven’t built a chatbot? This year I worked with a client to build a coaching assistant. It highlighted how my process building software has changed since using coding agents, and why design, verification, and loops are more important than ever.
 
-A product requirements document (PRD) is a useful way to capture what you want to build and why. Traditionally, it's how teams and stakeholders get on the same page. It also turns out to be a good way to communicate with a coding agent.
+## Design is more important than ever...
 
-There's no single best format. A useful PRD answers a few questions: Who is the user? What problem are they trying to solve? What experience do we want to give them? And what are we assuming will work?
+![A hand drawing a path through a changing landscape](/assets/building-a-voice-agent/design.png)
 
-The last question is the one I find most valuable. A PRD is a chance to identify the unknowns before an agent starts building around them. For the coaching assistant, I was worried about latency. If someone had to wait too long for a spoken reply, the conversation would stop feeling like a conversation. We also needed to learn how people wanted to see, correct, and confirm a transcription. Those were product questions, not just implementation details.
+Product Requirement Documents (PRDs) are useful to capture the intent behind what you want to build. Traditionally they’re great for communicating between larger teams and stakeholders, now also surprisingly good at communicating to your coding agent.
 
-## Verification is more important than ever
+There’s no single best format for PRDs. It should capture the needs of your users: what is the problem you’re trying to solve? And what’s your proposed solution?
 
-Coding agents can produce changes quickly. That only helps if you can tell whether those changes improved the product. Without quick, reliable feedback, you end up with a queue of open PRs and a lot of polished-looking slop.
+PRDs are a perfect time to identify your biggest unknowns and critical components. What are the biggest assumptions you have, and what if it’s not what you expect? If you don’t know the answers to this, howour agent to?
 
-For us, that meant daily TestFlight releases and a simple way to report and track feedback. We wanted the coach to use the app often enough that awkward pauses, confusing transcription states, and unnatural replies surfaced while we could still change them.
+I was building a coaching agent for a client, so I was worried about latency: if the chatbot didn’t respond quickly enough the experience would suddenly not feel ‘conversational’ and unusable. We also wanted to iterate on UX around transcription and confirmation.
 
-We also separated some verification from the app release cycle. The coach's system prompt was loaded through [Langfuse Prompt Management](https://langfuse.com/docs/prompt-management/get-started), so the team could adjust and test the assistant's behaviour without waiting for another build. Langfuse also helped us inspect agent calls when a response didn't behave as expected.
+## Verification is more important than ever...
 
-## Make the loop faster
+![A magnifying glass inspecting the result](/assets/building-a-voice-agent/verification.png)
 
-Once we could describe the intended experience and get feedback on it, we could focus on the loop that mattered most: make a change, put it in someone's hands, and see whether a voice conversation felt natural.
+Coding agents have drastically sped up building, verification is even more important! If you can’t get quick, reliable feedback, then you lose with open PRs, or SLOP. For us this meant daily TestFlight releases, and a simple way to report and track feedback.
 
-The original voice pipeline had three stages: speech-to-text, an LLM response, and text-to-speech. Each stage added a delay, and the pauses between turns felt much longer to a person speaking than they did on an architecture diagram. Keeping the stages separate gave us control over transcription, the model, and the voice, but it also gave us more places to wait and more transitions to tune.
+One hack is to de-couple verification steps from your regular build cycle. Configuration like the coaches’ system prompt was dynamically loaded externally so the team was able to verify behaviour without waiting for another release. We used langfuse.com’s ‘Prompt Management’ feature to load this.
 
-As voice models improved, we explored [OpenAI's Realtime API](https://developers.openai.com/api/docs/models/gpt-realtime), which can take audio input and produce audio output in one conversation. That offered a more natural path for fast back-and-forth speech. The trade-off was less control over each separate stage, so we still had to judge it against the experience we wanted rather than assume a newer API was automatically better.
+## Loop optimisation...
 
-This was the same design-and-verification loop I've always used, but coding agents let us run it more often. The useful measure wasn't how much code we could produce. It was how quickly we could learn from the person who would actually use the product.
+Once you have your designing and verification
+
+Having a human centered product… ude the human a lot. Once you have your designing and verification nailed, you can start laser focusing on your UX loop: designing changes and verifying they’re intuitive.
+
+Our main focus was to ensure voice conversations felt natural, and text/voice UX made sense. So what better way than involving the coach in testing. Voice technology was changing quickly as LLMs have recently gained a lot of attention.
+
+![An infinity loop circling a gear](/assets/building-a-voice-agent/feedback-loop.png)
+
+Conversational AI is broken down at different stages, this introduced latency at each step, and because of the long pauses which felt unnatural. There are three stages involved in getting a response to the user: STT > LLM > TTS. Each of these had latency at the start and the beginning.
+
+Having control of every stage is powerful. Originally we used iphone transcription to Claude to openAI whisper, but realtime api came out: https://developers.openai.com/api/docs/models/gpt-realtime. Realtime api superior, but can’t customise different parts of stack. Direct Input audio > output audio
+
+This loop is the same process as before, but moves a lot faster with coding agents…
 
 ## Conclusion
 
-The rules for building elegant software haven't changed. You still need to understand the user, make sensible trade-offs, and test what you've built. Coding agents make implementation faster, which puts more weight on the quality of your design and feedback. In this project, that meant giving the coach a working voice experience early, listening closely, and making the next iteration better.
+The rules of building elegant software haven’t changed. Design and Testing have just become more important.
+
+![A diagram showing how coding agents shorten the build stage](/assets/building-a-voice-agent/build-speed.png)
+
+Using coding agents to build lets you focus on what’s important to your users and client. Tools like Langfuse provided a toolkit for composing prompts and tracking agent calls. The software engineering process is still largely unchanged, but increased speed
