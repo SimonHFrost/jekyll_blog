@@ -19,7 +19,9 @@ Product Requirement Documents (PRDs) are useful to capture the intent behind wha
 
 There’s no single best format for PRDs. It should capture the needs of your users: what is the problem you’re trying to solve? And what’s your proposed solution?
 
-PRDs are a perfect time to identify your biggest unknowns and critical components. What are the biggest assumptions you have, and what if it’s not what you expect? If you don’t know the answers to this, howour agent to?
+Prototypes with claude design or Lovable are also great at communicating interactions.
+
+This is a perfect time to identify your biggest unknowns and critical components. What are the biggest assumptions you have, and what if it’s not what you expect? If you don’t know the answers to this, howour agent to?
 
 I was building a coaching agent for a client, so I was worried about latency: if the chatbot didn’t respond quickly enough the experience would suddenly not feel ‘conversational’ and unusable. We also wanted to iterate on UX around transcription and confirmation.
 
