@@ -13,13 +13,13 @@ Are you a software engineer in 2026 if you haven’t built a chatbot? This year 
 
 ## Design is more important than ever...
 
-![A hand drawing a path through a changing landscape](/assets/building-a-voice-agent/design.png)
-
 Product Requirement Documents (PRDs) are useful to capture the intent behind what you want to build. Traditionally they’re great for communicating between larger teams and stakeholders, now they're also surprisingly good at communicating with your coding agent.
 
 There’s no single best format for PRDs, and is often organisation specific. It should capture the needs of your users: what is the problem you’re trying to solve? And what’s your proposed solution?
 
 Prototypes with claude design or Lovable are also great at communicating UX interactions that are hard to define with text or diagrams.
+
+![A hand drawing a path through a changing landscape](/assets/building-a-voice-agent/design.png)
 
 This is a perfect time to identify your biggest unknowns and critical components. What are the assumptions you have, and what if it’s not what you expect? If you don’t know the answers to this, how do you expect your agent to?
 
