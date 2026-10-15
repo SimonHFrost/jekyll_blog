@@ -49,7 +49,7 @@ This loop is the same process as before, but moves a lot faster with coding agen
 
 ## Conclusion
 
-The rules of building elegant software haven’t changed, you're still signing your name against code changes you to ship to production.
+The rules of building elegant software haven’t changed, you're still signing your name against code changes you ship to production.
 
 ![A diagram showing how coding agents shorten the build stage](/assets/building-a-voice-agent/build-speed.png)
 
