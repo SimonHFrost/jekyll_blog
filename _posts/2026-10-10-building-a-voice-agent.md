@@ -21,9 +21,9 @@ There’s no single best format for PRDs, and is often organisation specific. It
 
 Prototypes with claude design or Lovable are also great at communicating UX interactions that are hard to define with text or diagrams.
 
-This is a perfect time to identify your biggest unknowns and critical components. What are the assumptions you have, and what if it’s not what you expect? If you don’t know the answers to this, how do you expect our agent to?
+This is a perfect time to identify your biggest unknowns and critical components. What are the assumptions you have, and what if it’s not what you expect? If you don’t know the answers to this, how do you expect your agent to?
 
-For my coaching chatbot, so I was worried about latency: if it didn’t respond quickly the experience would feel unnatural and unusable. We also wanted to iterate UX around transcription and input modes.
+For my coaching chatbot, I was worried about latency: if it didn’t respond quickly the experience would feel unnatural and unusable. We also wanted to iterate UX around transcription and input modes.
 
 ## Verification is more important than ever...
 
@@ -35,11 +35,9 @@ Plus points if you can de-couple verification steps from your regular build cycl
 
 ## Loop optimisation...
 
-Once you have your designing and verification
-
 Shipping human focused software means you need to... include the human a lot. Once you have your designing and verification nailed, you can start laser focusing on your UX loop: designing changes and verifying they’re intuitive.
 
-Our main focus was to ensure chat interactions felt natural, and text/voice inputs made sense. The technology around voice and chat UX was changing quickly as LLMs had recently gained a lot of attention, so it also let us experiement a lot.
+Our main focus was to ensure chat interactions felt natural, and text/voice inputs made sense. The technology around voice and chat UX was changing quickly as LLMs had recently gained a lot of attention, so it also let us experiment a lot.
 
 ![An infinity loop circling a gear](/assets/building-a-voice-agent/feedback-loop.png)
 
@@ -51,8 +49,8 @@ This loop is the same process as before, but moves a lot faster with coding agen
 
 ## Conclusion
 
-The rules of building elegant software haven’t changed, you're still signing your name against code changes that you to ship to production.
+The rules of building elegant software haven’t changed, you're still signing your name against code changes you to ship to production.
 
 ![A diagram showing how coding agents shorten the build stage](/assets/building-a-voice-agent/build-speed.png)
 
-Spinning the loop faster means you can iterate more and focus on what’s important to your users. Drastically increased build time mean the focus now shifts to the edges: Design and Verification.
+Spinning the loop faster means you can iterate more and focus on what’s important to your users. Drastically increased build speed means the focus now shifts to the edges: Design and Verification.
