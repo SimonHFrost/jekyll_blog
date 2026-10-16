@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "5 challenges Mexicans face daily"
+description: "Five daily challenges in Mexico that surprised me after 10 years in Berlin: heat, drinking water, food safety, electronics and population density."
 image: /assets/opportunities-in-mexico/opportunities-in-mexico-heat.jpg
 ---
 

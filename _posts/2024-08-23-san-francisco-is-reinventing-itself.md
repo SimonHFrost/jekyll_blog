@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "San Francisco is reinventing itself"
+description: "San Francisco is reinventing itself: remote work, layoffs and empty offices, yet busy AI events in 'Cerebral Valley'. My notes from a few days in the city."
 image: /assets/sf/skyline.jpg
 ---
 

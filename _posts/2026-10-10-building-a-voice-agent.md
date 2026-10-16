@@ -5,6 +5,7 @@ description: "What building a coaching assistant taught me about design, verific
 image: /assets/building-a-voice-agent/voice-conversation.png
 draft: true
 noindex: true
+sitemap: false
 ---
 
 ![A person speaking into a flowing voice interface](/assets/building-a-voice-agent/voice-conversation.png)
