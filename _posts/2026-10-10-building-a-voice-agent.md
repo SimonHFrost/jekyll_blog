@@ -8,6 +8,17 @@ noindex: true
 sitemap: false
 ---
 
+<style>
+@media (min-width: 769px) {
+  .post-content img {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+</style>
+
 ![A person speaking into a flowing voice interface](/assets/building-a-voice-agent/voice-conversation.png)
 
 Are you a software engineer in 2026 if you haven’t built a chatbot? This year I worked with a client to build a coaching assistant. It showed how my process building software has changed since using coding agents, and why design, verification, and the loop that ties them together is the key.
