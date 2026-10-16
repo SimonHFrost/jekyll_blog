@@ -45,23 +45,25 @@ Building has drastically sped up so verification is even more important! If you 
 
 Plus points if you can de-couple verification steps from your regular build cycle. Separating the coaches’ system prompt so the team was able to verify behaviour without waiting for another release, meant it kept our verification lean. We used langfuse.com’s ‘Prompt Management’ feature to dynamically load this.
 
-## Loop optimisation...
+## Looping design and verification...
 
-Shipping human focused software means you need to... include the human a lot. Once you have your designing and verification nailed, you can start laser focusing on your UX loop: designing changes and verifying they’re intuitive.
+Shipping human focused software means you need to... include the human a lot. Once design and verification are nailed, spin that loop and get building!
 
-Our main focus was to ensure chat interactions felt natural, and text/voice inputs made sense. The technology around voice and chat UX was changing quickly as LLMs had recently gained a lot of attention, so it also let us experiment a lot.
+Our focus was to ensure chat interactions felt natural, and text/voice UX made sense especially as technology around voice and chat UX was improving quickly.
 
 ![An infinity loop circling a gear](/assets/building-a-voice-agent/feedback-loop.png)
 
-Originally conversational AI is broken down at different stages, this introduced latency at each step, and during verification the long pauses felt unnatural. There are three stages involved in getting a response to the user: STT > LLM > TTS. Each of these had latency at the start and the beginning.
+Conversational AI can be split into three distinct stages: STT > LLM > TTS. While it's powerful to control each step of the process, during our verification the long pauses felt unnatural. Each stage runs sequentially and has latency at the start and the beginning which made responses sluggish.
 
-Having control of every stage is powerful. Originally we used iphone transcription to Claude to openAI whisper, but realtime api came out: https://developers.openai.com/api/docs/models/gpt-realtime. Realtime api superior, but can’t customise different parts of stack. Direct Input audio > output audio
+We originally used iphone transcription to Claude to openAI whisper
+
+Realtime api came out: https://developers.openai.com/api/docs/models/gpt-realtime. Realtime api superior, but can’t customise different parts of stack. Direct Input audio > output audio
 
 This loop is the same process as before, but moves a lot faster with coding agents…
 
 ## Conclusion
 
-The rules of building elegant software haven’t changed, you're still signing your name against code changes you ship to production.
+The rules of building robust software haven’t changed, you're still signing your name against code changes you ship to production.
 
 ![A diagram showing how coding agents shorten the build stage](/assets/building-a-voice-agent/build-speed.png)
 
