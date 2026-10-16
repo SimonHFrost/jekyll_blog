@@ -3,6 +3,7 @@ layout: post
 title: "Thin Client with Expo and Next.js"
 draft: true
 noindex: true
+sitemap: false
 ---
 
 <pre style="white-space: pre-wrap; word-break: break-word;">

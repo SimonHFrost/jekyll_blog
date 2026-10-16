@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HackMexico and Open Data"
+description: "HackMexico 2024 recap: Mexico City's Ecobici GBFS bike-share data, an hourly station-status poller, a surprise theme change, and getting disqualified."
 image: /assets/hackmexico/hackmexico.png
 ---
 

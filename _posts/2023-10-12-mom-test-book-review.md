@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Book Review: The Mom Test"
+description: "Key lessons from The Mom Test by Rob Fitzpatrick: run customer conversations that validate a startup idea, deflect compliments, push for commitments."
 ---
 
 *Artificial intelligence was not used in the generation or editing of this blog post.*

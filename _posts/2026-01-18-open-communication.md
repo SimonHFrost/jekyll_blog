@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Open Communication in Organisations
+description: "Open communication in organisations: why to ask in public channels, not private messages, for fewer round-trips, shared context and searchable decisions."
 ---
 
 <style>
