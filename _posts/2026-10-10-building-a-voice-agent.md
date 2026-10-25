@@ -47,26 +47,23 @@ One building hack we found was de-coupling verification steps from our regular b
 
 ## Looping design and verification...
 
-Shipping human focused software means you need to... include the human a lot. Once design and verification are nailed, spin that loop and get building!
+Shipping human focused software means you need to... include the human a lot. Once design and verification are nailed, spin the design > build > verification loop and get building!
 
-Our focus was to ensure chat interactions felt natural, and text/voice UX was intuitive. Technology with voice and chat UX has been improving rapidly, and we wanted to find the best solution.
+Our focus was to ensure chat interactions felt natural, and that text/voice inputs were intuitive. Technology with voice and input UX has been improving rapidly, and spinning fast meant we could explore and find the best solution.
 
 ![An infinity loop circling a gear](/assets/building-a-voice-agent/feedback-loop.png)
 
-Conversational AI can be split into three distinct stages:
+Conversational AI can be split into three distinct steps: `Speech to text > LLM thinking > Text to speech`
 
-[STT > LLM > TTS]
-Apple Transcription, LLM Claude, and TTS OpenWhisper.
+Initial we chose three different technologies for each step of an interaction. While it was powerful to customise a solution, the latency introduced at each step created long pauses that felt unnatural.
 
-While it's powerful to control each step of the process, during our verification the long pauses felt unnatural. Each stage runs sequentially and has latency at the start and the beginning which made responses sluggish.
+Luckily during building, OpenAI released their Realtime api (https://developers.openai.com/api/docs/models/gpt-realtime). After quick verification we realised this solution was superior, the latency was much better and was easier to setup and maintain.
 
-During building, OpenAI release their Realtime api (https://developers.openai.com/api/docs/models/gpt-realtime). We quickly realised this API was superior. You can’t customise different parts of stack, but the performance improvements going from direct Input audio > output audio and ease of setup won us over quickly.
-
-Optimising the design/verification loop with features like these is the same process as before, but it moves a lot faster with coding agents so it pays to keep attention.
+The realtime voice API is a streaming API of `Audio In > Audio Out`. Which reduced the latency a lot, but meant we couldn't customise each step of the interaction.
 
 ## Conclusion
 
-The rules of building robust software haven’t changed, you're still signing your name against changes you ship to production.
+The rules of building robust software hasn’t changed, you're still signing your name against changes you ship to production.
 
 ![A diagram showing how coding agents shorten the build stage](/assets/building-a-voice-agent/build-speed.png)
 
