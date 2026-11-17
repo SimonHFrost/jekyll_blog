@@ -21,11 +21,11 @@ sitemap: false
 
 ![A person speaking into a flowing voice interface](/assets/building-a-voice-agent/voice-conversation.png)
 
-Are you a software engineer in 2026 if you haven’t built a chatbot? This year I worked with a client to build a coaching assistant. It showed how building software has changed with coding agents, focusing on the build loop, and why design, verification are more important than ever...
+Are you a software engineer in 2026 if you haven’t built a chatbot? This year I worked with a client to build a coaching assistant. It highlighted how building software has changed with coding agents. And why focusing on the build loop, design, and verification are more important than ever...
 
 ## Design is more important than ever...
 
-Product Requirement Documents (PRDs) are useful to capture the intent behind what you want to build. Traditionally they were great for communicating between larger teams and stakeholders, now they're surprisingly good at communicating with your coding agent.
+Product Requirement Documents (PRDs) are useful to capture the intent behind what you want to build, and how your users will percieve it. Traditionally they were great for communicating between larger teams and stakeholders, now they're surprisingly good at communicating with your coding agent.
 
 There’s no single best format for PRDs, and is often organisation specific. It should capture the needs of your users: what is the problem you’re trying to solve? And what’s your proposed solution?
 
@@ -63,8 +63,8 @@ The realtime voice API is a streaming API of `Audio In > Audio Out`. Which reduc
 
 ## Conclusion
 
-The rules of building robust software hasn’t changed, you're still signing your name against changes you ship to production.
+The rules of building robust software hasn't changed, you're still signing your name against changes you ship to production. What matters is how you manage your agent build loop.
 
 ![A diagram showing how coding agents shorten the build stage](/assets/building-a-voice-agent/build-speed.png)
 
-Building has increased so fast that the spinning loop faster means you can iterate more and focus on what’s important to your users. Drastically increased build speed means the focus now shifts to the edges: Design and Verification.
+Building software is faster than ever. The focus now shifts to the stages before and after, by including your users in the design, as well as a way to verify your changes. Otherwise the loop can fly off it's wheels compounding as a maintenance nightmare, or confusing slop.
