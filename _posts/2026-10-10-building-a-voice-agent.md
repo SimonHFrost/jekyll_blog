@@ -63,8 +63,8 @@ The realtime voice API is a streaming API of `Audio In > Audio Out`. Which reduc
 
 ## Conclusion
 
-The rules of building robust software hasn't changed, you're still signing your name against changes you ship to production. What matters is how you manage your agent build loop.
+The rules of building robust software hasn't changed, you're still signing your name against changes you ship to production. What matters is how you manage your agent's build loop.
 
 ![A diagram showing how coding agents shorten the build stage](/assets/building-a-voice-agent/build-speed.png)
 
-Building software is faster than ever. The focus now shifts to the stages before and after, by including your users in the design, as well as a way to verify your changes. Otherwise the loop can fly off its wheels compounding as a maintenance nightmare, or confusing slop.
+Building software is faster than ever, the focus now shifts to the stages before and after. Focusing and optimising design and verififcation is the key to ensure the loop doesn't fly off its wheels, compounding as a maintenance nightmare, or confusing slop.
