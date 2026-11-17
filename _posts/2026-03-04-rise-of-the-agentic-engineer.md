@@ -2,7 +2,7 @@
 layout: post
 title: "Rise of the agentic engineer"
 description: "Shipping software has fundamentally changed. What agentic engineering is, why it matters, and what it means for engineers, founders, and everyone building."
-image: /assets/agentic-engineer/what-changed.png
+image: /assets/previews/rise-of-the-agentic-engineer.jpg
 ---
 
 <style>

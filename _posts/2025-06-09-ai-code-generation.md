@@ -2,7 +2,7 @@
 layout: post
 title: "Generating code from wireframes"
 description: "How to generate code from wireframes with AI tools like Cursor: connect docs, export Figma designs, keep changes small, and review everything."
-image: /assets/ai-code-generation/button.jpg
+image: /assets/previews/ai-code-generation.jpg
 ---
 
 <style>

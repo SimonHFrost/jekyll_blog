@@ -2,7 +2,7 @@
 layout: post
 title: "A creative workflow for themed image generation with Midjourney"
 description: "My five-step Midjourney workflow for a consistent illustration style: seed a prompt with an LLM, tweak it, add sketch references, exclude details, iterate."
-image: /assets/midjourney/arrow/lamington-arrow.jpg
+image: /assets/previews/midjourney.jpg
 ---
 
 Generative AI is transforming creative digital design. Identifying and optimising workflows with existing AI tools are essential for staying ahead of rapid developments in the field 📈.

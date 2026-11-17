@@ -2,10 +2,7 @@
 layout: post
 title: "Building a voice agent"
 description: "What building a coaching assistant taught me about design, verification, and faster feedback loops with coding agents."
-image: /assets/building-a-voice-agent/voice-conversation.png
-draft: true
-noindex: true
-sitemap: false
+image: /assets/previews/building-a-voice-agent.jpg
 ---
 
 <style>
@@ -57,7 +54,7 @@ Conversational AI can be split into three distinct steps: `Speech to text > LLM 
 
 Initially we chose a different technology for each step of an interaction. While it was powerful to customise a solution, the latency introduced at each step created long pauses that felt unnatural.
 
-Luckily during building, OpenAI released their Realtime API (https://developers.openai.com/api/docs/models/gpt-realtime). After verification we realised this solution was superior: streaming from `Audio In > Audio Out` meant lower latency, and it was also easier to set up and maintain.
+Luckily during building, OpenAI released their [Realtime API](https://developers.openai.com/api/docs/models/gpt-realtime). After verification we realised this solution was superior: streaming from `Audio In > Audio Out` meant lower latency, and it was also easier to set up and maintain.
 
 ## Conclusion
 
