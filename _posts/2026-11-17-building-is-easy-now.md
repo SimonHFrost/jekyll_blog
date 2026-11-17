@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building a voice agent"
+title: "Building is easy now"
 description: "What building a coaching assistant taught me about design, verification, and faster feedback loops with coding agents."
 image: /assets/previews/building-a-voice-agent.jpg
 ---
