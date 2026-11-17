@@ -25,7 +25,7 @@ Are you a software engineer in 2026 if you haven’t built a chatbot? This year 
 
 ## Design is more important than ever...
 
-Product Requirement Documents (PRDs) are useful to capture the intent behind what you want to build, and how your users will percieve it. Traditionally they were great for communicating between larger teams and stakeholders, now they're surprisingly good at communicating with your coding agent.
+Product Requirement Documents (PRDs) are useful to capture the intent behind what you want to build, and how your users will perceive it. Traditionally they were great for communicating between larger teams and stakeholders, now they're surprisingly good at communicating with your coding agent.
 
 There’s no single best format for PRDs, and is often organisation specific. It should capture the needs of your users: what is the problem you’re trying to solve? And what’s your proposed solution?
 
@@ -67,4 +67,4 @@ The rules of building robust software hasn't changed, you're still signing your 
 
 ![A diagram showing how coding agents shorten the build stage](/assets/building-a-voice-agent/build-speed.png)
 
-Building software is faster than ever. The focus now shifts to the stages before and after, by including your users in the design, as well as a way to verify your changes. Otherwise the loop can fly off it's wheels compounding as a maintenance nightmare, or confusing slop.
+Building software is faster than ever. The focus now shifts to the stages before and after, by including your users in the design, as well as a way to verify your changes. Otherwise the loop can fly off its wheels compounding as a maintenance nightmare, or confusing slop.
